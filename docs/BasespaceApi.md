@@ -1,4 +1,4 @@
-# swagger_client.BasespaceApi
+# bssh_sdk_2.BasespaceApi
 
 All URIs are relative to *https://api.basespace.illumina.com/v2*
 
@@ -6,9 +6,9 @@ Method | HTTP request | Description
 ------------- | ------------- | -------------
 [**delete_v2_appsessions_id**](BasespaceApi.md#delete_v2_appsessions_id) | **DELETE** /appsessions/{id} | Delete a specific analysis
 [**delete_v2_appsessions_id_properties_name**](BasespaceApi.md#delete_v2_appsessions_id_properties_name) | **DELETE** /appsessions/{id}/properties/{name} | Delete a property of an analysis
-[**delete_v2_icauploads_foldertype_dataid**](BasespaceApi.md#delete_v2_icauploads_foldertype_dataid) | **DELETE** /icauploads/{foldertype}/{dataid} | 
-[**delete_v2_notifications_id**](BasespaceApi.md#delete_v2_notifications_id) | **DELETE** /notifications/{id} | 
-[**delete_v2_oauthv2tokens_current**](BasespaceApi.md#delete_v2_oauthv2tokens_current) | **DELETE** /oauthv2tokens/current | 
+[**delete_v2_icauploads_foldertype_dataid**](BasespaceApi.md#delete_v2_icauploads_foldertype_dataid) | **DELETE** /icauploads/{foldertype}/{dataid} |
+[**delete_v2_notifications_id**](BasespaceApi.md#delete_v2_notifications_id) | **DELETE** /notifications/{id} |
+[**delete_v2_oauthv2tokens_current**](BasespaceApi.md#delete_v2_oauthv2tokens_current) | **DELETE** /oauthv2tokens/current |
 [**delete_v2_session_invalidate**](BasespaceApi.md#delete_v2_session_invalidate) | **DELETE** /session/invalidate | Log out user from Sequence Hub and end session
 [**delete_v2_trash**](BasespaceApi.md#delete_v2_trash) | **DELETE** /trash | Delete all items in the trash
 [**get_v2_agreements_id**](BasespaceApi.md#get_v2_agreements_id) | **GET** /agreements/{id} | Get detailed information about a single agreement
@@ -20,7 +20,7 @@ Method | HTTP request | Description
 [**get_v2_applications_id_settings**](BasespaceApi.md#get_v2_applications_id_settings) | **GET** /applications/{id}/settings | Get the settings of an application or workflow
 [**get_v2_applications_id_versions**](BasespaceApi.md#get_v2_applications_id_versions) | **GET** /applications/{id}/versions | Get versions of an app
 [**get_v2_applications_id_workflowdependencies**](BasespaceApi.md#get_v2_applications_id_workflowdependencies) | **GET** /applications/{id}/workflowdependencies | Get a list of workflow dependencies on an analysis workflow
-[**get_v2_appresults_id_file_upload_info**](BasespaceApi.md#get_v2_appresults_id_file_upload_info) | **GET** /appresults/{id}/file-upload-info | 
+[**get_v2_appresults_id_file_upload_info**](BasespaceApi.md#get_v2_appresults_id_file_upload_info) | **GET** /appresults/{id}/file-upload-info |
 [**get_v2_appsessions**](BasespaceApi.md#get_v2_appsessions) | **GET** /appsessions | Get a list of analyses
 [**get_v2_appsessions_id**](BasespaceApi.md#get_v2_appsessions_id) | **GET** /appsessions/{id} | Get information about an analysis
 [**get_v2_appsessions_id_comments**](BasespaceApi.md#get_v2_appsessions_id_comments) | **GET** /appsessions/{id}/comments | Get a list of comments made about an analysis
@@ -38,7 +38,7 @@ Method | HTTP request | Description
 [**get_v2_appsessions_id_properties**](BasespaceApi.md#get_v2_appsessions_id_properties) | **GET** /appsessions/{id}/properties | Get a list of properties of an analysis
 [**get_v2_appsessions_id_properties_name**](BasespaceApi.md#get_v2_appsessions_id_properties_name) | **GET** /appsessions/{id}/properties/{name} | Get information about a property of an analysis
 [**get_v2_appsessions_id_properties_name_items**](BasespaceApi.md#get_v2_appsessions_id_properties_name_items) | **GET** /appsessions/{id}/properties/{name}/items | Get a list of items from a property of an analysis
-[**get_v2_appsessions_id_reports**](BasespaceApi.md#get_v2_appsessions_id_reports) | **GET** /appsessions/{id}/reports | 
+[**get_v2_appsessions_id_reports**](BasespaceApi.md#get_v2_appsessions_id_reports) | **GET** /appsessions/{id}/reports |
 [**get_v2_archivingstats**](BasespaceApi.md#get_v2_archivingstats) | **GET** /archivingstats | Get a summary of total archiving Data Managment Events , their status  .
 [**get_v2_archivingstatsdetails**](BasespaceApi.md#get_v2_archivingstatsdetails) | **GET** /archivingstatsdetails | Get list of archiving Data Managment Events , their status  .
 [**get_v2_autodeletionevents**](BasespaceApi.md#get_v2_autodeletionevents) | **GET** /autodeletionevents | Get a list of all auto-deletion events.
@@ -49,84 +49,84 @@ Method | HTTP request | Description
 [**get_v2_biosamples_id**](BasespaceApi.md#get_v2_biosamples_id) | **GET** /biosamples/{id} | Get information about a biosample
 [**get_v2_biosamples_id_aggregatedfastqdatasets**](BasespaceApi.md#get_v2_biosamples_id_aggregatedfastqdatasets) | **GET** /biosamples/{id}/aggregatedfastqdatasets | Get aggregated datasets for a given biosample
 [**get_v2_biosamples_id_libraries**](BasespaceApi.md#get_v2_biosamples_id_libraries) | **GET** /biosamples/{id}/libraries | Get a list of a biosample�s libraries
-[**get_v2_biosamples_id_properties**](BasespaceApi.md#get_v2_biosamples_id_properties) | **GET** /biosamples/{id}/properties | 
-[**get_v2_biosamples_id_properties_name**](BasespaceApi.md#get_v2_biosamples_id_properties_name) | **GET** /biosamples/{id}/properties/{name} | 
-[**get_v2_biosamples_id_properties_name_items**](BasespaceApi.md#get_v2_biosamples_id_properties_name_items) | **GET** /biosamples/{id}/properties/{name}/items | 
+[**get_v2_biosamples_id_properties**](BasespaceApi.md#get_v2_biosamples_id_properties) | **GET** /biosamples/{id}/properties |
+[**get_v2_biosamples_id_properties_name**](BasespaceApi.md#get_v2_biosamples_id_properties_name) | **GET** /biosamples/{id}/properties/{name} |
+[**get_v2_biosamples_id_properties_name_items**](BasespaceApi.md#get_v2_biosamples_id_properties_name_items) | **GET** /biosamples/{id}/properties/{name}/items |
 [**get_v2_biosamples_id_runlanesummaries**](BasespaceApi.md#get_v2_biosamples_id_runlanesummaries) | **GET** /biosamples/{id}/runlanesummaries | Get information about biosample’s lane mapping
 [**get_v2_datasets**](BasespaceApi.md#get_v2_datasets) | **GET** /datasets | Get a list of datasets
 [**get_v2_datasets_id**](BasespaceApi.md#get_v2_datasets_id) | **GET** /datasets/{id} | Get information about a dataset
 [**get_v2_datasets_id_comments**](BasespaceApi.md#get_v2_datasets_id_comments) | **GET** /datasets/{id}/comments | Get a list of comments made about a dataset
-[**get_v2_datasets_id_direct_upload_info**](BasespaceApi.md#get_v2_datasets_id_direct_upload_info) | **GET** /datasets/{id}/direct-upload-info | 
-[**get_v2_datasets_id_file_upload_info**](BasespaceApi.md#get_v2_datasets_id_file_upload_info) | **GET** /datasets/{id}/file-upload-info | 
+[**get_v2_datasets_id_direct_upload_info**](BasespaceApi.md#get_v2_datasets_id_direct_upload_info) | **GET** /datasets/{id}/direct-upload-info |
+[**get_v2_datasets_id_file_upload_info**](BasespaceApi.md#get_v2_datasets_id_file_upload_info) | **GET** /datasets/{id}/file-upload-info |
 [**get_v2_datasets_id_files**](BasespaceApi.md#get_v2_datasets_id_files) | **GET** /datasets/{id}/files | Get a list of files of a dataset
-[**get_v2_datasets_id_properties**](BasespaceApi.md#get_v2_datasets_id_properties) | **GET** /datasets/{id}/properties | 
-[**get_v2_datasets_id_properties_name**](BasespaceApi.md#get_v2_datasets_id_properties_name) | **GET** /datasets/{id}/properties/{name} | 
-[**get_v2_datasets_id_properties_name_items**](BasespaceApi.md#get_v2_datasets_id_properties_name_items) | **GET** /datasets/{id}/properties/{name}/items | 
+[**get_v2_datasets_id_properties**](BasespaceApi.md#get_v2_datasets_id_properties) | **GET** /datasets/{id}/properties |
+[**get_v2_datasets_id_properties_name**](BasespaceApi.md#get_v2_datasets_id_properties_name) | **GET** /datasets/{id}/properties/{name} |
+[**get_v2_datasets_id_properties_name_items**](BasespaceApi.md#get_v2_datasets_id_properties_name_items) | **GET** /datasets/{id}/properties/{name}/items |
 [**get_v2_datasettypes_id**](BasespaceApi.md#get_v2_datasettypes_id) | **GET** /datasettypes/{id} | Get information about a dataset type
 [**get_v2_gdssharetransferstats**](BasespaceApi.md#get_v2_gdssharetransferstats) | **GET** /gdssharetransferstats | Get a summary of GDS share or transfer operations.
-[**get_v2_instrumentconnectioncheck_file_upload_info**](BasespaceApi.md#get_v2_instrumentconnectioncheck_file_upload_info) | **GET** /instrumentconnectioncheck/file-upload-info | 
-[**get_v2_instrumentdiagnostics_id**](BasespaceApi.md#get_v2_instrumentdiagnostics_id) | **GET** /instrumentdiagnostics/{id} | 
-[**get_v2_instruments**](BasespaceApi.md#get_v2_instruments) | **GET** /instruments | 
+[**get_v2_instrumentconnectioncheck_file_upload_info**](BasespaceApi.md#get_v2_instrumentconnectioncheck_file_upload_info) | **GET** /instrumentconnectioncheck/file-upload-info |
+[**get_v2_instrumentdiagnostics_id**](BasespaceApi.md#get_v2_instrumentdiagnostics_id) | **GET** /instrumentdiagnostics/{id} |
+[**get_v2_instruments**](BasespaceApi.md#get_v2_instruments) | **GET** /instruments |
 [**get_v2_instrumentstatistics**](BasespaceApi.md#get_v2_instrumentstatistics) | **GET** /instrumentstatistics | Get instrument statistics
-[**get_v2_instrumentstatus**](BasespaceApi.md#get_v2_instrumentstatus) | **GET** /instrumentstatus | 
+[**get_v2_instrumentstatus**](BasespaceApi.md#get_v2_instrumentstatus) | **GET** /instrumentstatus |
 [**get_v2_labrequeues**](BasespaceApi.md#get_v2_labrequeues) | **GET** /labrequeues | Get a list of lab requeues
 [**get_v2_labrequeues_id**](BasespaceApi.md#get_v2_labrequeues_id) | **GET** /labrequeues/{id} | Get information about a specific labrequeue
 [**get_v2_laneqcthresholds**](BasespaceApi.md#get_v2_laneqcthresholds) | **GET** /laneqcthresholds | Get a list of QC thresholds applied to lanes
 [**get_v2_lanes_id**](BasespaceApi.md#get_v2_lanes_id) | **GET** /lanes/{id} | Get information about a lane
 [**get_v2_lanes_id_comments**](BasespaceApi.md#get_v2_lanes_id_comments) | **GET** /lanes/{id}/comments | Get a list of comments on a lane
 [**get_v2_libraries**](BasespaceApi.md#get_v2_libraries) | **GET** /libraries | Get a list of libraries
-[**get_v2_libraries_id_properties**](BasespaceApi.md#get_v2_libraries_id_properties) | **GET** /libraries/{id}/properties | 
-[**get_v2_libraries_id_properties_name**](BasespaceApi.md#get_v2_libraries_id_properties_name) | **GET** /libraries/{id}/properties/{name} | 
-[**get_v2_libraries_id_properties_name_items**](BasespaceApi.md#get_v2_libraries_id_properties_name_items) | **GET** /libraries/{id}/properties/{name}/items | 
+[**get_v2_libraries_id_properties**](BasespaceApi.md#get_v2_libraries_id_properties) | **GET** /libraries/{id}/properties |
+[**get_v2_libraries_id_properties_name**](BasespaceApi.md#get_v2_libraries_id_properties_name) | **GET** /libraries/{id}/properties/{name} |
+[**get_v2_libraries_id_properties_name_items**](BasespaceApi.md#get_v2_libraries_id_properties_name_items) | **GET** /libraries/{id}/properties/{name}/items |
 [**get_v2_librarypools**](BasespaceApi.md#get_v2_librarypools) | **GET** /librarypools | Get a list of library pools
 [**get_v2_librarypools_id_libraries**](BasespaceApi.md#get_v2_librarypools_id_libraries) | **GET** /librarypools/{id}/libraries | Get a list of libraries of a pool
-[**get_v2_librarypools_id_properties**](BasespaceApi.md#get_v2_librarypools_id_properties) | **GET** /librarypools/{id}/properties | 
-[**get_v2_librarypools_id_properties_name**](BasespaceApi.md#get_v2_librarypools_id_properties_name) | **GET** /librarypools/{id}/properties/{name} | 
-[**get_v2_librarypools_id_properties_name_items**](BasespaceApi.md#get_v2_librarypools_id_properties_name_items) | **GET** /librarypools/{id}/properties/{name}/items | 
+[**get_v2_librarypools_id_properties**](BasespaceApi.md#get_v2_librarypools_id_properties) | **GET** /librarypools/{id}/properties |
+[**get_v2_librarypools_id_properties_name**](BasespaceApi.md#get_v2_librarypools_id_properties_name) | **GET** /librarypools/{id}/properties/{name} |
+[**get_v2_librarypools_id_properties_name_items**](BasespaceApi.md#get_v2_librarypools_id_properties_name_items) | **GET** /librarypools/{id}/properties/{name}/items |
 [**get_v2_projects_id**](BasespaceApi.md#get_v2_projects_id) | **GET** /projects/{id} | Get information about a project
 [**get_v2_projects_id_datasets**](BasespaceApi.md#get_v2_projects_id_datasets) | **GET** /projects/{id}/datasets | Get a list of datasets in a project
-[**get_v2_projects_id_properties**](BasespaceApi.md#get_v2_projects_id_properties) | **GET** /projects/{id}/properties | 
-[**get_v2_projects_id_properties_name**](BasespaceApi.md#get_v2_projects_id_properties_name) | **GET** /projects/{id}/properties/{name} | 
-[**get_v2_projects_id_properties_name_items**](BasespaceApi.md#get_v2_projects_id_properties_name_items) | **GET** /projects/{id}/properties/{name}/items | 
+[**get_v2_projects_id_properties**](BasespaceApi.md#get_v2_projects_id_properties) | **GET** /projects/{id}/properties |
+[**get_v2_projects_id_properties_name**](BasespaceApi.md#get_v2_projects_id_properties_name) | **GET** /projects/{id}/properties/{name} |
+[**get_v2_projects_id_properties_name_items**](BasespaceApi.md#get_v2_projects_id_properties_name_items) | **GET** /projects/{id}/properties/{name}/items |
 [**get_v2_resourcemanifest**](BasespaceApi.md#get_v2_resourcemanifest) | **GET** /resourcemanifest | Get a manifest of filesets for the requested resources (max 300 items)
 [**get_v2_runs**](BasespaceApi.md#get_v2_runs) | **GET** /runs | Get a list of runs accessible by current user
-[**get_v2_runs_accesscheck**](BasespaceApi.md#get_v2_runs_accesscheck) | **GET** /runs/accesscheck | 
+[**get_v2_runs_accesscheck**](BasespaceApi.md#get_v2_runs_accesscheck) | **GET** /runs/accesscheck |
 [**get_v2_runs_id**](BasespaceApi.md#get_v2_runs_id) | **GET** /runs/{id} | Get information about a run
-[**get_v2_runs_id_file_upload_info**](BasespaceApi.md#get_v2_runs_id_file_upload_info) | **GET** /runs/{id}/file-upload-info | 
+[**get_v2_runs_id_file_upload_info**](BasespaceApi.md#get_v2_runs_id_file_upload_info) | **GET** /runs/{id}/file-upload-info |
 [**get_v2_runs_id_files**](BasespaceApi.md#get_v2_runs_id_files) | **GET** /runs/{id}/files | Get a list of files of a run
-[**get_v2_runs_id_properties**](BasespaceApi.md#get_v2_runs_id_properties) | **GET** /runs/{id}/properties | 
-[**get_v2_runs_id_properties_name**](BasespaceApi.md#get_v2_runs_id_properties_name) | **GET** /runs/{id}/properties/{name} | 
-[**get_v2_runs_id_properties_name_items**](BasespaceApi.md#get_v2_runs_id_properties_name_items) | **GET** /runs/{id}/properties/{name}/items | 
-[**get_v2_runs_id_samplesheet**](BasespaceApi.md#get_v2_runs_id_samplesheet) | **GET** /runs/{id}/samplesheet | 
-[**get_v2_runs_id_sequencingstats**](BasespaceApi.md#get_v2_runs_id_sequencingstats) | **GET** /runs/{id}/sequencingstats | 
-[**get_v2_runuploadtest**](BasespaceApi.md#get_v2_runuploadtest) | **GET** /runuploadtest | 
-[**get_v2_samples_id_file_upload_info**](BasespaceApi.md#get_v2_samples_id_file_upload_info) | **GET** /samples/{id}/file-upload-info | 
-[**get_v2_subjects_id_properties**](BasespaceApi.md#get_v2_subjects_id_properties) | **GET** /subjects/{id}/properties | 
-[**get_v2_subjects_id_properties_name**](BasespaceApi.md#get_v2_subjects_id_properties_name) | **GET** /subjects/{id}/properties/{name} | 
-[**get_v2_subjects_id_properties_name_items**](BasespaceApi.md#get_v2_subjects_id_properties_name_items) | **GET** /subjects/{id}/properties/{name}/items | 
+[**get_v2_runs_id_properties**](BasespaceApi.md#get_v2_runs_id_properties) | **GET** /runs/{id}/properties |
+[**get_v2_runs_id_properties_name**](BasespaceApi.md#get_v2_runs_id_properties_name) | **GET** /runs/{id}/properties/{name} |
+[**get_v2_runs_id_properties_name_items**](BasespaceApi.md#get_v2_runs_id_properties_name_items) | **GET** /runs/{id}/properties/{name}/items |
+[**get_v2_runs_id_samplesheet**](BasespaceApi.md#get_v2_runs_id_samplesheet) | **GET** /runs/{id}/samplesheet |
+[**get_v2_runs_id_sequencingstats**](BasespaceApi.md#get_v2_runs_id_sequencingstats) | **GET** /runs/{id}/sequencingstats |
+[**get_v2_runuploadtest**](BasespaceApi.md#get_v2_runuploadtest) | **GET** /runuploadtest |
+[**get_v2_samples_id_file_upload_info**](BasespaceApi.md#get_v2_samples_id_file_upload_info) | **GET** /samples/{id}/file-upload-info |
+[**get_v2_subjects_id_properties**](BasespaceApi.md#get_v2_subjects_id_properties) | **GET** /subjects/{id}/properties |
+[**get_v2_subjects_id_properties_name**](BasespaceApi.md#get_v2_subjects_id_properties_name) | **GET** /subjects/{id}/properties/{name} |
+[**get_v2_subjects_id_properties_name_items**](BasespaceApi.md#get_v2_subjects_id_properties_name_items) | **GET** /subjects/{id}/properties/{name}/items |
 [**get_v2_trash**](BasespaceApi.md#get_v2_trash) | **GET** /trash | Get a list of items in the trash
 [**get_v2_trash_id**](BasespaceApi.md#get_v2_trash_id) | **GET** /trash/{id} | Get information about an item in the trash
 [**get_v2_useragreements**](BasespaceApi.md#get_v2_useragreements) | **GET** /useragreements/ | Get information about agreements visible to the current user
 [**get_v2_users_current**](BasespaceApi.md#get_v2_users_current) | **GET** /users/current | Get information about the current user&#x27;s account
 [**get_v2_users_current_labtype**](BasespaceApi.md#get_v2_users_current_labtype) | **GET** /users/current/labtype | Is user a wet lab or dry lab user?
 [**get_v2_users_current_messages**](BasespaceApi.md#get_v2_users_current_messages) | **GET** /users/current/messages | Get a list of messages that have been sent to the requesting user.
-[**get_v2_users_current_notifications**](BasespaceApi.md#get_v2_users_current_notifications) | **GET** /users/current/notifications | 
-[**get_v2_users_current_properties**](BasespaceApi.md#get_v2_users_current_properties) | **GET** /users/current/properties | 
-[**get_v2_users_current_properties_name**](BasespaceApi.md#get_v2_users_current_properties_name) | **GET** /users/current/properties/{name} | 
-[**get_v2_users_current_properties_name_items**](BasespaceApi.md#get_v2_users_current_properties_name_items) | **GET** /users/current/properties/{name}/items | 
+[**get_v2_users_current_notifications**](BasespaceApi.md#get_v2_users_current_notifications) | **GET** /users/current/notifications |
+[**get_v2_users_current_properties**](BasespaceApi.md#get_v2_users_current_properties) | **GET** /users/current/properties |
+[**get_v2_users_current_properties_name**](BasespaceApi.md#get_v2_users_current_properties_name) | **GET** /users/current/properties/{name} |
+[**get_v2_users_current_properties_name_items**](BasespaceApi.md#get_v2_users_current_properties_name_items) | **GET** /users/current/properties/{name}/items |
 [**get_v2_users_current_subscription**](BasespaceApi.md#get_v2_users_current_subscription) | **GET** /users/current/subscription | Get information about the current user�s subscriptions
 [**get_v2_users_current_usage**](BasespaceApi.md#get_v2_users_current_usage) | **GET** /users/current/usage | Get usage statistics for the user
 [**get_v2_users_id**](BasespaceApi.md#get_v2_users_id) | **GET** /users/{id} | Get information about a user
 [**get_v2_users_id_autodeletionevents**](BasespaceApi.md#get_v2_users_id_autodeletionevents) | **GET** /users/{id}/autodeletionevents | Get a list of auto-deletion events for the specified user.
 [**get_v2_users_id_messages**](BasespaceApi.md#get_v2_users_id_messages) | **GET** /users/{id}/messages | Get a list of messages that have been sent to a specific user.
-[**get_v2_users_id_notifications**](BasespaceApi.md#get_v2_users_id_notifications) | **GET** /users/{id}/notifications | 
+[**get_v2_users_id_notifications**](BasespaceApi.md#get_v2_users_id_notifications) | **GET** /users/{id}/notifications |
 [**get_v2_users_id_settings**](BasespaceApi.md#get_v2_users_id_settings) | **GET** /users/{id}/settings | Get a list of the user&#x27;s settings
 [**get_v2_users_id_subscription**](BasespaceApi.md#get_v2_users_id_subscription) | **GET** /users/{id}/subscription | Get information about a user&#x27;s subscriptions
 [**get_v2_users_id_workgroups**](BasespaceApi.md#get_v2_users_id_workgroups) | **GET** /users/{id}/workgroups | Get a list of workgroups the user belongs to
-[**get_v2_v2migration_status_stepname**](BasespaceApi.md#get_v2_v2migration_status_stepname) | **GET** migration/status/{stepname} | Get status report on migration 
+[**get_v2_v2migration_status_stepname**](BasespaceApi.md#get_v2_v2migration_status_stepname) | **GET** migration/status/{stepname} | Get status report on migration
 [**get_v2_workgroups_id**](BasespaceApi.md#get_v2_workgroups_id) | **GET** /workgroups/{id} | Get information about a workgroup
 [**post_v2_applications_id_workflows**](BasespaceApi.md#post_v2_applications_id_workflows) | **POST** /applications/{id}/workflows | Create or update an analysis workflow
-[**post_v2_appresults_id_file_upload_info**](BasespaceApi.md#post_v2_appresults_id_file_upload_info) | **POST** /appresults/{id}/file-upload-info | 
+[**post_v2_appresults_id_file_upload_info**](BasespaceApi.md#post_v2_appresults_id_file_upload_info) | **POST** /appresults/{id}/file-upload-info |
 [**post_v2_appsessions**](BasespaceApi.md#post_v2_appsessions) | **POST** /appsessions | Create a new interactive AppSession with ExecutionStatus Running
 [**post_v2_appsessions_id**](BasespaceApi.md#post_v2_appsessions_id) | **POST** /appsessions/{id} | Update an analysis
 [**post_v2_appsessions_id_logfiles**](BasespaceApi.md#post_v2_appsessions_id_logfiles) | **POST** /appsessions/{id}/logfiles | Add a log file to a specific analysis
@@ -136,7 +136,7 @@ Method | HTTP request | Description
 [**post_v2_appsessions_track**](BasespaceApi.md#post_v2_appsessions_track) | **POST** /appsessions/track | Track ICA analyses
 [**post_v2_appsessions_workflowsessions_track**](BasespaceApi.md#post_v2_appsessions_workflowsessions_track) | **POST** /appsessions/workflowsessions/track | Track workflow sessions
 [**post_v2_archive**](BasespaceApi.md#post_v2_archive) | **POST** /archive | Bulk archive.
-[**post_v2_biosamples**](BasespaceApi.md#post_v2_biosamples) | **POST** /biosamples | 
+[**post_v2_biosamples**](BasespaceApi.md#post_v2_biosamples) | **POST** /biosamples |
 [**post_v2_biosamples_bulkupdate**](BasespaceApi.md#post_v2_biosamples_bulkupdate) | **POST** /biosamples/bulkupdate | Update the default project of many biosamples
 [**post_v2_biosamples_id**](BasespaceApi.md#post_v2_biosamples_id) | **POST** /biosamples/{id} | Update a Biosample
 [**post_v2_biosamples_id_aggregation**](BasespaceApi.md#post_v2_biosamples_id_aggregation) | **POST** /biosamples/{id}/aggregation | Update Biosample aggregation
@@ -145,45 +145,45 @@ Method | HTTP request | Description
 [**post_v2_datasets**](BasespaceApi.md#post_v2_datasets) | **POST** /datasets | Create a dataset that doesn&#x27;t belong in a specific project
 [**post_v2_datasets_id**](BasespaceApi.md#post_v2_datasets_id) | **POST** /datasets/{id} | Update an existing dataset
 [**post_v2_datasets_id_copy**](BasespaceApi.md#post_v2_datasets_id_copy) | **POST** /datasets/{id}/copy | Copy a dataset to a project
-[**post_v2_datasets_id_direct_upload_info**](BasespaceApi.md#post_v2_datasets_id_direct_upload_info) | **POST** /datasets/{id}/direct-upload-info | 
-[**post_v2_datasets_id_file_upload_info**](BasespaceApi.md#post_v2_datasets_id_file_upload_info) | **POST** /datasets/{id}/file-upload-info | 
-[**post_v2_datasets_id_files**](BasespaceApi.md#post_v2_datasets_id_files) | **POST** /datasets/{id}/files | 
-[**post_v2_icadownloads_create_download_url**](BasespaceApi.md#post_v2_icadownloads_create_download_url) | **POST** /icadownloads/create-download-url | 
-[**post_v2_icauploads_foldertype_complete_upload**](BasespaceApi.md#post_v2_icauploads_foldertype_complete_upload) | **POST** /icauploads/{foldertype}/complete-upload | 
-[**post_v2_icauploads_foldertype_direct_upload_info**](BasespaceApi.md#post_v2_icauploads_foldertype_direct_upload_info) | **POST** /icauploads/{foldertype}/direct-upload-info | 
-[**post_v2_instrumentdiagnostics**](BasespaceApi.md#post_v2_instrumentdiagnostics) | **POST** /instrumentdiagnostics | 
-[**post_v2_instrumentdiagnostics_id**](BasespaceApi.md#post_v2_instrumentdiagnostics_id) | **POST** /instrumentdiagnostics/{id} | 
-[**post_v2_instruments_errors**](BasespaceApi.md#post_v2_instruments_errors) | **POST** /instruments/errors | 
+[**post_v2_datasets_id_direct_upload_info**](BasespaceApi.md#post_v2_datasets_id_direct_upload_info) | **POST** /datasets/{id}/direct-upload-info |
+[**post_v2_datasets_id_file_upload_info**](BasespaceApi.md#post_v2_datasets_id_file_upload_info) | **POST** /datasets/{id}/file-upload-info |
+[**post_v2_datasets_id_files**](BasespaceApi.md#post_v2_datasets_id_files) | **POST** /datasets/{id}/files |
+[**post_v2_icadownloads_create_download_url**](BasespaceApi.md#post_v2_icadownloads_create_download_url) | **POST** /icadownloads/create-download-url |
+[**post_v2_icauploads_foldertype_complete_upload**](BasespaceApi.md#post_v2_icauploads_foldertype_complete_upload) | **POST** /icauploads/{foldertype}/complete-upload |
+[**post_v2_icauploads_foldertype_direct_upload_info**](BasespaceApi.md#post_v2_icauploads_foldertype_direct_upload_info) | **POST** /icauploads/{foldertype}/direct-upload-info |
+[**post_v2_instrumentdiagnostics**](BasespaceApi.md#post_v2_instrumentdiagnostics) | **POST** /instrumentdiagnostics |
+[**post_v2_instrumentdiagnostics_id**](BasespaceApi.md#post_v2_instrumentdiagnostics_id) | **POST** /instrumentdiagnostics/{id} |
+[**post_v2_instruments_errors**](BasespaceApi.md#post_v2_instruments_errors) | **POST** /instruments/errors |
 [**post_v2_lanes_id**](BasespaceApi.md#post_v2_lanes_id) | **POST** /lanes/{id} | Update a lane
 [**post_v2_libraries_libraryid_labrequeues**](BasespaceApi.md#post_v2_libraries_libraryid_labrequeues) | **POST** /libraries/{libraryid}/labrequeues | Add a lab requeue request for more yield from a library
 [**post_v2_librarypools_id**](BasespaceApi.md#post_v2_librarypools_id) | **POST** /librarypools/{id} | Update a pool
 [**post_v2_librarypools_poolid_labrequeues**](BasespaceApi.md#post_v2_librarypools_poolid_labrequeues) | **POST** /librarypools/{poolid}/labrequeues | Add a lab requeue request for more yield from a pool
-[**post_v2_oauthv1_tokenfromoauthv2**](BasespaceApi.md#post_v2_oauthv1_tokenfromoauthv2) | **POST** /oauthv1/tokenfromoauthv2 | 
-[**post_v2_oauthv2_token**](BasespaceApi.md#post_v2_oauthv2_token) | **POST** /oauthv2/token | 
-[**post_v2_oauthv2_tokenfromapplicationjwt**](BasespaceApi.md#post_v2_oauthv2_tokenfromapplicationjwt) | **POST** /oauthv2/tokenfromapplicationjwt | 
-[**post_v2_oauthv2tokens_userid**](BasespaceApi.md#post_v2_oauthv2tokens_userid) | **POST** /oauthv2tokens/{userid} | 
+[**post_v2_oauthv1_tokenfromoauthv2**](BasespaceApi.md#post_v2_oauthv1_tokenfromoauthv2) | **POST** /oauthv1/tokenfromoauthv2 |
+[**post_v2_oauthv2_token**](BasespaceApi.md#post_v2_oauthv2_token) | **POST** /oauthv2/token |
+[**post_v2_oauthv2_tokenfromapplicationjwt**](BasespaceApi.md#post_v2_oauthv2_tokenfromapplicationjwt) | **POST** /oauthv2/tokenfromapplicationjwt |
+[**post_v2_oauthv2tokens_userid**](BasespaceApi.md#post_v2_oauthv2tokens_userid) | **POST** /oauthv2tokens/{userid} |
 [**post_v2_preprequests_preprequestid_labrequeues**](BasespaceApi.md#post_v2_preprequests_preprequestid_labrequeues) | **POST** /preprequests/{preprequestid}/labrequeues | Add a lab requeue request for more yield from a biosample
 [**post_v2_projects**](BasespaceApi.md#post_v2_projects) | **POST** /projects | Create a project by name
 [**post_v2_projects_id_datasets**](BasespaceApi.md#post_v2_projects_id_datasets) | **POST** /projects/{id}/datasets | Create a dataset within a specific project
-[**post_v2_publishappsessionstatus**](BasespaceApi.md#post_v2_publishappsessionstatus) | **POST** /publishappsessionstatus | 
+[**post_v2_publishappsessionstatus**](BasespaceApi.md#post_v2_publishappsessionstatus) | **POST** /publishappsessionstatus |
 [**post_v2_restore**](BasespaceApi.md#post_v2_restore) | **POST** /restore | Bulk restore.
 [**post_v2_runs**](BasespaceApi.md#post_v2_runs) | **POST** /runs | Create a new run
 [**post_v2_runs_id**](BasespaceApi.md#post_v2_runs_id) | **POST** /runs/{id} | Update an existing run
-[**post_v2_runs_id_file_upload_info**](BasespaceApi.md#post_v2_runs_id_file_upload_info) | **POST** /runs/{id}/file-upload-info | 
-[**post_v2_runs_id_files**](BasespaceApi.md#post_v2_runs_id_files) | **POST** /runs/{id}/files | 
+[**post_v2_runs_id_file_upload_info**](BasespaceApi.md#post_v2_runs_id_file_upload_info) | **POST** /runs/{id}/file-upload-info |
+[**post_v2_runs_id_files**](BasespaceApi.md#post_v2_runs_id_files) | **POST** /runs/{id}/files |
 [**post_v2_runs_start**](BasespaceApi.md#post_v2_runs_start) | **POST** /runs/start | Create a new run using GSS
-[**post_v2_samples_id_file_upload_info**](BasespaceApi.md#post_v2_samples_id_file_upload_info) | **POST** /samples/{id}/file-upload-info | 
+[**post_v2_samples_id_file_upload_info**](BasespaceApi.md#post_v2_samples_id_file_upload_info) | **POST** /samples/{id}/file-upload-info |
 [**post_v2_tokens_instruments**](BasespaceApi.md#post_v2_tokens_instruments) | **POST** /tokens/instruments | Creates a Platform JWT token for an instrument
 [**post_v2_trash_id_restorefromtrash**](BasespaceApi.md#post_v2_trash_id_restorefromtrash) | **POST** /trash/{id}/restorefromtrash | Restore an item from the trash back to its active state
 [**post_v2_unzip**](BasespaceApi.md#post_v2_unzip) | **POST** /unzip | Bulk Unzip.
 [**post_v2_useraccounttransfer**](BasespaceApi.md#post_v2_useraccounttransfer) | **POST** /useraccounttransfer | User account transfer. Requires Administrator role
-[**post_v2_useragreements**](BasespaceApi.md#post_v2_useragreements) | **POST** /useragreements/ | 
-[**post_v2_users_current**](BasespaceApi.md#post_v2_users_current) | **POST** /users/current | 
+[**post_v2_useragreements**](BasespaceApi.md#post_v2_useragreements) | **POST** /useragreements/ |
+[**post_v2_users_current**](BasespaceApi.md#post_v2_users_current) | **POST** /users/current |
 [**post_v2_users_files**](BasespaceApi.md#post_v2_users_files) | **POST** /users/files | Upload a file to the user&#x27;s volume in GDS
-[**post_v2_users_id_settings**](BasespaceApi.md#post_v2_users_id_settings) | **POST** /users/{id}/settings | Update the user&#x27;s settings 
+[**post_v2_users_id_settings**](BasespaceApi.md#post_v2_users_id_settings) | **POST** /users/{id}/settings | Update the user&#x27;s settings
 [**post_v2_users_id_v2analysisconfigtemplate**](BasespaceApi.md#post_v2_users_id_v2analysisconfigtemplate) | **POST** /users/{id}analysisconfigtemplate | Change Analysis Configuration Template Feature Enabled for calling user
 [**post_v2_users_id_v2biosampleregistry**](BasespaceApi.md#post_v2_users_id_v2biosampleregistry) | **POST** /users/{id}biosampleregistry | Change V2 BioSample Registry Enabled for calling user
-[**post_v2_validatesignedurl**](BasespaceApi.md#post_v2_validatesignedurl) | **POST** /validatesignedurl | 
+[**post_v2_validatesignedurl**](BasespaceApi.md#post_v2_validatesignedurl) | **POST** /validatesignedurl |
 [**put_v2_applications_id_qcthresholds**](BasespaceApi.md#put_v2_applications_id_qcthresholds) | **PUT** /applications/{id}/qcthresholds | Add or update the QC thresholds applied to an analysis workflow
 [**put_v2_applications_id_workflowdependencies**](BasespaceApi.md#put_v2_applications_id_workflowdependencies) | **PUT** /applications/{id}/workflowdependencies | Add or update the workflow dependencies of an analysis workflow
 [**put_v2_laneqcthresholds**](BasespaceApi.md#put_v2_laneqcthresholds) | **PUT** /laneqcthresholds | Add or update the QC thresholds applied to lanes
@@ -198,21 +198,21 @@ Delete a specific analysis
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import bssh_sdk_2
+from bssh_sdk_2.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_key
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.api_key['x-access-token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['x-access-token'] = 'Bearer'
 # Configure OAuth2 access token for authorization: basespace_auth
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.BasespaceApi(swagger_client.ApiClient(configuration))
+api_instance = bssh_sdk_2.BasespaceApi(bssh_sdk_2.ApiClient(configuration))
 id = 'id_example' # str | Appsession ID
 preserve = 'preserve_example' # str | Preserve \"Metadata\", to keep records, but not files, of an appsession (optional)
 bypasstrash = true # bool | Select true to go straight to deletion (optional)
@@ -229,9 +229,9 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **id** | **str**| Appsession ID | 
- **preserve** | **str**| Preserve \&quot;Metadata\&quot;, to keep records, but not files, of an appsession | [optional] 
- **bypasstrash** | **bool**| Select true to go straight to deletion | [optional] 
+ **id** | **str**| Appsession ID |
+ **preserve** | **str**| Preserve \&quot;Metadata\&quot;, to keep records, but not files, of an appsession | [optional]
+ **bypasstrash** | **bool**| Select true to go straight to deletion | [optional]
 
 ### Return type
 
@@ -257,21 +257,21 @@ Delete a property of an analysis
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import bssh_sdk_2
+from bssh_sdk_2.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_key
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.api_key['x-access-token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['x-access-token'] = 'Bearer'
 # Configure OAuth2 access token for authorization: basespace_auth
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.BasespaceApi(swagger_client.ApiClient(configuration))
+api_instance = bssh_sdk_2.BasespaceApi(bssh_sdk_2.ApiClient(configuration))
 id = 'id_example' # str | Appsession ID
 name = 'name_example' # str | Property name
 
@@ -286,8 +286,8 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **id** | **str**| Appsession ID | 
- **name** | **str**| Property name | 
+ **id** | **str**| Appsession ID |
+ **name** | **str**| Property name |
 
 ### Return type
 
@@ -315,23 +315,23 @@ Delete a resource in ICA
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import bssh_sdk_2
+from bssh_sdk_2.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_key
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.api_key['x-access-token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['x-access-token'] = 'Bearer'
 # Configure OAuth2 access token for authorization: basespace_auth
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.BasespaceApi(swagger_client.ApiClient(configuration))
-foldertype = 'foldertype_example' # str | 
-dataid = 'dataid_example' # str | 
+api_instance = bssh_sdk_2.BasespaceApi(bssh_sdk_2.ApiClient(configuration))
+foldertype = 'foldertype_example' # str |
+dataid = 'dataid_example' # str |
 
 try:
     api_response = api_instance.delete_v2_icauploads_foldertype_dataid(foldertype, dataid)
@@ -344,8 +344,8 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **foldertype** | **str**|  | 
- **dataid** | **str**|  | 
+ **foldertype** | **str**|  |
+ **dataid** | **str**|  |
 
 ### Return type
 
@@ -373,21 +373,21 @@ Delete a notification
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import bssh_sdk_2
+from bssh_sdk_2.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_key
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.api_key['x-access-token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['x-access-token'] = 'Bearer'
 # Configure OAuth2 access token for authorization: basespace_auth
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.BasespaceApi(swagger_client.ApiClient(configuration))
+api_instance = bssh_sdk_2.BasespaceApi(bssh_sdk_2.ApiClient(configuration))
 id = 'id_example' # str | The Id of the resource
 
 try:
@@ -400,7 +400,7 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **id** | **str**| The Id of the resource | 
+ **id** | **str**| The Id of the resource |
 
 ### Return type
 
@@ -428,21 +428,21 @@ Invalidate/delete token for a given user
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import bssh_sdk_2
+from bssh_sdk_2.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_key
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.api_key['x-access-token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['x-access-token'] = 'Bearer'
 # Configure OAuth2 access token for authorization: basespace_auth
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.BasespaceApi(swagger_client.ApiClient(configuration))
+api_instance = bssh_sdk_2.BasespaceApi(bssh_sdk_2.ApiClient(configuration))
 
 try:
     api_instance.delete_v2_oauthv2tokens_current()
@@ -477,21 +477,21 @@ Log out user from Sequence Hub and end session
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import bssh_sdk_2
+from bssh_sdk_2.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_key
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.api_key['x-access-token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['x-access-token'] = 'Bearer'
 # Configure OAuth2 access token for authorization: basespace_auth
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.BasespaceApi(swagger_client.ApiClient(configuration))
+api_instance = bssh_sdk_2.BasespaceApi(bssh_sdk_2.ApiClient(configuration))
 
 try:
     # Log out user from Sequence Hub and end session
@@ -529,21 +529,21 @@ Deleting all items from the trash is a non-reversible action. All items and thei
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import bssh_sdk_2
+from bssh_sdk_2.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_key
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.api_key['x-access-token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['x-access-token'] = 'Bearer'
 # Configure OAuth2 access token for authorization: basespace_auth
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.BasespaceApi(swagger_client.ApiClient(configuration))
+api_instance = bssh_sdk_2.BasespaceApi(bssh_sdk_2.ApiClient(configuration))
 
 try:
     # Delete all items in the trash
@@ -579,21 +579,21 @@ Get detailed information about a single agreement
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import bssh_sdk_2
+from bssh_sdk_2.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_key
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.api_key['x-access-token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['x-access-token'] = 'Bearer'
 # Configure OAuth2 access token for authorization: basespace_auth
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.BasespaceApi(swagger_client.ApiClient(configuration))
+api_instance = bssh_sdk_2.BasespaceApi(bssh_sdk_2.ApiClient(configuration))
 id = 'id_example' # str | Agreement ID
 
 try:
@@ -608,7 +608,7 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **id** | **str**| Agreement ID | 
+ **id** | **str**| Agreement ID |
 
 ### Return type
 
@@ -636,21 +636,21 @@ Request metadata about applications
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import bssh_sdk_2
+from bssh_sdk_2.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_key
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.api_key['x-access-token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['x-access-token'] = 'Bearer'
 # Configure OAuth2 access token for authorization: basespace_auth
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.BasespaceApi(swagger_client.ApiClient(configuration))
+api_instance = bssh_sdk_2.BasespaceApi(bssh_sdk_2.ApiClient(configuration))
 id = 'id_example' # str | The Id of the resource (optional)
 
 try:
@@ -665,7 +665,7 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **id** | **str**| The Id of the resource | [optional] 
+ **id** | **str**| The Id of the resource | [optional]
 
 ### Return type
 
@@ -691,21 +691,21 @@ Get a list of available applications
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import bssh_sdk_2
+from bssh_sdk_2.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_key
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.api_key['x-access-token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['x-access-token'] = 'Bearer'
 # Configure OAuth2 access token for authorization: basespace_auth
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.BasespaceApi(swagger_client.ApiClient(configuration))
+api_instance = bssh_sdk_2.BasespaceApi(bssh_sdk_2.ApiClient(configuration))
 cwlactive = true # bool | Deprecated as of May 2024. Has no effect, but left here for API backwards compatibility.
 autolaunchableonruncompleteappsonly = true # bool | Returns only applications that can be auto-launched after a run completes
 allversions = true # bool | Return all the applications versions
@@ -729,16 +729,16 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **cwlactive** | **bool**| Deprecated as of May 2024. Has no effect, but left here for API backwards compatibility. | 
- **autolaunchableonruncompleteappsonly** | **bool**| Returns only applications that can be auto-launched after a run completes | 
- **allversions** | **bool**| Return all the applications versions | 
- **category** | **str**| Return all apps that belong to a specific category that a user has access to (examples include: Native, Workflow, Other). Only a single category can be specified in a given call | [optional] 
- **references** | **str**| Returns all analysis workflows that a user has access to that were created from a particular app, denoted by its unique slug ID | [optional] 
- **sortby** | **str**| The field(s) used to sort the result set | [optional] 
- **offset** | **int**| The starting offset to read | [optional] 
- **limit** | **int**| The maximum number of items to return | [optional] 
- **sortdir** | **str**| The sort direction for the result set | [optional] 
- **id** | **str**| The Id of the resource | [optional] 
+ **cwlactive** | **bool**| Deprecated as of May 2024. Has no effect, but left here for API backwards compatibility. |
+ **autolaunchableonruncompleteappsonly** | **bool**| Returns only applications that can be auto-launched after a run completes |
+ **allversions** | **bool**| Return all the applications versions |
+ **category** | **str**| Return all apps that belong to a specific category that a user has access to (examples include: Native, Workflow, Other). Only a single category can be specified in a given call | [optional]
+ **references** | **str**| Returns all analysis workflows that a user has access to that were created from a particular app, denoted by its unique slug ID | [optional]
+ **sortby** | **str**| The field(s) used to sort the result set | [optional]
+ **offset** | **int**| The starting offset to read | [optional]
+ **limit** | **int**| The maximum number of items to return | [optional]
+ **sortdir** | **str**| The sort direction for the result set | [optional]
+ **id** | **str**| The Id of the resource | [optional]
 
 ### Return type
 
@@ -764,22 +764,22 @@ Get information about an app
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import bssh_sdk_2
+from bssh_sdk_2.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_key
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.api_key['x-access-token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['x-access-token'] = 'Bearer'
 # Configure OAuth2 access token for authorization: basespace_auth
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.BasespaceApi(swagger_client.ApiClient(configuration))
-id = 'id_example' # str | 
+api_instance = bssh_sdk_2.BasespaceApi(bssh_sdk_2.ApiClient(configuration))
+id = 'id_example' # str |
 propertieslimit = 56 # int | Returns only the specified number of properties for the application. (optional)
 propertyitemslimit = 56 # int | Returns only the specified number of property items per property for the application (optional)
 
@@ -795,9 +795,9 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **id** | **str**|  | 
- **propertieslimit** | **int**| Returns only the specified number of properties for the application. | [optional] 
- **propertyitemslimit** | **int**| Returns only the specified number of property items per property for the application | [optional] 
+ **id** | **str**|  |
+ **propertieslimit** | **int**| Returns only the specified number of properties for the application. | [optional]
+ **propertyitemslimit** | **int**| Returns only the specified number of property items per property for the application | [optional]
 
 ### Return type
 
@@ -823,21 +823,21 @@ Get a list of QC thresholds applied to an analysis workflow
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import bssh_sdk_2
+from bssh_sdk_2.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_key
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.api_key['x-access-token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['x-access-token'] = 'Bearer'
 # Configure OAuth2 access token for authorization: basespace_auth
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.BasespaceApi(swagger_client.ApiClient(configuration))
+api_instance = bssh_sdk_2.BasespaceApi(bssh_sdk_2.ApiClient(configuration))
 id = 'id_example' # str | The Id of the resource
 
 try:
@@ -852,7 +852,7 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **id** | **str**| The Id of the resource | 
+ **id** | **str**| The Id of the resource |
 
 ### Return type
 
@@ -878,21 +878,21 @@ Get screenshots of an app
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import bssh_sdk_2
+from bssh_sdk_2.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_key
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.api_key['x-access-token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['x-access-token'] = 'Bearer'
 # Configure OAuth2 access token for authorization: basespace_auth
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.BasespaceApi(swagger_client.ApiClient(configuration))
+api_instance = bssh_sdk_2.BasespaceApi(bssh_sdk_2.ApiClient(configuration))
 id = 'id_example' # str | The Id of the resource
 sortby = 'sortby_example' # str | The field(s) used to sort the result set (optional)
 offset = 56 # int | The starting offset to read (optional)
@@ -911,11 +911,11 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **id** | **str**| The Id of the resource | 
- **sortby** | **str**| The field(s) used to sort the result set | [optional] 
- **offset** | **int**| The starting offset to read | [optional] 
- **limit** | **int**| The maximum number of items to return | [optional] 
- **sortdir** | **str**| The sort direction for the result set | [optional] 
+ **id** | **str**| The Id of the resource |
+ **sortby** | **str**| The field(s) used to sort the result set | [optional]
+ **offset** | **int**| The starting offset to read | [optional]
+ **limit** | **int**| The maximum number of items to return | [optional]
+ **sortdir** | **str**| The sort direction for the result set | [optional]
 
 ### Return type
 
@@ -941,21 +941,21 @@ Get the settings of an application or workflow
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import bssh_sdk_2
+from bssh_sdk_2.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_key
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.api_key['x-access-token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['x-access-token'] = 'Bearer'
 # Configure OAuth2 access token for authorization: basespace_auth
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.BasespaceApi(swagger_client.ApiClient(configuration))
+api_instance = bssh_sdk_2.BasespaceApi(bssh_sdk_2.ApiClient(configuration))
 id = 'id_example' # str | The Id of the resource
 
 try:
@@ -970,7 +970,7 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **id** | **str**| The Id of the resource | 
+ **id** | **str**| The Id of the resource |
 
 ### Return type
 
@@ -996,21 +996,21 @@ Get versions of an app
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import bssh_sdk_2
+from bssh_sdk_2.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_key
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.api_key['x-access-token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['x-access-token'] = 'Bearer'
 # Configure OAuth2 access token for authorization: basespace_auth
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.BasespaceApi(swagger_client.ApiClient(configuration))
+api_instance = bssh_sdk_2.BasespaceApi(bssh_sdk_2.ApiClient(configuration))
 id = 'id_example' # str | The Id of the resource
 sortby = 'sortby_example' # str | The field(s) used to sort the result set (optional)
 offset = 56 # int | The starting offset to read (optional)
@@ -1029,11 +1029,11 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **id** | **str**| The Id of the resource | 
- **sortby** | **str**| The field(s) used to sort the result set | [optional] 
- **offset** | **int**| The starting offset to read | [optional] 
- **limit** | **int**| The maximum number of items to return | [optional] 
- **sortdir** | **str**| The sort direction for the result set | [optional] 
+ **id** | **str**| The Id of the resource |
+ **sortby** | **str**| The field(s) used to sort the result set | [optional]
+ **offset** | **int**| The starting offset to read | [optional]
+ **limit** | **int**| The maximum number of items to return | [optional]
+ **sortdir** | **str**| The sort direction for the result set | [optional]
 
 ### Return type
 
@@ -1059,21 +1059,21 @@ Get a list of workflow dependencies on an analysis workflow
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import bssh_sdk_2
+from bssh_sdk_2.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_key
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.api_key['x-access-token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['x-access-token'] = 'Bearer'
 # Configure OAuth2 access token for authorization: basespace_auth
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.BasespaceApi(swagger_client.ApiClient(configuration))
+api_instance = bssh_sdk_2.BasespaceApi(bssh_sdk_2.ApiClient(configuration))
 id = 'id_example' # str | The Id of the resource
 
 try:
@@ -1088,7 +1088,7 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **id** | **str**| The Id of the resource | 
+ **id** | **str**| The Id of the resource |
 
 ### Return type
 
@@ -1116,21 +1116,21 @@ Request direct file upload presigned url information for a new file in the speci
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import bssh_sdk_2
+from bssh_sdk_2.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_key
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.api_key['x-access-token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['x-access-token'] = 'Bearer'
 # Configure OAuth2 access token for authorization: basespace_auth
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.BasespaceApi(swagger_client.ApiClient(configuration))
+api_instance = bssh_sdk_2.BasespaceApi(bssh_sdk_2.ApiClient(configuration))
 id = 'id_example' # str | The Id of the resource
 filepath = 'filepath_example' # str |  (optional)
 uploadpartcount = 56 # int |  (optional)
@@ -1146,9 +1146,9 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **id** | **str**| The Id of the resource | 
- **filepath** | **str**|  | [optional] 
- **uploadpartcount** | **int**|  | [optional] 
+ **id** | **str**| The Id of the resource |
+ **filepath** | **str**|  | [optional]
+ **uploadpartcount** | **int**|  | [optional]
 
 ### Return type
 
@@ -1174,21 +1174,21 @@ Get a list of analyses
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import bssh_sdk_2
+from bssh_sdk_2.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_key
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.api_key['x-access-token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['x-access-token'] = 'Bearer'
 # Configure OAuth2 access token for authorization: basespace_auth
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.BasespaceApi(swagger_client.ApiClient(configuration))
+api_instance = bssh_sdk_2.BasespaceApi(bssh_sdk_2.ApiClient(configuration))
 appid = 56 # int | Filter by ID of application used (optional)
 applicationfamilyslugs = ['applicationfamilyslugs_example'] # list[str] | Filter by application family (optional)
 ownedbycurrentuser = true # bool | Only include appsessions where the project has WRITE permission by the current user (optional)
@@ -1220,24 +1220,24 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **appid** | **int**| Filter by ID of application used | [optional] 
- **applicationfamilyslugs** | [**list[str]**](str.md)| Filter by application family | [optional] 
- **ownedbycurrentuser** | **bool**| Only include appsessions where the project has WRITE permission by the current user | [optional] 
- **datemodified** | **str**|  | [optional] 
- **executionstatus** | **str**| Filter by execution status | [optional] 
- **qcstatus** | **str**| Filter by QC status | [optional] 
- **deliverystatus** | **str**| Filter by delivery status | [optional] 
- **name** | **str**|  | [optional] 
- **output_projects** | [**list[int]**](int.md)| Filter by ID of output project | [optional] 
- **input_runs** | [**list[int]**](int.md)| Filter by ID of run input | [optional] 
- **input_biosamples** | [**list[int]**](int.md)| Filter by ID of biosample input | [optional] 
- **include** | [**list[str]**](str.md)| Additional resources to include | [optional] 
- **propertyfilters** | [**list[str]**](str.md)| Filter by appsessions include the specified property names | [optional] 
- **usercreatedby** | **int**| ID of user who created appsession | [optional] 
- **sortby** | **str**| The field(s) used to sort the result set | [optional] 
- **offset** | **int**| The starting offset to read | [optional] 
- **limit** | **int**| The maximum number of items to return | [optional] 
- **sortdir** | **str**| The sort direction for the result set | [optional] 
+ **appid** | **int**| Filter by ID of application used | [optional]
+ **applicationfamilyslugs** | [**list[str]**](str.md)| Filter by application family | [optional]
+ **ownedbycurrentuser** | **bool**| Only include appsessions where the project has WRITE permission by the current user | [optional]
+ **datemodified** | **str**|  | [optional]
+ **executionstatus** | **str**| Filter by execution status | [optional]
+ **qcstatus** | **str**| Filter by QC status | [optional]
+ **deliverystatus** | **str**| Filter by delivery status | [optional]
+ **name** | **str**|  | [optional]
+ **output_projects** | [**list[int]**](int.md)| Filter by ID of output project | [optional]
+ **input_runs** | [**list[int]**](int.md)| Filter by ID of run input | [optional]
+ **input_biosamples** | [**list[int]**](int.md)| Filter by ID of biosample input | [optional]
+ **include** | [**list[str]**](str.md)| Additional resources to include | [optional]
+ **propertyfilters** | [**list[str]**](str.md)| Filter by appsessions include the specified property names | [optional]
+ **usercreatedby** | **int**| ID of user who created appsession | [optional]
+ **sortby** | **str**| The field(s) used to sort the result set | [optional]
+ **offset** | **int**| The starting offset to read | [optional]
+ **limit** | **int**| The maximum number of items to return | [optional]
+ **sortdir** | **str**| The sort direction for the result set | [optional]
 
 ### Return type
 
@@ -1263,21 +1263,21 @@ Get information about an analysis
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import bssh_sdk_2
+from bssh_sdk_2.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_key
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.api_key['x-access-token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['x-access-token'] = 'Bearer'
 # Configure OAuth2 access token for authorization: basespace_auth
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.BasespaceApi(swagger_client.ApiClient(configuration))
+api_instance = bssh_sdk_2.BasespaceApi(bssh_sdk_2.ApiClient(configuration))
 id = 'id_example' # str | Appsession ID
 include = ['include_example'] # list[str] | Additional resources to include (optional)
 showhiddenitems = 'showhiddenitems_example' # str | ShowHiddenItems  (optional)
@@ -1294,9 +1294,9 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **id** | **str**| Appsession ID | 
- **include** | [**list[str]**](str.md)| Additional resources to include | [optional] 
- **showhiddenitems** | **str**| ShowHiddenItems  | [optional] 
+ **id** | **str**| Appsession ID |
+ **include** | [**list[str]**](str.md)| Additional resources to include | [optional]
+ **showhiddenitems** | **str**| ShowHiddenItems  | [optional]
 
 ### Return type
 
@@ -1322,21 +1322,21 @@ Get a list of comments made about an analysis
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import bssh_sdk_2
+from bssh_sdk_2.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_key
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.api_key['x-access-token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['x-access-token'] = 'Bearer'
 # Configure OAuth2 access token for authorization: basespace_auth
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.BasespaceApi(swagger_client.ApiClient(configuration))
+api_instance = bssh_sdk_2.BasespaceApi(bssh_sdk_2.ApiClient(configuration))
 id = 'id_example' # str | Appsession ID
 sortby = 'sortby_example' # str | The field(s) used to sort the result set (optional)
 offset = 56 # int | The starting offset to read (optional)
@@ -1355,11 +1355,11 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **id** | **str**| Appsession ID | 
- **sortby** | **str**| The field(s) used to sort the result set | [optional] 
- **offset** | **int**| The starting offset to read | [optional] 
- **limit** | **int**| The maximum number of items to return | [optional] 
- **sortdir** | **str**| The sort direction for the result set | [optional] 
+ **id** | **str**| Appsession ID |
+ **sortby** | **str**| The field(s) used to sort the result set | [optional]
+ **offset** | **int**| The starting offset to read | [optional]
+ **limit** | **int**| The maximum number of items to return | [optional]
+ **sortdir** | **str**| The sort direction for the result set | [optional]
 
 ### Return type
 
@@ -1385,21 +1385,21 @@ Get ICA log steps for workflows and analyses
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import bssh_sdk_2
+from bssh_sdk_2.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_key
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.api_key['x-access-token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['x-access-token'] = 'Bearer'
 # Configure OAuth2 access token for authorization: basespace_auth
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.BasespaceApi(swagger_client.ApiClient(configuration))
+api_instance = bssh_sdk_2.BasespaceApi(bssh_sdk_2.ApiClient(configuration))
 id = 'id_example' # str | Appsession ID
 offset = 56 # int | The starting offset to read (optional)
 limit = 56 # int | The maximum number of items to return (optional)
@@ -1417,10 +1417,10 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **id** | **str**| Appsession ID | 
- **offset** | **int**| The starting offset to read | [optional] 
- **limit** | **int**| The maximum number of items to return | [optional] 
- **sortdir** | **str**| The sort direction for the result set | [optional] 
+ **id** | **str**| Appsession ID |
+ **offset** | **int**| The starting offset to read | [optional]
+ **limit** | **int**| The maximum number of items to return | [optional]
+ **sortdir** | **str**| The sort direction for the result set | [optional]
 
 ### Return type
 
@@ -1446,21 +1446,21 @@ Get ICA analysis log step stdout stderr log paths
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import bssh_sdk_2
+from bssh_sdk_2.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_key
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.api_key['x-access-token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['x-access-token'] = 'Bearer'
 # Configure OAuth2 access token for authorization: basespace_auth
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.BasespaceApi(swagger_client.ApiClient(configuration))
+api_instance = bssh_sdk_2.BasespaceApi(bssh_sdk_2.ApiClient(configuration))
 id = 'id_example' # str | Appsession ID
 analysisid = 'analysisid_example' # str | ICA Analyses Id
 stepid = 'stepid_example' # str | Step ID
@@ -1480,12 +1480,12 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **id** | **str**| Appsession ID | 
- **analysisid** | **str**| ICA Analyses Id | 
- **stepid** | **str**| Step ID | 
- **offset** | **int**| The starting offset to read | [optional] 
- **limit** | **int**| The maximum number of items to return | [optional] 
- **sortdir** | **str**| The sort direction for the result set | [optional] 
+ **id** | **str**| Appsession ID |
+ **analysisid** | **str**| ICA Analyses Id |
+ **stepid** | **str**| Step ID |
+ **offset** | **int**| The starting offset to read | [optional]
+ **limit** | **int**| The maximum number of items to return | [optional]
+ **sortdir** | **str**| The sort direction for the result set | [optional]
 
 ### Return type
 
@@ -1511,21 +1511,21 @@ Get ICA analysis step stderr log
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import bssh_sdk_2
+from bssh_sdk_2.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_key
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.api_key['x-access-token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['x-access-token'] = 'Bearer'
 # Configure OAuth2 access token for authorization: basespace_auth
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.BasespaceApi(swagger_client.ApiClient(configuration))
+api_instance = bssh_sdk_2.BasespaceApi(bssh_sdk_2.ApiClient(configuration))
 id = 'id_example' # str | Appsession ID
 analysisid = 'analysisid_example' # str | ICA Analyses Id
 stepid = 'stepid_example' # str | Step ID
@@ -1542,9 +1542,9 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **id** | **str**| Appsession ID | 
- **analysisid** | **str**| ICA Analyses Id | 
- **stepid** | **str**| Step ID | 
+ **id** | **str**| Appsession ID |
+ **analysisid** | **str**| ICA Analyses Id |
+ **stepid** | **str**| Step ID |
 
 ### Return type
 
@@ -1570,21 +1570,21 @@ Get ICA analysis step stdout log
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import bssh_sdk_2
+from bssh_sdk_2.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_key
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.api_key['x-access-token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['x-access-token'] = 'Bearer'
 # Configure OAuth2 access token for authorization: basespace_auth
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.BasespaceApi(swagger_client.ApiClient(configuration))
+api_instance = bssh_sdk_2.BasespaceApi(bssh_sdk_2.ApiClient(configuration))
 id = 'id_example' # str | Appsession ID
 analysisid = 'analysisid_example' # str | ICA Analyses Id
 stepid = 'stepid_example' # str | Step ID
@@ -1601,9 +1601,9 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **id** | **str**| Appsession ID | 
- **analysisid** | **str**| ICA Analyses Id | 
- **stepid** | **str**| Step ID | 
+ **id** | **str**| Appsession ID |
+ **analysisid** | **str**| ICA Analyses Id |
+ **stepid** | **str**| Step ID |
 
 ### Return type
 
@@ -1629,21 +1629,21 @@ Get ICA analysis log steps
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import bssh_sdk_2
+from bssh_sdk_2.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_key
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.api_key['x-access-token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['x-access-token'] = 'Bearer'
 # Configure OAuth2 access token for authorization: basespace_auth
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.BasespaceApi(swagger_client.ApiClient(configuration))
+api_instance = bssh_sdk_2.BasespaceApi(bssh_sdk_2.ApiClient(configuration))
 id = 'id_example' # str | Appsession ID
 icaanalysisid = 'icaanalysisid_example' # str | ICA Analyses Id
 includetechnicalsteps = true # bool | Include technical steps
@@ -1664,13 +1664,13 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **id** | **str**| Appsession ID | 
- **icaanalysisid** | **str**| ICA Analyses Id | 
- **includetechnicalsteps** | **bool**| Include technical steps | 
- **sortby** | **str**| The field(s) used to sort the result set | [optional] 
- **offset** | **int**| The starting offset to read | [optional] 
- **limit** | **int**| The maximum number of items to return | [optional] 
- **sortdir** | **str**| The sort direction for the result set | [optional] 
+ **id** | **str**| Appsession ID |
+ **icaanalysisid** | **str**| ICA Analyses Id |
+ **includetechnicalsteps** | **bool**| Include technical steps |
+ **sortby** | **str**| The field(s) used to sort the result set | [optional]
+ **offset** | **int**| The starting offset to read | [optional]
+ **limit** | **int**| The maximum number of items to return | [optional]
+ **sortdir** | **str**| The sort direction for the result set | [optional]
 
 ### Return type
 
@@ -1696,21 +1696,21 @@ Get orchestrated analyses
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import bssh_sdk_2
+from bssh_sdk_2.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_key
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.api_key['x-access-token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['x-access-token'] = 'Bearer'
 # Configure OAuth2 access token for authorization: basespace_auth
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.BasespaceApi(swagger_client.ApiClient(configuration))
+api_instance = bssh_sdk_2.BasespaceApi(bssh_sdk_2.ApiClient(configuration))
 id = 'id_example' # str | Appsession ID
 offset = 56 # int | The starting offset to read (optional)
 limit = 56 # int | The maximum number of items to return (optional)
@@ -1728,10 +1728,10 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **id** | **str**| Appsession ID | 
- **offset** | **int**| The starting offset to read | [optional] 
- **limit** | **int**| The maximum number of items to return | [optional] 
- **sortdir** | **str**| The sort direction for the result set | [optional] 
+ **id** | **str**| Appsession ID |
+ **offset** | **int**| The starting offset to read | [optional]
+ **limit** | **int**| The maximum number of items to return | [optional]
+ **sortdir** | **str**| The sort direction for the result set | [optional]
 
 ### Return type
 
@@ -1757,21 +1757,21 @@ Get ICA workflow session log steps
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import bssh_sdk_2
+from bssh_sdk_2.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_key
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.api_key['x-access-token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['x-access-token'] = 'Bearer'
 # Configure OAuth2 access token for authorization: basespace_auth
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.BasespaceApi(swagger_client.ApiClient(configuration))
+api_instance = bssh_sdk_2.BasespaceApi(bssh_sdk_2.ApiClient(configuration))
 id = 'id_example' # str | Appsession ID
 includetechnicalsteps = true # bool | Include technical steps
 sortby = 'sortby_example' # str | The field(s) used to sort the result set (optional)
@@ -1791,12 +1791,12 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **id** | **str**| Appsession ID | 
- **includetechnicalsteps** | **bool**| Include technical steps | 
- **sortby** | **str**| The field(s) used to sort the result set | [optional] 
- **offset** | **int**| The starting offset to read | [optional] 
- **limit** | **int**| The maximum number of items to return | [optional] 
- **sortdir** | **str**| The sort direction for the result set | [optional] 
+ **id** | **str**| Appsession ID |
+ **includetechnicalsteps** | **bool**| Include technical steps |
+ **sortby** | **str**| The field(s) used to sort the result set | [optional]
+ **offset** | **int**| The starting offset to read | [optional]
+ **limit** | **int**| The maximum number of items to return | [optional]
+ **sortdir** | **str**| The sort direction for the result set | [optional]
 
 ### Return type
 
@@ -1822,21 +1822,21 @@ Get ICA workflow session log step stdout stderr log paths
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import bssh_sdk_2
+from bssh_sdk_2.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_key
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.api_key['x-access-token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['x-access-token'] = 'Bearer'
 # Configure OAuth2 access token for authorization: basespace_auth
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.BasespaceApi(swagger_client.ApiClient(configuration))
+api_instance = bssh_sdk_2.BasespaceApi(bssh_sdk_2.ApiClient(configuration))
 id = 'id_example' # str | Appsession ID
 stepid = 'stepid_example' # str | Step ID
 offset = 56 # int | The starting offset to read (optional)
@@ -1855,11 +1855,11 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **id** | **str**| Appsession ID | 
- **stepid** | **str**| Step ID | 
- **offset** | **int**| The starting offset to read | [optional] 
- **limit** | **int**| The maximum number of items to return | [optional] 
- **sortdir** | **str**| The sort direction for the result set | [optional] 
+ **id** | **str**| Appsession ID |
+ **stepid** | **str**| Step ID |
+ **offset** | **int**| The starting offset to read | [optional]
+ **limit** | **int**| The maximum number of items to return | [optional]
+ **sortdir** | **str**| The sort direction for the result set | [optional]
 
 ### Return type
 
@@ -1885,21 +1885,21 @@ Get ICA workflow session log step stderr
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import bssh_sdk_2
+from bssh_sdk_2.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_key
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.api_key['x-access-token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['x-access-token'] = 'Bearer'
 # Configure OAuth2 access token for authorization: basespace_auth
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.BasespaceApi(swagger_client.ApiClient(configuration))
+api_instance = bssh_sdk_2.BasespaceApi(bssh_sdk_2.ApiClient(configuration))
 id = 'id_example' # str | Appsession ID
 stepid = 'stepid_example' # str | Step ID
 
@@ -1915,8 +1915,8 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **id** | **str**| Appsession ID | 
- **stepid** | **str**| Step ID | 
+ **id** | **str**| Appsession ID |
+ **stepid** | **str**| Step ID |
 
 ### Return type
 
@@ -1942,21 +1942,21 @@ Get ICA workflow session log step stdout
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import bssh_sdk_2
+from bssh_sdk_2.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_key
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.api_key['x-access-token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['x-access-token'] = 'Bearer'
 # Configure OAuth2 access token for authorization: basespace_auth
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.BasespaceApi(swagger_client.ApiClient(configuration))
+api_instance = bssh_sdk_2.BasespaceApi(bssh_sdk_2.ApiClient(configuration))
 id = 'id_example' # str | Appsession ID
 stepid = 'stepid_example' # str | Step ID
 
@@ -1972,8 +1972,8 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **id** | **str**| Appsession ID | 
- **stepid** | **str**| Step ID | 
+ **id** | **str**| Appsession ID |
+ **stepid** | **str**| Step ID |
 
 ### Return type
 
@@ -1999,28 +1999,28 @@ Get a list of logs of an analysis
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import bssh_sdk_2
+from bssh_sdk_2.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_key
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.api_key['x-access-token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['x-access-token'] = 'Bearer'
 # Configure OAuth2 access token for authorization: basespace_auth
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.BasespaceApi(swagger_client.ApiClient(configuration))
+api_instance = bssh_sdk_2.BasespaceApi(bssh_sdk_2.ApiClient(configuration))
 id = 'id_example' # str | Appsession ID
 excludevcfindexfolder = true # bool | Whether to exclude VCF index folders
 excludebamcoveragefolder = true # bool | Whether to exclude BAM coverage folders
 excludesystemfolder = true # bool | Whether to exclude system folders
 excludeemptyfiles = true # bool | Whether to exclude empty files
 filehrefcontentresolution = true # bool | Resolves the HrefContent to the direct file URI to avoid a hop to GET: files/{id}/content
-turbomode = true # bool | 
+turbomode = true # bool |
 filesetid = 'filesetid_example' # str |  (optional)
 extensions = 'extensions_example' # str | Filter by file extension (optional)
 excludeextensions = 'excludeextensions_example' # str | Exclude by file extension (optional)
@@ -2045,24 +2045,24 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **id** | **str**| Appsession ID | 
- **excludevcfindexfolder** | **bool**| Whether to exclude VCF index folders | 
- **excludebamcoveragefolder** | **bool**| Whether to exclude BAM coverage folders | 
- **excludesystemfolder** | **bool**| Whether to exclude system folders | 
- **excludeemptyfiles** | **bool**| Whether to exclude empty files | 
- **filehrefcontentresolution** | **bool**| Resolves the HrefContent to the direct file URI to avoid a hop to GET: files/{id}/content | 
- **turbomode** | **bool**|  | 
- **filesetid** | **str**|  | [optional] 
- **extensions** | **str**| Filter by file extension | [optional] 
- **excludeextensions** | **str**| Exclude by file extension | [optional] 
- **directory** | **str**| Filter by directory path (root is /) | [optional] 
- **includesubdirectories** | **bool**| Whether to return subdirectories | [optional] 
- **statuses** | [**list[str]**](str.md)| Optionally filter by status (default complete) | [optional] 
- **pathprefix** | **str**| To be pre-fixed in the path of the file | [optional] 
- **sortby** | **str**| The field(s) used to sort the result set | [optional] 
- **offset** | **int**| The starting offset to read | [optional] 
- **limit** | **int**| The maximum number of items to return | [optional] 
- **sortdir** | **str**| The sort direction for the result set | [optional] 
+ **id** | **str**| Appsession ID |
+ **excludevcfindexfolder** | **bool**| Whether to exclude VCF index folders |
+ **excludebamcoveragefolder** | **bool**| Whether to exclude BAM coverage folders |
+ **excludesystemfolder** | **bool**| Whether to exclude system folders |
+ **excludeemptyfiles** | **bool**| Whether to exclude empty files |
+ **filehrefcontentresolution** | **bool**| Resolves the HrefContent to the direct file URI to avoid a hop to GET: files/{id}/content |
+ **turbomode** | **bool**|  |
+ **filesetid** | **str**|  | [optional]
+ **extensions** | **str**| Filter by file extension | [optional]
+ **excludeextensions** | **str**| Exclude by file extension | [optional]
+ **directory** | **str**| Filter by directory path (root is /) | [optional]
+ **includesubdirectories** | **bool**| Whether to return subdirectories | [optional]
+ **statuses** | [**list[str]**](str.md)| Optionally filter by status (default complete) | [optional]
+ **pathprefix** | **str**| To be pre-fixed in the path of the file | [optional]
+ **sortby** | **str**| The field(s) used to sort the result set | [optional]
+ **offset** | **int**| The starting offset to read | [optional]
+ **limit** | **int**| The maximum number of items to return | [optional]
+ **sortdir** | **str**| The sort direction for the result set | [optional]
 
 ### Return type
 
@@ -2088,21 +2088,21 @@ Get a list of properties of an analysis
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import bssh_sdk_2
+from bssh_sdk_2.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_key
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.api_key['x-access-token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['x-access-token'] = 'Bearer'
 # Configure OAuth2 access token for authorization: basespace_auth
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.BasespaceApi(swagger_client.ApiClient(configuration))
+api_instance = bssh_sdk_2.BasespaceApi(bssh_sdk_2.ApiClient(configuration))
 id = 'id_example' # str | Appsession ID
 propertieslimit = 56 # int | Limit the # of properties returned (optional)
 propertyitemslimit = 56 # int | Limit the # of property items returned per property (optional)
@@ -2125,15 +2125,15 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **id** | **str**| Appsession ID | 
- **propertieslimit** | **int**| Limit the # of properties returned | [optional] 
- **propertyitemslimit** | **int**| Limit the # of property items returned per property | [optional] 
- **propertyfilters** | [**list[str]**](str.md)| Filter by property name | [optional] 
- **showhiddenitems** | **str**| Show Hidden projects and Datasets | [optional] 
- **sortby** | **str**| The field(s) used to sort the result set | [optional] 
- **offset** | **int**| The starting offset to read | [optional] 
- **limit** | **int**| The maximum number of items to return | [optional] 
- **sortdir** | **str**| The sort direction for the result set | [optional] 
+ **id** | **str**| Appsession ID |
+ **propertieslimit** | **int**| Limit the # of properties returned | [optional]
+ **propertyitemslimit** | **int**| Limit the # of property items returned per property | [optional]
+ **propertyfilters** | [**list[str]**](str.md)| Filter by property name | [optional]
+ **showhiddenitems** | **str**| Show Hidden projects and Datasets | [optional]
+ **sortby** | **str**| The field(s) used to sort the result set | [optional]
+ **offset** | **int**| The starting offset to read | [optional]
+ **limit** | **int**| The maximum number of items to return | [optional]
+ **sortdir** | **str**| The sort direction for the result set | [optional]
 
 ### Return type
 
@@ -2159,21 +2159,21 @@ Get information about a property of an analysis
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import bssh_sdk_2
+from bssh_sdk_2.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_key
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.api_key['x-access-token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['x-access-token'] = 'Bearer'
 # Configure OAuth2 access token for authorization: basespace_auth
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.BasespaceApi(swagger_client.ApiClient(configuration))
+api_instance = bssh_sdk_2.BasespaceApi(bssh_sdk_2.ApiClient(configuration))
 id = 'id_example' # str | Appsession ID
 name = 'name_example' # str | Property name
 propertyitemslimit = 56 # int | Limit the # of property items returned per property (optional)
@@ -2191,10 +2191,10 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **id** | **str**| Appsession ID | 
- **name** | **str**| Property name | 
- **propertyitemslimit** | **int**| Limit the # of property items returned per property | [optional] 
- **showhiddenitems** | **str**| Hidden filter | [optional] 
+ **id** | **str**| Appsession ID |
+ **name** | **str**| Property name |
+ **propertyitemslimit** | **int**| Limit the # of property items returned per property | [optional]
+ **showhiddenitems** | **str**| Hidden filter | [optional]
 
 ### Return type
 
@@ -2220,21 +2220,21 @@ Get a list of items from a property of an analysis
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import bssh_sdk_2
+from bssh_sdk_2.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_key
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.api_key['x-access-token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['x-access-token'] = 'Bearer'
 # Configure OAuth2 access token for authorization: basespace_auth
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.BasespaceApi(swagger_client.ApiClient(configuration))
+api_instance = bssh_sdk_2.BasespaceApi(bssh_sdk_2.ApiClient(configuration))
 id = 'id_example' # str | Appsession ID
 name = 'name_example' # str | Property name
 showhiddenitems = 'showhiddenitems_example' # str | Hidden filter (optional)
@@ -2255,13 +2255,13 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **id** | **str**| Appsession ID | 
- **name** | **str**| Property name | 
- **showhiddenitems** | **str**| Hidden filter | [optional] 
- **sortby** | **str**| The field(s) used to sort the result set | [optional] 
- **offset** | **int**| The starting offset to read | [optional] 
- **limit** | **int**| The maximum number of items to return | [optional] 
- **sortdir** | **str**| The sort direction for the result set | [optional] 
+ **id** | **str**| Appsession ID |
+ **name** | **str**| Property name |
+ **showhiddenitems** | **str**| Hidden filter | [optional]
+ **sortby** | **str**| The field(s) used to sort the result set | [optional]
+ **offset** | **int**| The starting offset to read | [optional]
+ **limit** | **int**| The maximum number of items to return | [optional]
+ **sortdir** | **str**| The sort direction for the result set | [optional]
 
 ### Return type
 
@@ -2287,21 +2287,21 @@ Name | Type | Description  | Notes
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import bssh_sdk_2
+from bssh_sdk_2.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_key
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.api_key['x-access-token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['x-access-token'] = 'Bearer'
 # Configure OAuth2 access token for authorization: basespace_auth
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.BasespaceApi(swagger_client.ApiClient(configuration))
+api_instance = bssh_sdk_2.BasespaceApi(bssh_sdk_2.ApiClient(configuration))
 id = 'id_example' # str | Appsession ID
 
 try:
@@ -2315,7 +2315,7 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **id** | **str**| Appsession ID | 
+ **id** | **str**| Appsession ID |
 
 ### Return type
 
@@ -2341,21 +2341,21 @@ Get a summary of total archiving Data Managment Events , their status  .
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import bssh_sdk_2
+from bssh_sdk_2.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_key
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.api_key['x-access-token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['x-access-token'] = 'Bearer'
 # Configure OAuth2 access token for authorization: basespace_auth
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.BasespaceApi(swagger_client.ApiClient(configuration))
+api_instance = bssh_sdk_2.BasespaceApi(bssh_sdk_2.ApiClient(configuration))
 eventaction = 'eventaction_example' # str |  (optional)
 
 try:
@@ -2370,7 +2370,7 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **eventaction** | **str**|  | [optional] 
+ **eventaction** | **str**|  | [optional]
 
 ### Return type
 
@@ -2396,21 +2396,21 @@ Get list of archiving Data Managment Events , their status  .
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import bssh_sdk_2
+from bssh_sdk_2.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_key
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.api_key['x-access-token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['x-access-token'] = 'Bearer'
 # Configure OAuth2 access token for authorization: basespace_auth
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.BasespaceApi(swagger_client.ApiClient(configuration))
+api_instance = bssh_sdk_2.BasespaceApi(bssh_sdk_2.ApiClient(configuration))
 sortby = 'sortby_example' # str | The field(s) used to sort the result set (optional)
 offset = 56 # int | The starting offset to read (optional)
 limit = 56 # int | The maximum number of items to return (optional)
@@ -2429,11 +2429,11 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **sortby** | **str**| The field(s) used to sort the result set | [optional] 
- **offset** | **int**| The starting offset to read | [optional] 
- **limit** | **int**| The maximum number of items to return | [optional] 
- **sortdir** | **str**| The sort direction for the result set | [optional] 
- **id** | **str**| The Id of the resource | [optional] 
+ **sortby** | **str**| The field(s) used to sort the result set | [optional]
+ **offset** | **int**| The starting offset to read | [optional]
+ **limit** | **int**| The maximum number of items to return | [optional]
+ **sortdir** | **str**| The sort direction for the result set | [optional]
+ **id** | **str**| The Id of the resource | [optional]
 
 ### Return type
 
@@ -2459,21 +2459,21 @@ Get a list of all auto-deletion events.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import bssh_sdk_2
+from bssh_sdk_2.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_key
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.api_key['x-access-token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['x-access-token'] = 'Bearer'
 # Configure OAuth2 access token for authorization: basespace_auth
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.BasespaceApi(swagger_client.ApiClient(configuration))
+api_instance = bssh_sdk_2.BasespaceApi(bssh_sdk_2.ApiClient(configuration))
 sortby = 'sortby_example' # str | The field(s) used to sort the result set (optional)
 offset = 56 # int | The starting offset to read (optional)
 limit = 56 # int | The maximum number of items to return (optional)
@@ -2492,11 +2492,11 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **sortby** | **str**| The field(s) used to sort the result set | [optional] 
- **offset** | **int**| The starting offset to read | [optional] 
- **limit** | **int**| The maximum number of items to return | [optional] 
- **sortdir** | **str**| The sort direction for the result set | [optional] 
- **id** | **str**| The Id of the resource | [optional] 
+ **sortby** | **str**| The field(s) used to sort the result set | [optional]
+ **offset** | **int**| The starting offset to read | [optional]
+ **limit** | **int**| The maximum number of items to return | [optional]
+ **sortdir** | **str**| The sort direction for the result set | [optional]
+ **id** | **str**| The Id of the resource | [optional]
 
 ### Return type
 
@@ -2522,22 +2522,22 @@ Get the list of users who have entered the auto-deletion pipeline due to inactiv
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import bssh_sdk_2
+from bssh_sdk_2.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_key
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.api_key['x-access-token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['x-access-token'] = 'Bearer'
 # Configure OAuth2 access token for authorization: basespace_auth
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.BasespaceApi(swagger_client.ApiClient(configuration))
-format = 'format_example' # str | 
+api_instance = bssh_sdk_2.BasespaceApi(bssh_sdk_2.ApiClient(configuration))
+format = 'format_example' # str |
 emailtemplatename = 'emailtemplatename_example' # str |  (optional)
 
 try:
@@ -2552,8 +2552,8 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **format** | **str**|  | 
- **emailtemplatename** | **str**|  | [optional] 
+ **format** | **str**|  |
+ **emailtemplatename** | **str**|  | [optional]
 
 ### Return type
 
@@ -2579,23 +2579,23 @@ Get a summary of users who are about to have their account data deleted due to d
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import bssh_sdk_2
+from bssh_sdk_2.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_key
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.api_key['x-access-token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['x-access-token'] = 'Bearer'
 # Configure OAuth2 access token for authorization: basespace_auth
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.BasespaceApi(swagger_client.ApiClient(configuration))
-sent = true # bool | 
-illuminausers = true # bool | 
+api_instance = bssh_sdk_2.BasespaceApi(bssh_sdk_2.ApiClient(configuration))
+sent = true # bool |
+illuminausers = true # bool |
 emailtemplatename = 'emailtemplatename_example' # str |  (optional)
 sortby = 'sortby_example' # str | The field(s) used to sort the result set (optional)
 offset = 56 # int | The starting offset to read (optional)
@@ -2615,14 +2615,14 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **sent** | **bool**|  | 
- **illuminausers** | **bool**|  | 
- **emailtemplatename** | **str**|  | [optional] 
- **sortby** | **str**| The field(s) used to sort the result set | [optional] 
- **offset** | **int**| The starting offset to read | [optional] 
- **limit** | **int**| The maximum number of items to return | [optional] 
- **sortdir** | **str**| The sort direction for the result set | [optional] 
- **id** | **str**| The Id of the resource | [optional] 
+ **sent** | **bool**|  |
+ **illuminausers** | **bool**|  |
+ **emailtemplatename** | **str**|  | [optional]
+ **sortby** | **str**| The field(s) used to sort the result set | [optional]
+ **offset** | **int**| The starting offset to read | [optional]
+ **limit** | **int**| The maximum number of items to return | [optional]
+ **sortdir** | **str**| The sort direction for the result set | [optional]
+ **id** | **str**| The Id of the resource | [optional]
 
 ### Return type
 
@@ -2648,21 +2648,21 @@ Get a list of biosamples
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import bssh_sdk_2
+from bssh_sdk_2.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_key
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.api_key['x-access-token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['x-access-token'] = 'Bearer'
 # Configure OAuth2 access token for authorization: basespace_auth
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.BasespaceApi(swagger_client.ApiClient(configuration))
+api_instance = bssh_sdk_2.BasespaceApi(bssh_sdk_2.ApiClient(configuration))
 biosamplename = ['biosamplename_example'] # list[str] | Only return biosamples with the given BioSampleName(s) (optional)
 include = ['include_example'] # list[str] | Sub elements to include in the response (optional)
 propertynamestartswith = ['propertynamestartswith_example'] # list[str] |  (optional)
@@ -2686,16 +2686,16 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **biosamplename** | [**list[str]**](str.md)| Only return biosamples with the given BioSampleName(s) | [optional] 
- **include** | [**list[str]**](str.md)| Sub elements to include in the response | [optional] 
- **propertynamestartswith** | [**list[str]**](str.md)|  | [optional] 
- **status** | [**list[str]**](str.md)| Only return biosamples with the given Status(es) | [optional] 
- **labstatus** | [**list[str]**](str.md)| Only return biosamples with the given LabStatus(es) | [optional] 
- **projectid** | [**list[str]**](str.md)| Only return biosamples with the specified default projects or datasets in those projects | [optional] 
- **sortby** | **str**| The field(s) used to sort the result set | [optional] 
- **offset** | **int**| The starting offset to read | [optional] 
- **limit** | **int**| The maximum number of items to return | [optional] 
- **sortdir** | **str**| The sort direction for the result set | [optional] 
+ **biosamplename** | [**list[str]**](str.md)| Only return biosamples with the given BioSampleName(s) | [optional]
+ **include** | [**list[str]**](str.md)| Sub elements to include in the response | [optional]
+ **propertynamestartswith** | [**list[str]**](str.md)|  | [optional]
+ **status** | [**list[str]**](str.md)| Only return biosamples with the given Status(es) | [optional]
+ **labstatus** | [**list[str]**](str.md)| Only return biosamples with the given LabStatus(es) | [optional]
+ **projectid** | [**list[str]**](str.md)| Only return biosamples with the specified default projects or datasets in those projects | [optional]
+ **sortby** | **str**| The field(s) used to sort the result set | [optional]
+ **offset** | **int**| The starting offset to read | [optional]
+ **limit** | **int**| The maximum number of items to return | [optional]
+ **sortdir** | **str**| The sort direction for the result set | [optional]
 
 ### Return type
 
@@ -2723,21 +2723,21 @@ All lab requeues, from each of the types, are listed here. A pool lab requeue wi
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import bssh_sdk_2
+from bssh_sdk_2.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_key
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.api_key['x-access-token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['x-access-token'] = 'Bearer'
 # Configure OAuth2 access token for authorization: basespace_auth
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.BasespaceApi(swagger_client.ApiClient(configuration))
+api_instance = bssh_sdk_2.BasespaceApi(bssh_sdk_2.ApiClient(configuration))
 biosampleid = 'biosampleid_example' # str | Biosample ID
 type = 'type_example' # str | Specify which type of lab requeue to be listed e.g. NewBioSampleLibrary, AdditionalYieldOfLibraryPool, or AdditionalYieldOfFinishedLibrary. (optional)
 sortby = 'sortby_example' # str | The field(s) used to sort the result set (optional)
@@ -2757,12 +2757,12 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **biosampleid** | **str**| Biosample ID | 
- **type** | **str**| Specify which type of lab requeue to be listed e.g. NewBioSampleLibrary, AdditionalYieldOfLibraryPool, or AdditionalYieldOfFinishedLibrary. | [optional] 
- **sortby** | **str**| The field(s) used to sort the result set | [optional] 
- **offset** | **int**| The starting offset to read | [optional] 
- **limit** | **int**| The maximum number of items to return | [optional] 
- **sortdir** | **str**| The sort direction for the result set | [optional] 
+ **biosampleid** | **str**| Biosample ID |
+ **type** | **str**| Specify which type of lab requeue to be listed e.g. NewBioSampleLibrary, AdditionalYieldOfLibraryPool, or AdditionalYieldOfFinishedLibrary. | [optional]
+ **sortby** | **str**| The field(s) used to sort the result set | [optional]
+ **offset** | **int**| The starting offset to read | [optional]
+ **limit** | **int**| The maximum number of items to return | [optional]
+ **sortdir** | **str**| The sort direction for the result set | [optional]
 
 ### Return type
 
@@ -2788,21 +2788,21 @@ Get information about a biosample
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import bssh_sdk_2
+from bssh_sdk_2.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_key
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.api_key['x-access-token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['x-access-token'] = 'Bearer'
 # Configure OAuth2 access token for authorization: basespace_auth
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.BasespaceApi(swagger_client.ApiClient(configuration))
+api_instance = bssh_sdk_2.BasespaceApi(bssh_sdk_2.ApiClient(configuration))
 id = 'id_example' # str | Biosample ID
 include = ['include_example'] # list[str] | Sub elements to include in the response (optional)
 
@@ -2818,8 +2818,8 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **id** | **str**| Biosample ID | 
- **include** | [**list[str]**](str.md)| Sub elements to include in the response | [optional] 
+ **id** | **str**| Biosample ID |
+ **include** | [**list[str]**](str.md)| Sub elements to include in the response | [optional]
 
 ### Return type
 
@@ -2845,21 +2845,21 @@ Get aggregated datasets for a given biosample
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import bssh_sdk_2
+from bssh_sdk_2.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_key
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.api_key['x-access-token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['x-access-token'] = 'Bearer'
 # Configure OAuth2 access token for authorization: basespace_auth
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.BasespaceApi(swagger_client.ApiClient(configuration))
+api_instance = bssh_sdk_2.BasespaceApi(bssh_sdk_2.ApiClient(configuration))
 id = 'id_example' # str | Biosample ID
 mixlibrarytypesallowed = true # bool | If true, mixing datasets of different library types is allowed, false otherwise
 selectedlibraryprepids = ['selectedlibraryprepids_example'] # list[str] | Optional comma-separated list of selected LibraryPrepId values to consider (optional)
@@ -2880,13 +2880,13 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **id** | **str**| Biosample ID | 
- **mixlibrarytypesallowed** | **bool**| If true, mixing datasets of different library types is allowed, false otherwise | 
- **selectedlibraryprepids** | [**list[str]**](str.md)| Optional comma-separated list of selected LibraryPrepId values to consider | [optional] 
- **sortby** | **str**| The field(s) used to sort the result set | [optional] 
- **offset** | **int**| The starting offset to read | [optional] 
- **limit** | **int**| The maximum number of items to return | [optional] 
- **sortdir** | **str**| The sort direction for the result set | [optional] 
+ **id** | **str**| Biosample ID |
+ **mixlibrarytypesallowed** | **bool**| If true, mixing datasets of different library types is allowed, false otherwise |
+ **selectedlibraryprepids** | [**list[str]**](str.md)| Optional comma-separated list of selected LibraryPrepId values to consider | [optional]
+ **sortby** | **str**| The field(s) used to sort the result set | [optional]
+ **offset** | **int**| The starting offset to read | [optional]
+ **limit** | **int**| The maximum number of items to return | [optional]
+ **sortdir** | **str**| The sort direction for the result set | [optional]
 
 ### Return type
 
@@ -2912,21 +2912,21 @@ Get a list of a biosample�s libraries
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import bssh_sdk_2
+from bssh_sdk_2.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_key
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.api_key['x-access-token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['x-access-token'] = 'Bearer'
 # Configure OAuth2 access token for authorization: basespace_auth
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.BasespaceApi(swagger_client.ApiClient(configuration))
+api_instance = bssh_sdk_2.BasespaceApi(bssh_sdk_2.ApiClient(configuration))
 id = 'id_example' # str | Biosample ID
 include = ['include_example'] # list[str] | Sub elements to include in the response: LibraryIndex, YieldInformation (optional)
 sortby = 'sortby_example' # str | The field(s) used to sort the result set (optional)
@@ -2946,12 +2946,12 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **id** | **str**| Biosample ID | 
- **include** | [**list[str]**](str.md)| Sub elements to include in the response: LibraryIndex, YieldInformation | [optional] 
- **sortby** | **str**| The field(s) used to sort the result set | [optional] 
- **offset** | **int**| The starting offset to read | [optional] 
- **limit** | **int**| The maximum number of items to return | [optional] 
- **sortdir** | **str**| The sort direction for the result set | [optional] 
+ **id** | **str**| Biosample ID |
+ **include** | [**list[str]**](str.md)| Sub elements to include in the response: LibraryIndex, YieldInformation | [optional]
+ **sortby** | **str**| The field(s) used to sort the result set | [optional]
+ **offset** | **int**| The starting offset to read | [optional]
+ **limit** | **int**| The maximum number of items to return | [optional]
+ **sortdir** | **str**| The sort direction for the result set | [optional]
 
 ### Return type
 
@@ -2979,22 +2979,22 @@ List properties for a resource
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import bssh_sdk_2
+from bssh_sdk_2.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_key
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.api_key['x-access-token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['x-access-token'] = 'Bearer'
 # Configure OAuth2 access token for authorization: basespace_auth
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.BasespaceApi(swagger_client.ApiClient(configuration))
-id = 'id_example' # str | 
+api_instance = bssh_sdk_2.BasespaceApi(bssh_sdk_2.ApiClient(configuration))
+id = 'id_example' # str |
 propertieslimit = 56 # int | Limit the # of properties returned (optional)
 propertyitemslimit = 56 # int | Limit the # of property items returned per property (optional)
 propertyfilters = ['propertyfilters_example'] # list[str] | Filter by property name (optional)
@@ -3015,15 +3015,15 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **id** | **str**|  | 
- **propertieslimit** | **int**| Limit the # of properties returned | [optional] 
- **propertyitemslimit** | **int**| Limit the # of property items returned per property | [optional] 
- **propertyfilters** | [**list[str]**](str.md)| Filter by property name | [optional] 
- **showhiddenitems** | **str**| Show Hidden projects and Datasets | [optional] 
- **sortby** | **str**| The field(s) used to sort the result set | [optional] 
- **offset** | **int**| The starting offset to read | [optional] 
- **limit** | **int**| The maximum number of items to return | [optional] 
- **sortdir** | **str**| The sort direction for the result set | [optional] 
+ **id** | **str**|  |
+ **propertieslimit** | **int**| Limit the # of properties returned | [optional]
+ **propertyitemslimit** | **int**| Limit the # of property items returned per property | [optional]
+ **propertyfilters** | [**list[str]**](str.md)| Filter by property name | [optional]
+ **showhiddenitems** | **str**| Show Hidden projects and Datasets | [optional]
+ **sortby** | **str**| The field(s) used to sort the result set | [optional]
+ **offset** | **int**| The starting offset to read | [optional]
+ **limit** | **int**| The maximum number of items to return | [optional]
+ **sortdir** | **str**| The sort direction for the result set | [optional]
 
 ### Return type
 
@@ -3051,22 +3051,22 @@ Get property information
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import bssh_sdk_2
+from bssh_sdk_2.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_key
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.api_key['x-access-token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['x-access-token'] = 'Bearer'
 # Configure OAuth2 access token for authorization: basespace_auth
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.BasespaceApi(swagger_client.ApiClient(configuration))
-id = 'id_example' # str | 
+api_instance = bssh_sdk_2.BasespaceApi(bssh_sdk_2.ApiClient(configuration))
+id = 'id_example' # str |
 name = 'name_example' # str | Property name
 propertyitemslimit = 56 # int | Limit the # of property items returned per property (optional)
 showhiddenitems = 'showhiddenitems_example' # str | Hidden filter (optional)
@@ -3082,10 +3082,10 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **id** | **str**|  | 
- **name** | **str**| Property name | 
- **propertyitemslimit** | **int**| Limit the # of property items returned per property | [optional] 
- **showhiddenitems** | **str**| Hidden filter | [optional] 
+ **id** | **str**|  |
+ **name** | **str**| Property name |
+ **propertyitemslimit** | **int**| Limit the # of property items returned per property | [optional]
+ **showhiddenitems** | **str**| Hidden filter | [optional]
 
 ### Return type
 
@@ -3113,22 +3113,22 @@ Get property item details
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import bssh_sdk_2
+from bssh_sdk_2.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_key
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.api_key['x-access-token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['x-access-token'] = 'Bearer'
 # Configure OAuth2 access token for authorization: basespace_auth
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.BasespaceApi(swagger_client.ApiClient(configuration))
-id = 'id_example' # str | 
+api_instance = bssh_sdk_2.BasespaceApi(bssh_sdk_2.ApiClient(configuration))
+id = 'id_example' # str |
 name = 'name_example' # str | Property name
 showhiddenitems = 'showhiddenitems_example' # str | Hidden filter (optional)
 sortby = 'sortby_example' # str | The field(s) used to sort the result set (optional)
@@ -3147,13 +3147,13 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **id** | **str**|  | 
- **name** | **str**| Property name | 
- **showhiddenitems** | **str**| Hidden filter | [optional] 
- **sortby** | **str**| The field(s) used to sort the result set | [optional] 
- **offset** | **int**| The starting offset to read | [optional] 
- **limit** | **int**| The maximum number of items to return | [optional] 
- **sortdir** | **str**| The sort direction for the result set | [optional] 
+ **id** | **str**|  |
+ **name** | **str**| Property name |
+ **showhiddenitems** | **str**| Hidden filter | [optional]
+ **sortby** | **str**| The field(s) used to sort the result set | [optional]
+ **offset** | **int**| The starting offset to read | [optional]
+ **limit** | **int**| The maximum number of items to return | [optional]
+ **sortdir** | **str**| The sort direction for the result set | [optional]
 
 ### Return type
 
@@ -3179,21 +3179,21 @@ Get information about biosample’s lane mapping
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import bssh_sdk_2
+from bssh_sdk_2.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_key
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.api_key['x-access-token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['x-access-token'] = 'Bearer'
 # Configure OAuth2 access token for authorization: basespace_auth
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.BasespaceApi(swagger_client.ApiClient(configuration))
+api_instance = bssh_sdk_2.BasespaceApi(bssh_sdk_2.ApiClient(configuration))
 id = 'id_example' # str | Biosample ID
 sortby = 'sortby_example' # str | The field(s) used to sort the result set (optional)
 offset = 56 # int | The starting offset to read (optional)
@@ -3212,11 +3212,11 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **id** | **str**| Biosample ID | 
- **sortby** | **str**| The field(s) used to sort the result set | [optional] 
- **offset** | **int**| The starting offset to read | [optional] 
- **limit** | **int**| The maximum number of items to return | [optional] 
- **sortdir** | **str**| The sort direction for the result set | [optional] 
+ **id** | **str**| Biosample ID |
+ **sortby** | **str**| The field(s) used to sort the result set | [optional]
+ **offset** | **int**| The starting offset to read | [optional]
+ **limit** | **int**| The maximum number of items to return | [optional]
+ **sortdir** | **str**| The sort direction for the result set | [optional]
 
 ### Return type
 
@@ -3242,21 +3242,21 @@ Get a list of datasets
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import bssh_sdk_2
+from bssh_sdk_2.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_key
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.api_key['x-access-token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['x-access-token'] = 'Bearer'
 # Configure OAuth2 access token for authorization: basespace_auth
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.BasespaceApi(swagger_client.ApiClient(configuration))
+api_instance = bssh_sdk_2.BasespaceApi(bssh_sdk_2.ApiClient(configuration))
 include = ['include_example'] # list[str] | Can specify to return Properties, which returns an additional properties section for each dataset. Or return AppSessionRoot, which returns information about the root analysis of a workflow in the AppSession section for each dataset it applies to. (optional)
 propertyfilters = ['propertyfilters_example'] # list[str] | Specify which properties to include in the properties section, e.g. Input.BioSamples, Input.Libraries, or Input.Runs. (optional)
 datasettypes = ['datasettypes_example'] # list[str] | Return datasets of this type or excluding this type. Supports comma-separated lists. (optional)
@@ -3285,21 +3285,21 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **include** | [**list[str]**](str.md)| Can specify to return Properties, which returns an additional properties section for each dataset. Or return AppSessionRoot, which returns information about the root analysis of a workflow in the AppSession section for each dataset it applies to. | [optional] 
- **propertyfilters** | [**list[str]**](str.md)| Specify which properties to include in the properties section, e.g. Input.BioSamples, Input.Libraries, or Input.Runs. | [optional] 
- **datasettypes** | [**list[str]**](str.md)| Return datasets of this type or excluding this type. Supports comma-separated lists. | [optional] 
- **qcstatus** | [**list[str]**](str.md)| Return datasets of this QC status. | [optional] 
- **uploadstatus** | [**list[str]**](str.md)| Return datasets of this file upload status. | [optional] 
- **inputbiosamples** | [**list[int]**](int.md)| Return datasets related to this biosample ID. | [optional] 
- **inputruns** | [**list[int]**](int.md)| Return datasets related to this run ID. | [optional] 
- **inputruntokens** | [**list[str]**](str.md)| Return datasets related to this run ID token. | [optional] 
- **projectid** | **str**| Return datasets related to this project ID. | [optional] 
- **appsessionids** | [**list[int]**](int.md)| Return datasets related to this app session ID. | [optional] 
- **isarchived** | **str**| The archive states to filter by. Valid values include: True, False. | [optional] 
- **sortby** | **str**| The field(s) used to sort the result set | [optional] 
- **offset** | **int**| The starting offset to read | [optional] 
- **limit** | **int**| The maximum number of items to return | [optional] 
- **sortdir** | **str**| The sort direction for the result set | [optional] 
+ **include** | [**list[str]**](str.md)| Can specify to return Properties, which returns an additional properties section for each dataset. Or return AppSessionRoot, which returns information about the root analysis of a workflow in the AppSession section for each dataset it applies to. | [optional]
+ **propertyfilters** | [**list[str]**](str.md)| Specify which properties to include in the properties section, e.g. Input.BioSamples, Input.Libraries, or Input.Runs. | [optional]
+ **datasettypes** | [**list[str]**](str.md)| Return datasets of this type or excluding this type. Supports comma-separated lists. | [optional]
+ **qcstatus** | [**list[str]**](str.md)| Return datasets of this QC status. | [optional]
+ **uploadstatus** | [**list[str]**](str.md)| Return datasets of this file upload status. | [optional]
+ **inputbiosamples** | [**list[int]**](int.md)| Return datasets related to this biosample ID. | [optional]
+ **inputruns** | [**list[int]**](int.md)| Return datasets related to this run ID. | [optional]
+ **inputruntokens** | [**list[str]**](str.md)| Return datasets related to this run ID token. | [optional]
+ **projectid** | **str**| Return datasets related to this project ID. | [optional]
+ **appsessionids** | [**list[int]**](int.md)| Return datasets related to this app session ID. | [optional]
+ **isarchived** | **str**| The archive states to filter by. Valid values include: True, False. | [optional]
+ **sortby** | **str**| The field(s) used to sort the result set | [optional]
+ **offset** | **int**| The starting offset to read | [optional]
+ **limit** | **int**| The maximum number of items to return | [optional]
+ **sortdir** | **str**| The sort direction for the result set | [optional]
 
 ### Return type
 
@@ -3325,21 +3325,21 @@ Get information about a dataset
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import bssh_sdk_2
+from bssh_sdk_2.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_key
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.api_key['x-access-token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['x-access-token'] = 'Bearer'
 # Configure OAuth2 access token for authorization: basespace_auth
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.BasespaceApi(swagger_client.ApiClient(configuration))
+api_instance = bssh_sdk_2.BasespaceApi(bssh_sdk_2.ApiClient(configuration))
 id = 'id_example' # str | Dataset ID
 
 try:
@@ -3354,7 +3354,7 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **id** | **str**| Dataset ID | 
+ **id** | **str**| Dataset ID |
 
 ### Return type
 
@@ -3380,21 +3380,21 @@ Get a list of comments made about a dataset
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import bssh_sdk_2
+from bssh_sdk_2.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_key
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.api_key['x-access-token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['x-access-token'] = 'Bearer'
 # Configure OAuth2 access token for authorization: basespace_auth
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.BasespaceApi(swagger_client.ApiClient(configuration))
+api_instance = bssh_sdk_2.BasespaceApi(bssh_sdk_2.ApiClient(configuration))
 id = 'id_example' # str | Dataset ID
 sortby = 'sortby_example' # str | The field(s) used to sort the result set (optional)
 offset = 56 # int | The starting offset to read (optional)
@@ -3413,11 +3413,11 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **id** | **str**| Dataset ID | 
- **sortby** | **str**| The field(s) used to sort the result set | [optional] 
- **offset** | **int**| The starting offset to read | [optional] 
- **limit** | **int**| The maximum number of items to return | [optional] 
- **sortdir** | **str**| The sort direction for the result set | [optional] 
+ **id** | **str**| Dataset ID |
+ **sortby** | **str**| The field(s) used to sort the result set | [optional]
+ **offset** | **int**| The starting offset to read | [optional]
+ **limit** | **int**| The maximum number of items to return | [optional]
+ **sortdir** | **str**| The sort direction for the result set | [optional]
 
 ### Return type
 
@@ -3445,21 +3445,21 @@ Request direct upload information for a new dataset
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import bssh_sdk_2
+from bssh_sdk_2.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_key
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.api_key['x-access-token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['x-access-token'] = 'Bearer'
 # Configure OAuth2 access token for authorization: basespace_auth
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.BasespaceApi(swagger_client.ApiClient(configuration))
+api_instance = bssh_sdk_2.BasespaceApi(bssh_sdk_2.ApiClient(configuration))
 id = 'id_example' # str | The Id of the resource
 
 try:
@@ -3473,7 +3473,7 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **id** | **str**| The Id of the resource | 
+ **id** | **str**| The Id of the resource |
 
 ### Return type
 
@@ -3501,21 +3501,21 @@ Request direct file upload presigned url information for a new file in the speci
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import bssh_sdk_2
+from bssh_sdk_2.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_key
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.api_key['x-access-token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['x-access-token'] = 'Bearer'
 # Configure OAuth2 access token for authorization: basespace_auth
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.BasespaceApi(swagger_client.ApiClient(configuration))
+api_instance = bssh_sdk_2.BasespaceApi(bssh_sdk_2.ApiClient(configuration))
 id = 'id_example' # str | The Id of the resource
 filepath = 'filepath_example' # str |  (optional)
 uploadpartcount = 56 # int |  (optional)
@@ -3531,9 +3531,9 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **id** | **str**| The Id of the resource | 
- **filepath** | **str**|  | [optional] 
- **uploadpartcount** | **int**|  | [optional] 
+ **id** | **str**| The Id of the resource |
+ **filepath** | **str**|  | [optional]
+ **uploadpartcount** | **int**|  | [optional]
 
 ### Return type
 
@@ -3559,27 +3559,27 @@ Get a list of files of a dataset
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import bssh_sdk_2
+from bssh_sdk_2.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_key
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.api_key['x-access-token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['x-access-token'] = 'Bearer'
 # Configure OAuth2 access token for authorization: basespace_auth
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.BasespaceApi(swagger_client.ApiClient(configuration))
+api_instance = bssh_sdk_2.BasespaceApi(bssh_sdk_2.ApiClient(configuration))
 excludevcfindexfolder = true # bool | Whether to exclude VCF index folders
 excludebamcoveragefolder = true # bool | Whether to exclude BAM coverage folders
 excludesystemfolder = true # bool | Whether to exclude system folders
 excludeemptyfiles = true # bool | Whether to exclude empty files
 filehrefcontentresolution = true # bool | Resolves the HrefContent to the direct file URI to avoid a hop to GET: files/{id}/content
-turbomode = true # bool | 
+turbomode = true # bool |
 id = 'id_example' # str | The Id of the resource
 filesetid = 'filesetid_example' # str |  (optional)
 extensions = 'extensions_example' # str | Filter by file extension (optional)
@@ -3605,24 +3605,24 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **excludevcfindexfolder** | **bool**| Whether to exclude VCF index folders | 
- **excludebamcoveragefolder** | **bool**| Whether to exclude BAM coverage folders | 
- **excludesystemfolder** | **bool**| Whether to exclude system folders | 
- **excludeemptyfiles** | **bool**| Whether to exclude empty files | 
- **filehrefcontentresolution** | **bool**| Resolves the HrefContent to the direct file URI to avoid a hop to GET: files/{id}/content | 
- **turbomode** | **bool**|  | 
- **id** | **str**| The Id of the resource | 
- **filesetid** | **str**|  | [optional] 
- **extensions** | **str**| Filter by file extension | [optional] 
- **excludeextensions** | **str**| Exclude by file extension | [optional] 
- **directory** | **str**| Filter by directory path (root is /) | [optional] 
- **includesubdirectories** | **bool**| Whether to return subdirectories | [optional] 
- **statuses** | [**list[str]**](str.md)| Optionally filter by status (default complete) | [optional] 
- **pathprefix** | **str**| To be pre-fixed in the path of the file | [optional] 
- **sortby** | **str**| The field(s) used to sort the result set | [optional] 
- **offset** | **int**| The starting offset to read | [optional] 
- **limit** | **int**| The maximum number of items to return | [optional] 
- **sortdir** | **str**| The sort direction for the result set | [optional] 
+ **excludevcfindexfolder** | **bool**| Whether to exclude VCF index folders |
+ **excludebamcoveragefolder** | **bool**| Whether to exclude BAM coverage folders |
+ **excludesystemfolder** | **bool**| Whether to exclude system folders |
+ **excludeemptyfiles** | **bool**| Whether to exclude empty files |
+ **filehrefcontentresolution** | **bool**| Resolves the HrefContent to the direct file URI to avoid a hop to GET: files/{id}/content |
+ **turbomode** | **bool**|  |
+ **id** | **str**| The Id of the resource |
+ **filesetid** | **str**|  | [optional]
+ **extensions** | **str**| Filter by file extension | [optional]
+ **excludeextensions** | **str**| Exclude by file extension | [optional]
+ **directory** | **str**| Filter by directory path (root is /) | [optional]
+ **includesubdirectories** | **bool**| Whether to return subdirectories | [optional]
+ **statuses** | [**list[str]**](str.md)| Optionally filter by status (default complete) | [optional]
+ **pathprefix** | **str**| To be pre-fixed in the path of the file | [optional]
+ **sortby** | **str**| The field(s) used to sort the result set | [optional]
+ **offset** | **int**| The starting offset to read | [optional]
+ **limit** | **int**| The maximum number of items to return | [optional]
+ **sortdir** | **str**| The sort direction for the result set | [optional]
 
 ### Return type
 
@@ -3650,22 +3650,22 @@ List properties for a resource
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import bssh_sdk_2
+from bssh_sdk_2.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_key
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.api_key['x-access-token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['x-access-token'] = 'Bearer'
 # Configure OAuth2 access token for authorization: basespace_auth
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.BasespaceApi(swagger_client.ApiClient(configuration))
-id = 'id_example' # str | 
+api_instance = bssh_sdk_2.BasespaceApi(bssh_sdk_2.ApiClient(configuration))
+id = 'id_example' # str |
 propertieslimit = 56 # int | Limit the # of properties returned (optional)
 propertyitemslimit = 56 # int | Limit the # of property items returned per property (optional)
 propertyfilters = ['propertyfilters_example'] # list[str] | Filter by property name (optional)
@@ -3686,15 +3686,15 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **id** | **str**|  | 
- **propertieslimit** | **int**| Limit the # of properties returned | [optional] 
- **propertyitemslimit** | **int**| Limit the # of property items returned per property | [optional] 
- **propertyfilters** | [**list[str]**](str.md)| Filter by property name | [optional] 
- **showhiddenitems** | **str**| Show Hidden projects and Datasets | [optional] 
- **sortby** | **str**| The field(s) used to sort the result set | [optional] 
- **offset** | **int**| The starting offset to read | [optional] 
- **limit** | **int**| The maximum number of items to return | [optional] 
- **sortdir** | **str**| The sort direction for the result set | [optional] 
+ **id** | **str**|  |
+ **propertieslimit** | **int**| Limit the # of properties returned | [optional]
+ **propertyitemslimit** | **int**| Limit the # of property items returned per property | [optional]
+ **propertyfilters** | [**list[str]**](str.md)| Filter by property name | [optional]
+ **showhiddenitems** | **str**| Show Hidden projects and Datasets | [optional]
+ **sortby** | **str**| The field(s) used to sort the result set | [optional]
+ **offset** | **int**| The starting offset to read | [optional]
+ **limit** | **int**| The maximum number of items to return | [optional]
+ **sortdir** | **str**| The sort direction for the result set | [optional]
 
 ### Return type
 
@@ -3722,22 +3722,22 @@ Get property information
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import bssh_sdk_2
+from bssh_sdk_2.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_key
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.api_key['x-access-token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['x-access-token'] = 'Bearer'
 # Configure OAuth2 access token for authorization: basespace_auth
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.BasespaceApi(swagger_client.ApiClient(configuration))
-id = 'id_example' # str | 
+api_instance = bssh_sdk_2.BasespaceApi(bssh_sdk_2.ApiClient(configuration))
+id = 'id_example' # str |
 name = 'name_example' # str | Property name
 propertyitemslimit = 56 # int | Limit the # of property items returned per property (optional)
 showhiddenitems = 'showhiddenitems_example' # str | Hidden filter (optional)
@@ -3753,10 +3753,10 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **id** | **str**|  | 
- **name** | **str**| Property name | 
- **propertyitemslimit** | **int**| Limit the # of property items returned per property | [optional] 
- **showhiddenitems** | **str**| Hidden filter | [optional] 
+ **id** | **str**|  |
+ **name** | **str**| Property name |
+ **propertyitemslimit** | **int**| Limit the # of property items returned per property | [optional]
+ **showhiddenitems** | **str**| Hidden filter | [optional]
 
 ### Return type
 
@@ -3784,22 +3784,22 @@ Get property item details
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import bssh_sdk_2
+from bssh_sdk_2.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_key
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.api_key['x-access-token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['x-access-token'] = 'Bearer'
 # Configure OAuth2 access token for authorization: basespace_auth
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.BasespaceApi(swagger_client.ApiClient(configuration))
-id = 'id_example' # str | 
+api_instance = bssh_sdk_2.BasespaceApi(bssh_sdk_2.ApiClient(configuration))
+id = 'id_example' # str |
 name = 'name_example' # str | Property name
 showhiddenitems = 'showhiddenitems_example' # str | Hidden filter (optional)
 sortby = 'sortby_example' # str | The field(s) used to sort the result set (optional)
@@ -3818,13 +3818,13 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **id** | **str**|  | 
- **name** | **str**| Property name | 
- **showhiddenitems** | **str**| Hidden filter | [optional] 
- **sortby** | **str**| The field(s) used to sort the result set | [optional] 
- **offset** | **int**| The starting offset to read | [optional] 
- **limit** | **int**| The maximum number of items to return | [optional] 
- **sortdir** | **str**| The sort direction for the result set | [optional] 
+ **id** | **str**|  |
+ **name** | **str**| Property name |
+ **showhiddenitems** | **str**| Hidden filter | [optional]
+ **sortby** | **str**| The field(s) used to sort the result set | [optional]
+ **offset** | **int**| The starting offset to read | [optional]
+ **limit** | **int**| The maximum number of items to return | [optional]
+ **sortdir** | **str**| The sort direction for the result set | [optional]
 
 ### Return type
 
@@ -3850,21 +3850,21 @@ Get information about a dataset type
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import bssh_sdk_2
+from bssh_sdk_2.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_key
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.api_key['x-access-token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['x-access-token'] = 'Bearer'
 # Configure OAuth2 access token for authorization: basespace_auth
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.BasespaceApi(swagger_client.ApiClient(configuration))
+api_instance = bssh_sdk_2.BasespaceApi(bssh_sdk_2.ApiClient(configuration))
 id = 'id_example' # str | Dataset type ID
 include = ['include_example'] # list[str] |  (optional)
 
@@ -3880,8 +3880,8 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **id** | **str**| Dataset type ID | 
- **include** | [**list[str]**](str.md)|  | [optional] 
+ **id** | **str**| Dataset type ID |
+ **include** | [**list[str]**](str.md)|  | [optional]
 
 ### Return type
 
@@ -3907,21 +3907,21 @@ Get a summary of GDS share or transfer operations.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import bssh_sdk_2
+from bssh_sdk_2.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_key
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.api_key['x-access-token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['x-access-token'] = 'Bearer'
 # Configure OAuth2 access token for authorization: basespace_auth
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.BasespaceApi(swagger_client.ApiClient(configuration))
+api_instance = bssh_sdk_2.BasespaceApi(bssh_sdk_2.ApiClient(configuration))
 operationtype = 'operationtype_example' # str |  (optional)
 status = 'status_example' # str |  (optional)
 maxitems = 'maxitems_example' # str |  (optional)
@@ -3938,9 +3938,9 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **operationtype** | **str**|  | [optional] 
- **status** | **str**|  | [optional] 
- **maxitems** | **str**|  | [optional] 
+ **operationtype** | **str**|  | [optional]
+ **status** | **str**|  | [optional]
+ **maxitems** | **str**|  | [optional]
 
 ### Return type
 
@@ -3968,21 +3968,21 @@ Request access to temporary data presigned URL for upload to test connectivity
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import bssh_sdk_2
+from bssh_sdk_2.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_key
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.api_key['x-access-token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['x-access-token'] = 'Bearer'
 # Configure OAuth2 access token for authorization: basespace_auth
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.BasespaceApi(swagger_client.ApiClient(configuration))
+api_instance = bssh_sdk_2.BasespaceApi(bssh_sdk_2.ApiClient(configuration))
 filepath = 'filepath_example' # str |  (optional)
 uploadpartcount = 56 # int |  (optional)
 id = 'id_example' # str | The Id of the resource (optional)
@@ -3998,9 +3998,9 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **filepath** | **str**|  | [optional] 
- **uploadpartcount** | **int**|  | [optional] 
- **id** | **str**| The Id of the resource | [optional] 
+ **filepath** | **str**|  | [optional]
+ **uploadpartcount** | **int**|  | [optional]
+ **id** | **str**| The Id of the resource | [optional]
 
 ### Return type
 
@@ -4028,21 +4028,21 @@ Get non-run instrument diagnostic data.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import bssh_sdk_2
+from bssh_sdk_2.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_key
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.api_key['x-access-token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['x-access-token'] = 'Bearer'
 # Configure OAuth2 access token for authorization: basespace_auth
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.BasespaceApi(swagger_client.ApiClient(configuration))
+api_instance = bssh_sdk_2.BasespaceApi(bssh_sdk_2.ApiClient(configuration))
 id = 'id_example' # str | The Id of the resource
 
 try:
@@ -4056,7 +4056,7 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **id** | **str**| The Id of the resource | 
+ **id** | **str**| The Id of the resource |
 
 ### Return type
 
@@ -4084,23 +4084,23 @@ List available instruments for a user.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import bssh_sdk_2
+from bssh_sdk_2.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_key
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.api_key['x-access-token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['x-access-token'] = 'Bearer'
 # Configure OAuth2 access token for authorization: basespace_auth
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.BasespaceApi(swagger_client.ApiClient(configuration))
-allworkgroups = true # bool | 
-activeruns = true # bool | 
+api_instance = bssh_sdk_2.BasespaceApi(bssh_sdk_2.ApiClient(configuration))
+allworkgroups = true # bool |
+activeruns = true # bool |
 fromdate = 'fromdate_example' # str |  (optional)
 todate = 'todate_example' # str |  (optional)
 sortby = 'sortby_example' # str | The field(s) used to sort the result set (optional)
@@ -4120,15 +4120,15 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **allworkgroups** | **bool**|  | 
- **activeruns** | **bool**|  | 
- **fromdate** | **str**|  | [optional] 
- **todate** | **str**|  | [optional] 
- **sortby** | **str**| The field(s) used to sort the result set | [optional] 
- **offset** | **int**| The starting offset to read | [optional] 
- **limit** | **int**| The maximum number of items to return | [optional] 
- **sortdir** | **str**| The sort direction for the result set | [optional] 
- **id** | **str**| The Id of the resource | [optional] 
+ **allworkgroups** | **bool**|  |
+ **activeruns** | **bool**|  |
+ **fromdate** | **str**|  | [optional]
+ **todate** | **str**|  | [optional]
+ **sortby** | **str**| The field(s) used to sort the result set | [optional]
+ **offset** | **int**| The starting offset to read | [optional]
+ **limit** | **int**| The maximum number of items to return | [optional]
+ **sortdir** | **str**| The sort direction for the result set | [optional]
+ **id** | **str**| The Id of the resource | [optional]
 
 ### Return type
 
@@ -4156,21 +4156,21 @@ Get instrument statistics for given serial numbers and time range. Returned data
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import bssh_sdk_2
+from bssh_sdk_2.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_key
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.api_key['x-access-token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['x-access-token'] = 'Bearer'
 # Configure OAuth2 access token for authorization: basespace_auth
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.BasespaceApi(swagger_client.ApiClient(configuration))
+api_instance = bssh_sdk_2.BasespaceApi(bssh_sdk_2.ApiClient(configuration))
 serialnumbers = 'serialnumbers_example' # str | Comma-separated list of serial numbers.
 fromdate = NULL # object | From date in user ISO 8601 format.
 timezone = 'timezone_example' # str | User timezone for binning.
@@ -4194,16 +4194,16 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **serialnumbers** | **str**| Comma-separated list of serial numbers. | 
- **fromdate** | [**object**](.md)| From date in user ISO 8601 format. | 
- **timezone** | **str**| User timezone for binning. | 
- **todate** | [**object**](.md)| To date in ISO 8601 format. Defaults to current date if not specified. | [optional] 
- **binby** | **str**| BinBy can be &#x27;week&#x27; or &#x27;month&#x27;. | [optional] 
- **sortby** | **str**| The field(s) used to sort the result set | [optional] 
- **offset** | **int**| The starting offset to read | [optional] 
- **limit** | **int**| The maximum number of items to return | [optional] 
- **sortdir** | **str**| The sort direction for the result set | [optional] 
- **id** | **str**| The Id of the resource | [optional] 
+ **serialnumbers** | **str**| Comma-separated list of serial numbers. |
+ **fromdate** | [**object**](.md)| From date in user ISO 8601 format. |
+ **timezone** | **str**| User timezone for binning. |
+ **todate** | [**object**](.md)| To date in ISO 8601 format. Defaults to current date if not specified. | [optional]
+ **binby** | **str**| BinBy can be &#x27;week&#x27; or &#x27;month&#x27;. | [optional]
+ **sortby** | **str**| The field(s) used to sort the result set | [optional]
+ **offset** | **int**| The starting offset to read | [optional]
+ **limit** | **int**| The maximum number of items to return | [optional]
+ **sortdir** | **str**| The sort direction for the result set | [optional]
+ **id** | **str**| The Id of the resource | [optional]
 
 ### Return type
 
@@ -4231,21 +4231,21 @@ List of instruments with active runs
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import bssh_sdk_2
+from bssh_sdk_2.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_key
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.api_key['x-access-token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['x-access-token'] = 'Bearer'
 # Configure OAuth2 access token for authorization: basespace_auth
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.BasespaceApi(swagger_client.ApiClient(configuration))
+api_instance = bssh_sdk_2.BasespaceApi(bssh_sdk_2.ApiClient(configuration))
 includeactiveruns = true # bool | Set to true to include a list of active runs for each instrument.  Default is false.
 serialnumbers = 'serialnumbers_example' # str | A comma-delimited list of instrument serial numbers. (optional)
 sortby = 'sortby_example' # str | The field(s) used to sort the result set (optional)
@@ -4265,13 +4265,13 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **includeactiveruns** | **bool**| Set to true to include a list of active runs for each instrument.  Default is false. | 
- **serialnumbers** | **str**| A comma-delimited list of instrument serial numbers. | [optional] 
- **sortby** | **str**| The field(s) used to sort the result set | [optional] 
- **offset** | **int**| The starting offset to read | [optional] 
- **limit** | **int**| The maximum number of items to return | [optional] 
- **sortdir** | **str**| The sort direction for the result set | [optional] 
- **id** | **str**| The Id of the resource | [optional] 
+ **includeactiveruns** | **bool**| Set to true to include a list of active runs for each instrument.  Default is false. |
+ **serialnumbers** | **str**| A comma-delimited list of instrument serial numbers. | [optional]
+ **sortby** | **str**| The field(s) used to sort the result set | [optional]
+ **offset** | **int**| The starting offset to read | [optional]
+ **limit** | **int**| The maximum number of items to return | [optional]
+ **sortdir** | **str**| The sort direction for the result set | [optional]
+ **id** | **str**| The Id of the resource | [optional]
 
 ### Return type
 
@@ -4297,21 +4297,21 @@ Get a list of lab requeues
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import bssh_sdk_2
+from bssh_sdk_2.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_key
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.api_key['x-access-token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['x-access-token'] = 'Bearer'
 # Configure OAuth2 access token for authorization: basespace_auth
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.BasespaceApi(swagger_client.ApiClient(configuration))
+api_instance = bssh_sdk_2.BasespaceApi(bssh_sdk_2.ApiClient(configuration))
 status = ['status_example'] # list[str] | Only return labrequeues with the given Status(es) (optional)
 type = ['type_example'] # list[str] | Only return labrequeues with the given LabRequeueTypes(s) (optional)
 sortby = 'sortby_example' # str | The field(s) used to sort the result set (optional)
@@ -4332,13 +4332,13 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **status** | [**list[str]**](str.md)| Only return labrequeues with the given Status(es) | [optional] 
- **type** | [**list[str]**](str.md)| Only return labrequeues with the given LabRequeueTypes(s) | [optional] 
- **sortby** | **str**| The field(s) used to sort the result set | [optional] 
- **offset** | **int**| The starting offset to read | [optional] 
- **limit** | **int**| The maximum number of items to return | [optional] 
- **sortdir** | **str**| The sort direction for the result set | [optional] 
- **id** | **str**| The Id of the resource | [optional] 
+ **status** | [**list[str]**](str.md)| Only return labrequeues with the given Status(es) | [optional]
+ **type** | [**list[str]**](str.md)| Only return labrequeues with the given LabRequeueTypes(s) | [optional]
+ **sortby** | **str**| The field(s) used to sort the result set | [optional]
+ **offset** | **int**| The starting offset to read | [optional]
+ **limit** | **int**| The maximum number of items to return | [optional]
+ **sortdir** | **str**| The sort direction for the result set | [optional]
+ **id** | **str**| The Id of the resource | [optional]
 
 ### Return type
 
@@ -4364,21 +4364,21 @@ Get information about a specific labrequeue
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import bssh_sdk_2
+from bssh_sdk_2.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_key
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.api_key['x-access-token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['x-access-token'] = 'Bearer'
 # Configure OAuth2 access token for authorization: basespace_auth
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.BasespaceApi(swagger_client.ApiClient(configuration))
+api_instance = bssh_sdk_2.BasespaceApi(bssh_sdk_2.ApiClient(configuration))
 id = 'id_example' # str | Labrequeue ID
 
 try:
@@ -4393,7 +4393,7 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **id** | **str**| Labrequeue ID | 
+ **id** | **str**| Labrequeue ID |
 
 ### Return type
 
@@ -4421,21 +4421,21 @@ The QC thresholds are applied to a user's account. Any runs uploaded in that use
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import bssh_sdk_2
+from bssh_sdk_2.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_key
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.api_key['x-access-token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['x-access-token'] = 'Bearer'
 # Configure OAuth2 access token for authorization: basespace_auth
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.BasespaceApi(swagger_client.ApiClient(configuration))
+api_instance = bssh_sdk_2.BasespaceApi(bssh_sdk_2.ApiClient(configuration))
 id = 'id_example' # str | The Id of the resource (optional)
 
 try:
@@ -4450,7 +4450,7 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **id** | **str**| The Id of the resource | [optional] 
+ **id** | **str**| The Id of the resource | [optional]
 
 ### Return type
 
@@ -4476,21 +4476,21 @@ Get information about a lane
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import bssh_sdk_2
+from bssh_sdk_2.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_key
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.api_key['x-access-token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['x-access-token'] = 'Bearer'
 # Configure OAuth2 access token for authorization: basespace_auth
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.BasespaceApi(swagger_client.ApiClient(configuration))
+api_instance = bssh_sdk_2.BasespaceApi(bssh_sdk_2.ApiClient(configuration))
 id = 'id_example' # str | The Id of the resource
 
 try:
@@ -4505,7 +4505,7 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **id** | **str**| The Id of the resource | 
+ **id** | **str**| The Id of the resource |
 
 ### Return type
 
@@ -4531,21 +4531,21 @@ Get a list of comments on a lane
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import bssh_sdk_2
+from bssh_sdk_2.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_key
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.api_key['x-access-token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['x-access-token'] = 'Bearer'
 # Configure OAuth2 access token for authorization: basespace_auth
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.BasespaceApi(swagger_client.ApiClient(configuration))
+api_instance = bssh_sdk_2.BasespaceApi(bssh_sdk_2.ApiClient(configuration))
 id = 'id_example' # str | Lane ID
 sortby = 'sortby_example' # str | The field(s) used to sort the result set (optional)
 offset = 56 # int | The starting offset to read (optional)
@@ -4564,11 +4564,11 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **id** | **str**| Lane ID | 
- **sortby** | **str**| The field(s) used to sort the result set | [optional] 
- **offset** | **int**| The starting offset to read | [optional] 
- **limit** | **int**| The maximum number of items to return | [optional] 
- **sortdir** | **str**| The sort direction for the result set | [optional] 
+ **id** | **str**| Lane ID |
+ **sortby** | **str**| The field(s) used to sort the result set | [optional]
+ **offset** | **int**| The starting offset to read | [optional]
+ **limit** | **int**| The maximum number of items to return | [optional]
+ **sortdir** | **str**| The sort direction for the result set | [optional]
 
 ### Return type
 
@@ -4594,21 +4594,21 @@ Get a list of libraries
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import bssh_sdk_2
+from bssh_sdk_2.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_key
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.api_key['x-access-token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['x-access-token'] = 'Bearer'
 # Configure OAuth2 access token for authorization: basespace_auth
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.BasespaceApi(swagger_client.ApiClient(configuration))
+api_instance = bssh_sdk_2.BasespaceApi(bssh_sdk_2.ApiClient(configuration))
 status = ['status_example'] # list[str] |  (optional)
 sortby = 'sortby_example' # str | The field(s) used to sort the result set (optional)
 offset = 56 # int | The starting offset to read (optional)
@@ -4628,12 +4628,12 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **status** | [**list[str]**](str.md)|  | [optional] 
- **sortby** | **str**| The field(s) used to sort the result set | [optional] 
- **offset** | **int**| The starting offset to read | [optional] 
- **limit** | **int**| The maximum number of items to return | [optional] 
- **sortdir** | **str**| The sort direction for the result set | [optional] 
- **id** | **str**| The Id of the resource | [optional] 
+ **status** | [**list[str]**](str.md)|  | [optional]
+ **sortby** | **str**| The field(s) used to sort the result set | [optional]
+ **offset** | **int**| The starting offset to read | [optional]
+ **limit** | **int**| The maximum number of items to return | [optional]
+ **sortdir** | **str**| The sort direction for the result set | [optional]
+ **id** | **str**| The Id of the resource | [optional]
 
 ### Return type
 
@@ -4661,22 +4661,22 @@ List properties for a resource
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import bssh_sdk_2
+from bssh_sdk_2.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_key
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.api_key['x-access-token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['x-access-token'] = 'Bearer'
 # Configure OAuth2 access token for authorization: basespace_auth
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.BasespaceApi(swagger_client.ApiClient(configuration))
-id = 'id_example' # str | 
+api_instance = bssh_sdk_2.BasespaceApi(bssh_sdk_2.ApiClient(configuration))
+id = 'id_example' # str |
 propertieslimit = 56 # int | Limit the # of properties returned (optional)
 propertyitemslimit = 56 # int | Limit the # of property items returned per property (optional)
 propertyfilters = ['propertyfilters_example'] # list[str] | Filter by property name (optional)
@@ -4697,15 +4697,15 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **id** | **str**|  | 
- **propertieslimit** | **int**| Limit the # of properties returned | [optional] 
- **propertyitemslimit** | **int**| Limit the # of property items returned per property | [optional] 
- **propertyfilters** | [**list[str]**](str.md)| Filter by property name | [optional] 
- **showhiddenitems** | **str**| Show Hidden projects and Datasets | [optional] 
- **sortby** | **str**| The field(s) used to sort the result set | [optional] 
- **offset** | **int**| The starting offset to read | [optional] 
- **limit** | **int**| The maximum number of items to return | [optional] 
- **sortdir** | **str**| The sort direction for the result set | [optional] 
+ **id** | **str**|  |
+ **propertieslimit** | **int**| Limit the # of properties returned | [optional]
+ **propertyitemslimit** | **int**| Limit the # of property items returned per property | [optional]
+ **propertyfilters** | [**list[str]**](str.md)| Filter by property name | [optional]
+ **showhiddenitems** | **str**| Show Hidden projects and Datasets | [optional]
+ **sortby** | **str**| The field(s) used to sort the result set | [optional]
+ **offset** | **int**| The starting offset to read | [optional]
+ **limit** | **int**| The maximum number of items to return | [optional]
+ **sortdir** | **str**| The sort direction for the result set | [optional]
 
 ### Return type
 
@@ -4733,22 +4733,22 @@ Get property information
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import bssh_sdk_2
+from bssh_sdk_2.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_key
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.api_key['x-access-token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['x-access-token'] = 'Bearer'
 # Configure OAuth2 access token for authorization: basespace_auth
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.BasespaceApi(swagger_client.ApiClient(configuration))
-id = 'id_example' # str | 
+api_instance = bssh_sdk_2.BasespaceApi(bssh_sdk_2.ApiClient(configuration))
+id = 'id_example' # str |
 name = 'name_example' # str | Property name
 propertyitemslimit = 56 # int | Limit the # of property items returned per property (optional)
 showhiddenitems = 'showhiddenitems_example' # str | Hidden filter (optional)
@@ -4764,10 +4764,10 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **id** | **str**|  | 
- **name** | **str**| Property name | 
- **propertyitemslimit** | **int**| Limit the # of property items returned per property | [optional] 
- **showhiddenitems** | **str**| Hidden filter | [optional] 
+ **id** | **str**|  |
+ **name** | **str**| Property name |
+ **propertyitemslimit** | **int**| Limit the # of property items returned per property | [optional]
+ **showhiddenitems** | **str**| Hidden filter | [optional]
 
 ### Return type
 
@@ -4795,22 +4795,22 @@ Get property item details
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import bssh_sdk_2
+from bssh_sdk_2.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_key
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.api_key['x-access-token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['x-access-token'] = 'Bearer'
 # Configure OAuth2 access token for authorization: basespace_auth
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.BasespaceApi(swagger_client.ApiClient(configuration))
-id = 'id_example' # str | 
+api_instance = bssh_sdk_2.BasespaceApi(bssh_sdk_2.ApiClient(configuration))
+id = 'id_example' # str |
 name = 'name_example' # str | Property name
 showhiddenitems = 'showhiddenitems_example' # str | Hidden filter (optional)
 sortby = 'sortby_example' # str | The field(s) used to sort the result set (optional)
@@ -4829,13 +4829,13 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **id** | **str**|  | 
- **name** | **str**| Property name | 
- **showhiddenitems** | **str**| Hidden filter | [optional] 
- **sortby** | **str**| The field(s) used to sort the result set | [optional] 
- **offset** | **int**| The starting offset to read | [optional] 
- **limit** | **int**| The maximum number of items to return | [optional] 
- **sortdir** | **str**| The sort direction for the result set | [optional] 
+ **id** | **str**|  |
+ **name** | **str**| Property name |
+ **showhiddenitems** | **str**| Hidden filter | [optional]
+ **sortby** | **str**| The field(s) used to sort the result set | [optional]
+ **offset** | **int**| The starting offset to read | [optional]
+ **limit** | **int**| The maximum number of items to return | [optional]
+ **sortdir** | **str**| The sort direction for the result set | [optional]
 
 ### Return type
 
@@ -4861,21 +4861,21 @@ Get a list of library pools
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import bssh_sdk_2
+from bssh_sdk_2.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_key
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.api_key['x-access-token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['x-access-token'] = 'Bearer'
 # Configure OAuth2 access token for authorization: basespace_auth
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.BasespaceApi(swagger_client.ApiClient(configuration))
+api_instance = bssh_sdk_2.BasespaceApi(bssh_sdk_2.ApiClient(configuration))
 status = ['status_example'] # list[str] | Possible values are: Active, Failed, Consumed, QCFailed (optional)
 sortby = 'sortby_example' # str | The field(s) used to sort the result set (optional)
 offset = 56 # int | The starting offset to read (optional)
@@ -4895,12 +4895,12 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **status** | [**list[str]**](str.md)| Possible values are: Active, Failed, Consumed, QCFailed | [optional] 
- **sortby** | **str**| The field(s) used to sort the result set | [optional] 
- **offset** | **int**| The starting offset to read | [optional] 
- **limit** | **int**| The maximum number of items to return | [optional] 
- **sortdir** | **str**| The sort direction for the result set | [optional] 
- **id** | **str**| The Id of the resource | [optional] 
+ **status** | [**list[str]**](str.md)| Possible values are: Active, Failed, Consumed, QCFailed | [optional]
+ **sortby** | **str**| The field(s) used to sort the result set | [optional]
+ **offset** | **int**| The starting offset to read | [optional]
+ **limit** | **int**| The maximum number of items to return | [optional]
+ **sortdir** | **str**| The sort direction for the result set | [optional]
+ **id** | **str**| The Id of the resource | [optional]
 
 ### Return type
 
@@ -4926,21 +4926,21 @@ Get a list of libraries of a pool
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import bssh_sdk_2
+from bssh_sdk_2.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_key
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.api_key['x-access-token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['x-access-token'] = 'Bearer'
 # Configure OAuth2 access token for authorization: basespace_auth
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.BasespaceApi(swagger_client.ApiClient(configuration))
+api_instance = bssh_sdk_2.BasespaceApi(bssh_sdk_2.ApiClient(configuration))
 id = 'id_example' # str | The Id of the resource
 include = ['include_example'] # list[str] | Sub elements to include in the response: LibraryIndex, YieldInformation (optional)
 sortby = 'sortby_example' # str | The field(s) used to sort the result set (optional)
@@ -4960,12 +4960,12 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **id** | **str**| The Id of the resource | 
- **include** | [**list[str]**](str.md)| Sub elements to include in the response: LibraryIndex, YieldInformation | [optional] 
- **sortby** | **str**| The field(s) used to sort the result set | [optional] 
- **offset** | **int**| The starting offset to read | [optional] 
- **limit** | **int**| The maximum number of items to return | [optional] 
- **sortdir** | **str**| The sort direction for the result set | [optional] 
+ **id** | **str**| The Id of the resource |
+ **include** | [**list[str]**](str.md)| Sub elements to include in the response: LibraryIndex, YieldInformation | [optional]
+ **sortby** | **str**| The field(s) used to sort the result set | [optional]
+ **offset** | **int**| The starting offset to read | [optional]
+ **limit** | **int**| The maximum number of items to return | [optional]
+ **sortdir** | **str**| The sort direction for the result set | [optional]
 
 ### Return type
 
@@ -4993,22 +4993,22 @@ List properties for a resource
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import bssh_sdk_2
+from bssh_sdk_2.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_key
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.api_key['x-access-token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['x-access-token'] = 'Bearer'
 # Configure OAuth2 access token for authorization: basespace_auth
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.BasespaceApi(swagger_client.ApiClient(configuration))
-id = 'id_example' # str | 
+api_instance = bssh_sdk_2.BasespaceApi(bssh_sdk_2.ApiClient(configuration))
+id = 'id_example' # str |
 propertieslimit = 56 # int | Limit the # of properties returned (optional)
 propertyitemslimit = 56 # int | Limit the # of property items returned per property (optional)
 propertyfilters = ['propertyfilters_example'] # list[str] | Filter by property name (optional)
@@ -5029,15 +5029,15 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **id** | **str**|  | 
- **propertieslimit** | **int**| Limit the # of properties returned | [optional] 
- **propertyitemslimit** | **int**| Limit the # of property items returned per property | [optional] 
- **propertyfilters** | [**list[str]**](str.md)| Filter by property name | [optional] 
- **showhiddenitems** | **str**| Show Hidden projects and Datasets | [optional] 
- **sortby** | **str**| The field(s) used to sort the result set | [optional] 
- **offset** | **int**| The starting offset to read | [optional] 
- **limit** | **int**| The maximum number of items to return | [optional] 
- **sortdir** | **str**| The sort direction for the result set | [optional] 
+ **id** | **str**|  |
+ **propertieslimit** | **int**| Limit the # of properties returned | [optional]
+ **propertyitemslimit** | **int**| Limit the # of property items returned per property | [optional]
+ **propertyfilters** | [**list[str]**](str.md)| Filter by property name | [optional]
+ **showhiddenitems** | **str**| Show Hidden projects and Datasets | [optional]
+ **sortby** | **str**| The field(s) used to sort the result set | [optional]
+ **offset** | **int**| The starting offset to read | [optional]
+ **limit** | **int**| The maximum number of items to return | [optional]
+ **sortdir** | **str**| The sort direction for the result set | [optional]
 
 ### Return type
 
@@ -5065,22 +5065,22 @@ Get property information
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import bssh_sdk_2
+from bssh_sdk_2.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_key
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.api_key['x-access-token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['x-access-token'] = 'Bearer'
 # Configure OAuth2 access token for authorization: basespace_auth
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.BasespaceApi(swagger_client.ApiClient(configuration))
-id = 'id_example' # str | 
+api_instance = bssh_sdk_2.BasespaceApi(bssh_sdk_2.ApiClient(configuration))
+id = 'id_example' # str |
 name = 'name_example' # str | Property name
 propertyitemslimit = 56 # int | Limit the # of property items returned per property (optional)
 showhiddenitems = 'showhiddenitems_example' # str | Hidden filter (optional)
@@ -5096,10 +5096,10 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **id** | **str**|  | 
- **name** | **str**| Property name | 
- **propertyitemslimit** | **int**| Limit the # of property items returned per property | [optional] 
- **showhiddenitems** | **str**| Hidden filter | [optional] 
+ **id** | **str**|  |
+ **name** | **str**| Property name |
+ **propertyitemslimit** | **int**| Limit the # of property items returned per property | [optional]
+ **showhiddenitems** | **str**| Hidden filter | [optional]
 
 ### Return type
 
@@ -5127,22 +5127,22 @@ Get property item details
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import bssh_sdk_2
+from bssh_sdk_2.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_key
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.api_key['x-access-token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['x-access-token'] = 'Bearer'
 # Configure OAuth2 access token for authorization: basespace_auth
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.BasespaceApi(swagger_client.ApiClient(configuration))
-id = 'id_example' # str | 
+api_instance = bssh_sdk_2.BasespaceApi(bssh_sdk_2.ApiClient(configuration))
+id = 'id_example' # str |
 name = 'name_example' # str | Property name
 showhiddenitems = 'showhiddenitems_example' # str | Hidden filter (optional)
 sortby = 'sortby_example' # str | The field(s) used to sort the result set (optional)
@@ -5161,13 +5161,13 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **id** | **str**|  | 
- **name** | **str**| Property name | 
- **showhiddenitems** | **str**| Hidden filter | [optional] 
- **sortby** | **str**| The field(s) used to sort the result set | [optional] 
- **offset** | **int**| The starting offset to read | [optional] 
- **limit** | **int**| The maximum number of items to return | [optional] 
- **sortdir** | **str**| The sort direction for the result set | [optional] 
+ **id** | **str**|  |
+ **name** | **str**| Property name |
+ **showhiddenitems** | **str**| Hidden filter | [optional]
+ **sortby** | **str**| The field(s) used to sort the result set | [optional]
+ **offset** | **int**| The starting offset to read | [optional]
+ **limit** | **int**| The maximum number of items to return | [optional]
+ **sortdir** | **str**| The sort direction for the result set | [optional]
 
 ### Return type
 
@@ -5193,21 +5193,21 @@ Get information about a project
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import bssh_sdk_2
+from bssh_sdk_2.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_key
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.api_key['x-access-token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['x-access-token'] = 'Bearer'
 # Configure OAuth2 access token for authorization: basespace_auth
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.BasespaceApi(swagger_client.ApiClient(configuration))
+api_instance = bssh_sdk_2.BasespaceApi(bssh_sdk_2.ApiClient(configuration))
 id = 'id_example' # str | The Id of the resource
 propertieslimit = 56 # int |  (optional)
 propertyitemslimit = 56 # int |  (optional)
@@ -5225,10 +5225,10 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **id** | **str**| The Id of the resource | 
- **propertieslimit** | **int**|  | [optional] 
- **propertyitemslimit** | **int**|  | [optional] 
- **include** | [**list[str]**](str.md)|  | [optional] 
+ **id** | **str**| The Id of the resource |
+ **propertieslimit** | **int**|  | [optional]
+ **propertyitemslimit** | **int**|  | [optional]
+ **include** | [**list[str]**](str.md)|  | [optional]
 
 ### Return type
 
@@ -5254,21 +5254,21 @@ Get a list of datasets in a project
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import bssh_sdk_2
+from bssh_sdk_2.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_key
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.api_key['x-access-token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['x-access-token'] = 'Bearer'
 # Configure OAuth2 access token for authorization: basespace_auth
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.BasespaceApi(swagger_client.ApiClient(configuration))
+api_instance = bssh_sdk_2.BasespaceApi(bssh_sdk_2.ApiClient(configuration))
 id = 'id_example' # str | Project ID
 isarchived = 'isarchived_example' # str | The archive states to filter by. Valid values include: True, False. (optional)
 sortby = 'sortby_example' # str | The field(s) used to sort the result set (optional)
@@ -5288,12 +5288,12 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **id** | **str**| Project ID | 
- **isarchived** | **str**| The archive states to filter by. Valid values include: True, False. | [optional] 
- **sortby** | **str**| The field(s) used to sort the result set | [optional] 
- **offset** | **int**| The starting offset to read | [optional] 
- **limit** | **int**| The maximum number of items to return | [optional] 
- **sortdir** | **str**| The sort direction for the result set | [optional] 
+ **id** | **str**| Project ID |
+ **isarchived** | **str**| The archive states to filter by. Valid values include: True, False. | [optional]
+ **sortby** | **str**| The field(s) used to sort the result set | [optional]
+ **offset** | **int**| The starting offset to read | [optional]
+ **limit** | **int**| The maximum number of items to return | [optional]
+ **sortdir** | **str**| The sort direction for the result set | [optional]
 
 ### Return type
 
@@ -5321,22 +5321,22 @@ List properties for a resource
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import bssh_sdk_2
+from bssh_sdk_2.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_key
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.api_key['x-access-token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['x-access-token'] = 'Bearer'
 # Configure OAuth2 access token for authorization: basespace_auth
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.BasespaceApi(swagger_client.ApiClient(configuration))
-id = 'id_example' # str | 
+api_instance = bssh_sdk_2.BasespaceApi(bssh_sdk_2.ApiClient(configuration))
+id = 'id_example' # str |
 propertieslimit = 56 # int | Limit the # of properties returned (optional)
 propertyitemslimit = 56 # int | Limit the # of property items returned per property (optional)
 propertyfilters = ['propertyfilters_example'] # list[str] | Filter by property name (optional)
@@ -5357,15 +5357,15 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **id** | **str**|  | 
- **propertieslimit** | **int**| Limit the # of properties returned | [optional] 
- **propertyitemslimit** | **int**| Limit the # of property items returned per property | [optional] 
- **propertyfilters** | [**list[str]**](str.md)| Filter by property name | [optional] 
- **showhiddenitems** | **str**| Show Hidden projects and Datasets | [optional] 
- **sortby** | **str**| The field(s) used to sort the result set | [optional] 
- **offset** | **int**| The starting offset to read | [optional] 
- **limit** | **int**| The maximum number of items to return | [optional] 
- **sortdir** | **str**| The sort direction for the result set | [optional] 
+ **id** | **str**|  |
+ **propertieslimit** | **int**| Limit the # of properties returned | [optional]
+ **propertyitemslimit** | **int**| Limit the # of property items returned per property | [optional]
+ **propertyfilters** | [**list[str]**](str.md)| Filter by property name | [optional]
+ **showhiddenitems** | **str**| Show Hidden projects and Datasets | [optional]
+ **sortby** | **str**| The field(s) used to sort the result set | [optional]
+ **offset** | **int**| The starting offset to read | [optional]
+ **limit** | **int**| The maximum number of items to return | [optional]
+ **sortdir** | **str**| The sort direction for the result set | [optional]
 
 ### Return type
 
@@ -5393,22 +5393,22 @@ Get property information
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import bssh_sdk_2
+from bssh_sdk_2.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_key
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.api_key['x-access-token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['x-access-token'] = 'Bearer'
 # Configure OAuth2 access token for authorization: basespace_auth
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.BasespaceApi(swagger_client.ApiClient(configuration))
-id = 'id_example' # str | 
+api_instance = bssh_sdk_2.BasespaceApi(bssh_sdk_2.ApiClient(configuration))
+id = 'id_example' # str |
 name = 'name_example' # str | Property name
 propertyitemslimit = 56 # int | Limit the # of property items returned per property (optional)
 showhiddenitems = 'showhiddenitems_example' # str | Hidden filter (optional)
@@ -5424,10 +5424,10 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **id** | **str**|  | 
- **name** | **str**| Property name | 
- **propertyitemslimit** | **int**| Limit the # of property items returned per property | [optional] 
- **showhiddenitems** | **str**| Hidden filter | [optional] 
+ **id** | **str**|  |
+ **name** | **str**| Property name |
+ **propertyitemslimit** | **int**| Limit the # of property items returned per property | [optional]
+ **showhiddenitems** | **str**| Hidden filter | [optional]
 
 ### Return type
 
@@ -5455,22 +5455,22 @@ Get property item details
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import bssh_sdk_2
+from bssh_sdk_2.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_key
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.api_key['x-access-token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['x-access-token'] = 'Bearer'
 # Configure OAuth2 access token for authorization: basespace_auth
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.BasespaceApi(swagger_client.ApiClient(configuration))
-id = 'id_example' # str | 
+api_instance = bssh_sdk_2.BasespaceApi(bssh_sdk_2.ApiClient(configuration))
+id = 'id_example' # str |
 name = 'name_example' # str | Property name
 showhiddenitems = 'showhiddenitems_example' # str | Hidden filter (optional)
 sortby = 'sortby_example' # str | The field(s) used to sort the result set (optional)
@@ -5489,13 +5489,13 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **id** | **str**|  | 
- **name** | **str**| Property name | 
- **showhiddenitems** | **str**| Hidden filter | [optional] 
- **sortby** | **str**| The field(s) used to sort the result set | [optional] 
- **offset** | **int**| The starting offset to read | [optional] 
- **limit** | **int**| The maximum number of items to return | [optional] 
- **sortdir** | **str**| The sort direction for the result set | [optional] 
+ **id** | **str**|  |
+ **name** | **str**| Property name |
+ **showhiddenitems** | **str**| Hidden filter | [optional]
+ **sortby** | **str**| The field(s) used to sort the result set | [optional]
+ **offset** | **int**| The starting offset to read | [optional]
+ **limit** | **int**| The maximum number of items to return | [optional]
+ **sortdir** | **str**| The sort direction for the result set | [optional]
 
 ### Return type
 
@@ -5521,23 +5521,23 @@ Get a manifest of filesets for the requested resources (max 300 items)
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import bssh_sdk_2
+from bssh_sdk_2.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_key
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.api_key['x-access-token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['x-access-token'] = 'Bearer'
 # Configure OAuth2 access token for authorization: basespace_auth
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.BasespaceApi(swagger_client.ApiClient(configuration))
-fileszipped = true # bool | 
-excludeemptyfiles = true # bool | 
+api_instance = bssh_sdk_2.BasespaceApi(bssh_sdk_2.ApiClient(configuration))
+fileszipped = true # bool |
+excludeemptyfiles = true # bool |
 projects = ['projects_example'] # list[str] |  (optional)
 appsessions = ['appsessions_example'] # list[str] |  (optional)
 samples = ['samples_example'] # list[str] |  (optional)
@@ -5566,23 +5566,23 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **fileszipped** | **bool**|  | 
- **excludeemptyfiles** | **bool**|  | 
- **projects** | [**list[str]**](str.md)|  | [optional] 
- **appsessions** | [**list[str]**](str.md)|  | [optional] 
- **samples** | [**list[str]**](str.md)|  | [optional] 
- **appresults** | [**list[str]**](str.md)|  | [optional] 
- **datasets** | [**list[str]**](str.md)|  | [optional] 
- **runmetrics** | [**list[str]**](str.md)|  | [optional] 
- **runlogs** | [**list[str]**](str.md)|  | [optional] 
- **runimages** | [**list[str]**](str.md)|  | [optional] 
- **ipdrunparameters** | [**list[str]**](str.md)|  | [optional] 
- **extensions** | [**list[str]**](str.md)|  | [optional] 
- **sortby** | **str**| The field(s) used to sort the result set | [optional] 
- **offset** | **int**| The starting offset to read | [optional] 
- **limit** | **int**| The maximum number of items to return | [optional] 
- **sortdir** | **str**| The sort direction for the result set | [optional] 
- **id** | **str**| The Id of the resource | [optional] 
+ **fileszipped** | **bool**|  |
+ **excludeemptyfiles** | **bool**|  |
+ **projects** | [**list[str]**](str.md)|  | [optional]
+ **appsessions** | [**list[str]**](str.md)|  | [optional]
+ **samples** | [**list[str]**](str.md)|  | [optional]
+ **appresults** | [**list[str]**](str.md)|  | [optional]
+ **datasets** | [**list[str]**](str.md)|  | [optional]
+ **runmetrics** | [**list[str]**](str.md)|  | [optional]
+ **runlogs** | [**list[str]**](str.md)|  | [optional]
+ **runimages** | [**list[str]**](str.md)|  | [optional]
+ **ipdrunparameters** | [**list[str]**](str.md)|  | [optional]
+ **extensions** | [**list[str]**](str.md)|  | [optional]
+ **sortby** | **str**| The field(s) used to sort the result set | [optional]
+ **offset** | **int**| The starting offset to read | [optional]
+ **limit** | **int**| The maximum number of items to return | [optional]
+ **sortdir** | **str**| The sort direction for the result set | [optional]
+ **id** | **str**| The Id of the resource | [optional]
 
 ### Return type
 
@@ -5608,21 +5608,21 @@ Get a list of runs accessible by current user
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import bssh_sdk_2
+from bssh_sdk_2.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_key
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.api_key['x-access-token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['x-access-token'] = 'Bearer'
 # Configure OAuth2 access token for authorization: basespace_auth
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.BasespaceApi(swagger_client.ApiClient(configuration))
+api_instance = bssh_sdk_2.BasespaceApi(bssh_sdk_2.ApiClient(configuration))
 statuses = 'statuses_example' # str | The run statuses to filter by. Valid values include: New, Ready, Running, Paused, Stopped, Uploading, PendingAnalysis, Analyzing, Complete, Failed, NeedsAttention. Multiple values may be provided separated by commas. (optional)
 instrumenttype = 'instrumenttype_example' # str | The instrument type to filter by. (optional)
 laneandqcstatuses = 'laneandqcstatuses_example' # str | The lane and QC statues to filter by.  Valid values include: Inital, QcPassed, and LaneQcFailed.  Multiple values may be separated by commas. (optional)
@@ -5650,20 +5650,20 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **statuses** | **str**| The run statuses to filter by. Valid values include: New, Ready, Running, Paused, Stopped, Uploading, PendingAnalysis, Analyzing, Complete, Failed, NeedsAttention. Multiple values may be provided separated by commas. | [optional] 
- **instrumenttype** | **str**| The instrument type to filter by. | [optional] 
- **laneandqcstatuses** | **str**| The lane and QC statues to filter by.  Valid values include: Inital, QcPassed, and LaneQcFailed.  Multiple values may be separated by commas. | [optional] 
- **flowcellbarcode** | **str**| The flowcell barcode to filter by. To request empty barcodes, provide an empty string | [optional] 
- **experimentname** | **str**| The experiment name to filter by. | [optional] 
- **output_projects** | [**list[int]**](int.md)| The project ids to filter by. | [optional] 
- **include** | [**list[str]**](str.md)| Sub elements to include in the response | [optional] 
- **propertynamestartswith** | [**list[str]**](str.md)| Filter properties by name starting with. Max items returned is 1024. | [optional] 
- **excludepropertynamestartswith** | [**list[str]**](str.md)| Filter properties by name not starting with. Max items returned is 1024. | [optional] 
- **sortby** | **str**| The field(s) used to sort the result set | [optional] 
- **offset** | **int**| The starting offset to read | [optional] 
- **limit** | **int**| The maximum number of items to return | [optional] 
- **sortdir** | **str**| The sort direction for the result set | [optional] 
- **id** | **str**| The Id of the resource | [optional] 
+ **statuses** | **str**| The run statuses to filter by. Valid values include: New, Ready, Running, Paused, Stopped, Uploading, PendingAnalysis, Analyzing, Complete, Failed, NeedsAttention. Multiple values may be provided separated by commas. | [optional]
+ **instrumenttype** | **str**| The instrument type to filter by. | [optional]
+ **laneandqcstatuses** | **str**| The lane and QC statues to filter by.  Valid values include: Inital, QcPassed, and LaneQcFailed.  Multiple values may be separated by commas. | [optional]
+ **flowcellbarcode** | **str**| The flowcell barcode to filter by. To request empty barcodes, provide an empty string | [optional]
+ **experimentname** | **str**| The experiment name to filter by. | [optional]
+ **output_projects** | [**list[int]**](int.md)| The project ids to filter by. | [optional]
+ **include** | [**list[str]**](str.md)| Sub elements to include in the response | [optional]
+ **propertynamestartswith** | [**list[str]**](str.md)| Filter properties by name starting with. Max items returned is 1024. | [optional]
+ **excludepropertynamestartswith** | [**list[str]**](str.md)| Filter properties by name not starting with. Max items returned is 1024. | [optional]
+ **sortby** | **str**| The field(s) used to sort the result set | [optional]
+ **offset** | **int**| The starting offset to read | [optional]
+ **limit** | **int**| The maximum number of items to return | [optional]
+ **sortdir** | **str**| The sort direction for the result set | [optional]
+ **id** | **str**| The Id of the resource | [optional]
 
 ### Return type
 
@@ -5691,21 +5691,21 @@ check user access for the run ids and returned filtered list
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import bssh_sdk_2
+from bssh_sdk_2.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_key
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.api_key['x-access-token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['x-access-token'] = 'Bearer'
 # Configure OAuth2 access token for authorization: basespace_auth
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.BasespaceApi(swagger_client.ApiClient(configuration))
+api_instance = bssh_sdk_2.BasespaceApi(bssh_sdk_2.ApiClient(configuration))
 ids = [56] # list[int] |  (optional)
 
 try:
@@ -5719,7 +5719,7 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **ids** | [**list[int]**](int.md)|  | [optional] 
+ **ids** | [**list[int]**](int.md)|  | [optional]
 
 ### Return type
 
@@ -5745,21 +5745,21 @@ Get information about a run
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import bssh_sdk_2
+from bssh_sdk_2.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_key
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.api_key['x-access-token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['x-access-token'] = 'Bearer'
 # Configure OAuth2 access token for authorization: basespace_auth
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.BasespaceApi(swagger_client.ApiClient(configuration))
+api_instance = bssh_sdk_2.BasespaceApi(bssh_sdk_2.ApiClient(configuration))
 id = 'id_example' # str | The Id of the resource
 propertieslimit = 56 # int |  (optional)
 propertyitemslimit = 56 # int |  (optional)
@@ -5777,10 +5777,10 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **id** | **str**| The Id of the resource | 
- **propertieslimit** | **int**|  | [optional] 
- **propertyitemslimit** | **int**|  | [optional] 
- **include** | [**list[str]**](str.md)|  | [optional] 
+ **id** | **str**| The Id of the resource |
+ **propertieslimit** | **int**|  | [optional]
+ **propertyitemslimit** | **int**|  | [optional]
+ **include** | [**list[str]**](str.md)|  | [optional]
 
 ### Return type
 
@@ -5808,21 +5808,21 @@ Request direct file upload presigned url information for a new file in the speci
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import bssh_sdk_2
+from bssh_sdk_2.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_key
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.api_key['x-access-token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['x-access-token'] = 'Bearer'
 # Configure OAuth2 access token for authorization: basespace_auth
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.BasespaceApi(swagger_client.ApiClient(configuration))
+api_instance = bssh_sdk_2.BasespaceApi(bssh_sdk_2.ApiClient(configuration))
 id = 'id_example' # str | The Id of the resource
 filepath = 'filepath_example' # str |  (optional)
 uploadpartcount = 56 # int |  (optional)
@@ -5838,9 +5838,9 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **id** | **str**| The Id of the resource | 
- **filepath** | **str**|  | [optional] 
- **uploadpartcount** | **int**|  | [optional] 
+ **id** | **str**| The Id of the resource |
+ **filepath** | **str**|  | [optional]
+ **uploadpartcount** | **int**|  | [optional]
 
 ### Return type
 
@@ -5866,21 +5866,21 @@ Get a list of files of a run
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import bssh_sdk_2
+from bssh_sdk_2.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_key
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.api_key['x-access-token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['x-access-token'] = 'Bearer'
 # Configure OAuth2 access token for authorization: basespace_auth
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.BasespaceApi(swagger_client.ApiClient(configuration))
+api_instance = bssh_sdk_2.BasespaceApi(bssh_sdk_2.ApiClient(configuration))
 filehrefcontentresolution = true # bool | Resolves the HrefContent to the direct file URI to avoid a hop to GET: files/{id}/content
 recursive = true # bool | If a 'directory' is provided, files in subfolders of the given directory are also included
 id = 'id_example' # str | The Id of the resource
@@ -5907,19 +5907,19 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **filehrefcontentresolution** | **bool**| Resolves the HrefContent to the direct file URI to avoid a hop to GET: files/{id}/content | 
- **recursive** | **bool**| If a &#x27;directory&#x27; is provided, files in subfolders of the given directory are also included | 
- **id** | **str**| The Id of the resource | 
- **extensions** | **str**| The file extensions to filter by (comma-separated) | [optional] 
- **excludeextensions** | **str**| The file extensions to exclude (comma-separated) | [optional] 
- **directory** | **str**| The directory path to filter by (root is /) | [optional] 
- **statuses** | [**list[str]**](str.md)| Optionally filter by status (default complete) | [optional] 
- **include** | [**list[str]**](str.md)| Possible values: &#x27;Subdirectories&#x27;, &#x27;TotalCount&#x27; | [optional] 
- **pathprefix** | **str**| To be pre-fixed in the path of the file | [optional] 
- **sortby** | **str**| The field(s) used to sort the result set | [optional] 
- **offset** | **int**| The starting offset to read | [optional] 
- **limit** | **int**| The maximum number of items to return | [optional] 
- **sortdir** | **str**| The sort direction for the result set | [optional] 
+ **filehrefcontentresolution** | **bool**| Resolves the HrefContent to the direct file URI to avoid a hop to GET: files/{id}/content |
+ **recursive** | **bool**| If a &#x27;directory&#x27; is provided, files in subfolders of the given directory are also included |
+ **id** | **str**| The Id of the resource |
+ **extensions** | **str**| The file extensions to filter by (comma-separated) | [optional]
+ **excludeextensions** | **str**| The file extensions to exclude (comma-separated) | [optional]
+ **directory** | **str**| The directory path to filter by (root is /) | [optional]
+ **statuses** | [**list[str]**](str.md)| Optionally filter by status (default complete) | [optional]
+ **include** | [**list[str]**](str.md)| Possible values: &#x27;Subdirectories&#x27;, &#x27;TotalCount&#x27; | [optional]
+ **pathprefix** | **str**| To be pre-fixed in the path of the file | [optional]
+ **sortby** | **str**| The field(s) used to sort the result set | [optional]
+ **offset** | **int**| The starting offset to read | [optional]
+ **limit** | **int**| The maximum number of items to return | [optional]
+ **sortdir** | **str**| The sort direction for the result set | [optional]
 
 ### Return type
 
@@ -5947,22 +5947,22 @@ List properties for a resource
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import bssh_sdk_2
+from bssh_sdk_2.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_key
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.api_key['x-access-token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['x-access-token'] = 'Bearer'
 # Configure OAuth2 access token for authorization: basespace_auth
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.BasespaceApi(swagger_client.ApiClient(configuration))
-id = 'id_example' # str | 
+api_instance = bssh_sdk_2.BasespaceApi(bssh_sdk_2.ApiClient(configuration))
+id = 'id_example' # str |
 propertieslimit = 56 # int | Limit the # of properties returned (optional)
 propertyitemslimit = 56 # int | Limit the # of property items returned per property (optional)
 propertyfilters = ['propertyfilters_example'] # list[str] | Filter by property name (optional)
@@ -5983,15 +5983,15 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **id** | **str**|  | 
- **propertieslimit** | **int**| Limit the # of properties returned | [optional] 
- **propertyitemslimit** | **int**| Limit the # of property items returned per property | [optional] 
- **propertyfilters** | [**list[str]**](str.md)| Filter by property name | [optional] 
- **showhiddenitems** | **str**| Show Hidden projects and Datasets | [optional] 
- **sortby** | **str**| The field(s) used to sort the result set | [optional] 
- **offset** | **int**| The starting offset to read | [optional] 
- **limit** | **int**| The maximum number of items to return | [optional] 
- **sortdir** | **str**| The sort direction for the result set | [optional] 
+ **id** | **str**|  |
+ **propertieslimit** | **int**| Limit the # of properties returned | [optional]
+ **propertyitemslimit** | **int**| Limit the # of property items returned per property | [optional]
+ **propertyfilters** | [**list[str]**](str.md)| Filter by property name | [optional]
+ **showhiddenitems** | **str**| Show Hidden projects and Datasets | [optional]
+ **sortby** | **str**| The field(s) used to sort the result set | [optional]
+ **offset** | **int**| The starting offset to read | [optional]
+ **limit** | **int**| The maximum number of items to return | [optional]
+ **sortdir** | **str**| The sort direction for the result set | [optional]
 
 ### Return type
 
@@ -6019,22 +6019,22 @@ Get property information
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import bssh_sdk_2
+from bssh_sdk_2.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_key
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.api_key['x-access-token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['x-access-token'] = 'Bearer'
 # Configure OAuth2 access token for authorization: basespace_auth
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.BasespaceApi(swagger_client.ApiClient(configuration))
-id = 'id_example' # str | 
+api_instance = bssh_sdk_2.BasespaceApi(bssh_sdk_2.ApiClient(configuration))
+id = 'id_example' # str |
 name = 'name_example' # str | Property name
 propertyitemslimit = 56 # int | Limit the # of property items returned per property (optional)
 showhiddenitems = 'showhiddenitems_example' # str | Hidden filter (optional)
@@ -6050,10 +6050,10 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **id** | **str**|  | 
- **name** | **str**| Property name | 
- **propertyitemslimit** | **int**| Limit the # of property items returned per property | [optional] 
- **showhiddenitems** | **str**| Hidden filter | [optional] 
+ **id** | **str**|  |
+ **name** | **str**| Property name |
+ **propertyitemslimit** | **int**| Limit the # of property items returned per property | [optional]
+ **showhiddenitems** | **str**| Hidden filter | [optional]
 
 ### Return type
 
@@ -6081,22 +6081,22 @@ Get property item details
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import bssh_sdk_2
+from bssh_sdk_2.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_key
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.api_key['x-access-token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['x-access-token'] = 'Bearer'
 # Configure OAuth2 access token for authorization: basespace_auth
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.BasespaceApi(swagger_client.ApiClient(configuration))
-id = 'id_example' # str | 
+api_instance = bssh_sdk_2.BasespaceApi(bssh_sdk_2.ApiClient(configuration))
+id = 'id_example' # str |
 name = 'name_example' # str | Property name
 showhiddenitems = 'showhiddenitems_example' # str | Hidden filter (optional)
 sortby = 'sortby_example' # str | The field(s) used to sort the result set (optional)
@@ -6115,13 +6115,13 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **id** | **str**|  | 
- **name** | **str**| Property name | 
- **showhiddenitems** | **str**| Hidden filter | [optional] 
- **sortby** | **str**| The field(s) used to sort the result set | [optional] 
- **offset** | **int**| The starting offset to read | [optional] 
- **limit** | **int**| The maximum number of items to return | [optional] 
- **sortdir** | **str**| The sort direction for the result set | [optional] 
+ **id** | **str**|  |
+ **name** | **str**| Property name |
+ **showhiddenitems** | **str**| Hidden filter | [optional]
+ **sortby** | **str**| The field(s) used to sort the result set | [optional]
+ **offset** | **int**| The starting offset to read | [optional]
+ **limit** | **int**| The maximum number of items to return | [optional]
+ **sortdir** | **str**| The sort direction for the result set | [optional]
 
 ### Return type
 
@@ -6149,21 +6149,21 @@ Request run sample sheet
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import bssh_sdk_2
+from bssh_sdk_2.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_key
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.api_key['x-access-token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['x-access-token'] = 'Bearer'
 # Configure OAuth2 access token for authorization: basespace_auth
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.BasespaceApi(swagger_client.ApiClient(configuration))
+api_instance = bssh_sdk_2.BasespaceApi(bssh_sdk_2.ApiClient(configuration))
 id = 'id_example' # str | The Id of the resource
 
 try:
@@ -6177,7 +6177,7 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **id** | **str**| The Id of the resource | 
+ **id** | **str**| The Id of the resource |
 
 ### Return type
 
@@ -6205,21 +6205,21 @@ Request sequencing stats
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import bssh_sdk_2
+from bssh_sdk_2.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_key
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.api_key['x-access-token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['x-access-token'] = 'Bearer'
 # Configure OAuth2 access token for authorization: basespace_auth
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.BasespaceApi(swagger_client.ApiClient(configuration))
+api_instance = bssh_sdk_2.BasespaceApi(bssh_sdk_2.ApiClient(configuration))
 id = 'id_example' # str | The Id of the resource
 
 try:
@@ -6233,7 +6233,7 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **id** | **str**| The Id of the resource | 
+ **id** | **str**| The Id of the resource |
 
 ### Return type
 
@@ -6259,21 +6259,21 @@ Name | Type | Description  | Notes
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import bssh_sdk_2
+from bssh_sdk_2.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_key
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.api_key['x-access-token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['x-access-token'] = 'Bearer'
 # Configure OAuth2 access token for authorization: basespace_auth
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.BasespaceApi(swagger_client.ApiClient(configuration))
+api_instance = bssh_sdk_2.BasespaceApi(bssh_sdk_2.ApiClient(configuration))
 
 try:
     api_response = api_instance.get_v2_runuploadtest()
@@ -6311,21 +6311,21 @@ Request direct file upload presigned url information for a new file in the speci
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import bssh_sdk_2
+from bssh_sdk_2.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_key
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.api_key['x-access-token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['x-access-token'] = 'Bearer'
 # Configure OAuth2 access token for authorization: basespace_auth
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.BasespaceApi(swagger_client.ApiClient(configuration))
+api_instance = bssh_sdk_2.BasespaceApi(bssh_sdk_2.ApiClient(configuration))
 id = 'id_example' # str | The Id of the resource
 filepath = 'filepath_example' # str |  (optional)
 uploadpartcount = 56 # int |  (optional)
@@ -6341,9 +6341,9 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **id** | **str**| The Id of the resource | 
- **filepath** | **str**|  | [optional] 
- **uploadpartcount** | **int**|  | [optional] 
+ **id** | **str**| The Id of the resource |
+ **filepath** | **str**|  | [optional]
+ **uploadpartcount** | **int**|  | [optional]
 
 ### Return type
 
@@ -6371,22 +6371,22 @@ List properties for a resource
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import bssh_sdk_2
+from bssh_sdk_2.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_key
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.api_key['x-access-token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['x-access-token'] = 'Bearer'
 # Configure OAuth2 access token for authorization: basespace_auth
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.BasespaceApi(swagger_client.ApiClient(configuration))
-id = 'id_example' # str | 
+api_instance = bssh_sdk_2.BasespaceApi(bssh_sdk_2.ApiClient(configuration))
+id = 'id_example' # str |
 propertieslimit = 56 # int | Limit the # of properties returned (optional)
 propertyitemslimit = 56 # int | Limit the # of property items returned per property (optional)
 propertyfilters = ['propertyfilters_example'] # list[str] | Filter by property name (optional)
@@ -6407,15 +6407,15 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **id** | **str**|  | 
- **propertieslimit** | **int**| Limit the # of properties returned | [optional] 
- **propertyitemslimit** | **int**| Limit the # of property items returned per property | [optional] 
- **propertyfilters** | [**list[str]**](str.md)| Filter by property name | [optional] 
- **showhiddenitems** | **str**| Show Hidden projects and Datasets | [optional] 
- **sortby** | **str**| The field(s) used to sort the result set | [optional] 
- **offset** | **int**| The starting offset to read | [optional] 
- **limit** | **int**| The maximum number of items to return | [optional] 
- **sortdir** | **str**| The sort direction for the result set | [optional] 
+ **id** | **str**|  |
+ **propertieslimit** | **int**| Limit the # of properties returned | [optional]
+ **propertyitemslimit** | **int**| Limit the # of property items returned per property | [optional]
+ **propertyfilters** | [**list[str]**](str.md)| Filter by property name | [optional]
+ **showhiddenitems** | **str**| Show Hidden projects and Datasets | [optional]
+ **sortby** | **str**| The field(s) used to sort the result set | [optional]
+ **offset** | **int**| The starting offset to read | [optional]
+ **limit** | **int**| The maximum number of items to return | [optional]
+ **sortdir** | **str**| The sort direction for the result set | [optional]
 
 ### Return type
 
@@ -6443,22 +6443,22 @@ Get property information
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import bssh_sdk_2
+from bssh_sdk_2.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_key
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.api_key['x-access-token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['x-access-token'] = 'Bearer'
 # Configure OAuth2 access token for authorization: basespace_auth
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.BasespaceApi(swagger_client.ApiClient(configuration))
-id = 'id_example' # str | 
+api_instance = bssh_sdk_2.BasespaceApi(bssh_sdk_2.ApiClient(configuration))
+id = 'id_example' # str |
 name = 'name_example' # str | Property name
 propertyitemslimit = 56 # int | Limit the # of property items returned per property (optional)
 showhiddenitems = 'showhiddenitems_example' # str | Hidden filter (optional)
@@ -6474,10 +6474,10 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **id** | **str**|  | 
- **name** | **str**| Property name | 
- **propertyitemslimit** | **int**| Limit the # of property items returned per property | [optional] 
- **showhiddenitems** | **str**| Hidden filter | [optional] 
+ **id** | **str**|  |
+ **name** | **str**| Property name |
+ **propertyitemslimit** | **int**| Limit the # of property items returned per property | [optional]
+ **showhiddenitems** | **str**| Hidden filter | [optional]
 
 ### Return type
 
@@ -6505,22 +6505,22 @@ Get property item details
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import bssh_sdk_2
+from bssh_sdk_2.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_key
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.api_key['x-access-token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['x-access-token'] = 'Bearer'
 # Configure OAuth2 access token for authorization: basespace_auth
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.BasespaceApi(swagger_client.ApiClient(configuration))
-id = 'id_example' # str | 
+api_instance = bssh_sdk_2.BasespaceApi(bssh_sdk_2.ApiClient(configuration))
+id = 'id_example' # str |
 name = 'name_example' # str | Property name
 showhiddenitems = 'showhiddenitems_example' # str | Hidden filter (optional)
 sortby = 'sortby_example' # str | The field(s) used to sort the result set (optional)
@@ -6539,13 +6539,13 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **id** | **str**|  | 
- **name** | **str**| Property name | 
- **showhiddenitems** | **str**| Hidden filter | [optional] 
- **sortby** | **str**| The field(s) used to sort the result set | [optional] 
- **offset** | **int**| The starting offset to read | [optional] 
- **limit** | **int**| The maximum number of items to return | [optional] 
- **sortdir** | **str**| The sort direction for the result set | [optional] 
+ **id** | **str**|  |
+ **name** | **str**| Property name |
+ **showhiddenitems** | **str**| Hidden filter | [optional]
+ **sortby** | **str**| The field(s) used to sort the result set | [optional]
+ **offset** | **int**| The starting offset to read | [optional]
+ **limit** | **int**| The maximum number of items to return | [optional]
+ **sortdir** | **str**| The sort direction for the result set | [optional]
 
 ### Return type
 
@@ -6571,21 +6571,21 @@ Get a list of items in the trash
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import bssh_sdk_2
+from bssh_sdk_2.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_key
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.api_key['x-access-token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['x-access-token'] = 'Bearer'
 # Configure OAuth2 access token for authorization: basespace_auth
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.BasespaceApi(swagger_client.ApiClient(configuration))
+api_instance = bssh_sdk_2.BasespaceApi(bssh_sdk_2.ApiClient(configuration))
 sortby = 'sortby_example' # str | The field(s) used to sort the result set (optional)
 offset = 56 # int | The starting offset to read (optional)
 limit = 56 # int | The maximum number of items to return (optional)
@@ -6603,10 +6603,10 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **sortby** | **str**| The field(s) used to sort the result set | [optional] 
- **offset** | **int**| The starting offset to read | [optional] 
- **limit** | **int**| The maximum number of items to return | [optional] 
- **sortdir** | **str**| The sort direction for the result set | [optional] 
+ **sortby** | **str**| The field(s) used to sort the result set | [optional]
+ **offset** | **int**| The starting offset to read | [optional]
+ **limit** | **int**| The maximum number of items to return | [optional]
+ **sortdir** | **str**| The sort direction for the result set | [optional]
 
 ### Return type
 
@@ -6632,21 +6632,21 @@ Get information about an item in the trash
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import bssh_sdk_2
+from bssh_sdk_2.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_key
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.api_key['x-access-token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['x-access-token'] = 'Bearer'
 # Configure OAuth2 access token for authorization: basespace_auth
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.BasespaceApi(swagger_client.ApiClient(configuration))
+api_instance = bssh_sdk_2.BasespaceApi(bssh_sdk_2.ApiClient(configuration))
 id = 'id_example' # str | The Id of the resource
 
 try:
@@ -6661,7 +6661,7 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **id** | **str**| The Id of the resource | 
+ **id** | **str**| The Id of the resource |
 
 ### Return type
 
@@ -6687,21 +6687,21 @@ Get information about agreements visible to the current user
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import bssh_sdk_2
+from bssh_sdk_2.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_key
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.api_key['x-access-token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['x-access-token'] = 'Bearer'
 # Configure OAuth2 access token for authorization: basespace_auth
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.BasespaceApi(swagger_client.ApiClient(configuration))
+api_instance = bssh_sdk_2.BasespaceApi(bssh_sdk_2.ApiClient(configuration))
 applicationid = 'applicationid_example' # str | If specified, only return agreements for this application. If not, only return agreements not associated with an application. (optional)
 title = 'title_example' # str | If specified, only return agreements with titles exactly matching the specified value. (optional)
 category = 'category_example' # str | If specified, only return agreements with category exactly matching the specified value. (optional)
@@ -6724,15 +6724,15 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **applicationid** | **str**| If specified, only return agreements for this application. If not, only return agreements not associated with an application. | [optional] 
- **title** | **str**| If specified, only return agreements with titles exactly matching the specified value. | [optional] 
- **category** | **str**| If specified, only return agreements with category exactly matching the specified value. | [optional] 
- **include** | [**list[str]**](str.md)| Expand or filter the agreements returned. Include&#x3D;Expired will return expired agreements, giving a history of all agreements ever signed by the user. Include&#x3D;Pending looks for agreements that the user hasn&#x27;t signed yet. | [optional] 
- **sortby** | **str**| The field(s) used to sort the result set | [optional] 
- **offset** | **int**| The starting offset to read | [optional] 
- **limit** | **int**| The maximum number of items to return | [optional] 
- **sortdir** | **str**| The sort direction for the result set | [optional] 
- **id** | **str**| The Id of the resource | [optional] 
+ **applicationid** | **str**| If specified, only return agreements for this application. If not, only return agreements not associated with an application. | [optional]
+ **title** | **str**| If specified, only return agreements with titles exactly matching the specified value. | [optional]
+ **category** | **str**| If specified, only return agreements with category exactly matching the specified value. | [optional]
+ **include** | [**list[str]**](str.md)| Expand or filter the agreements returned. Include&#x3D;Expired will return expired agreements, giving a history of all agreements ever signed by the user. Include&#x3D;Pending looks for agreements that the user hasn&#x27;t signed yet. | [optional]
+ **sortby** | **str**| The field(s) used to sort the result set | [optional]
+ **offset** | **int**| The starting offset to read | [optional]
+ **limit** | **int**| The maximum number of items to return | [optional]
+ **sortdir** | **str**| The sort direction for the result set | [optional]
+ **id** | **str**| The Id of the resource | [optional]
 
 ### Return type
 
@@ -6758,21 +6758,21 @@ Get information about the current user's account
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import bssh_sdk_2
+from bssh_sdk_2.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_key
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.api_key['x-access-token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['x-access-token'] = 'Bearer'
 # Configure OAuth2 access token for authorization: basespace_auth
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.BasespaceApi(swagger_client.ApiClient(configuration))
+api_instance = bssh_sdk_2.BasespaceApi(bssh_sdk_2.ApiClient(configuration))
 options = 'options_example' # str |  (optional)
 include = ['include_example'] # list[str] |  (optional)
 id = 'id_example' # str | The Id of the resource (optional)
@@ -6789,9 +6789,9 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **options** | **str**|  | [optional] 
- **include** | [**list[str]**](str.md)|  | [optional] 
- **id** | **str**| The Id of the resource | [optional] 
+ **options** | **str**|  | [optional]
+ **include** | [**list[str]**](str.md)|  | [optional]
+ **id** | **str**| The Id of the resource | [optional]
 
 ### Return type
 
@@ -6817,21 +6817,21 @@ Is user a wet lab or dry lab user?
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import bssh_sdk_2
+from bssh_sdk_2.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_key
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.api_key['x-access-token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['x-access-token'] = 'Bearer'
 # Configure OAuth2 access token for authorization: basespace_auth
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.BasespaceApi(swagger_client.ApiClient(configuration))
+api_instance = bssh_sdk_2.BasespaceApi(bssh_sdk_2.ApiClient(configuration))
 id = 'id_example' # str | The Id of the resource (optional)
 
 try:
@@ -6846,7 +6846,7 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **id** | **str**| The Id of the resource | [optional] 
+ **id** | **str**| The Id of the resource | [optional]
 
 ### Return type
 
@@ -6872,21 +6872,21 @@ Get a list of messages that have been sent to the requesting user.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import bssh_sdk_2
+from bssh_sdk_2.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_key
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.api_key['x-access-token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['x-access-token'] = 'Bearer'
 # Configure OAuth2 access token for authorization: basespace_auth
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.BasespaceApi(swagger_client.ApiClient(configuration))
+api_instance = bssh_sdk_2.BasespaceApi(bssh_sdk_2.ApiClient(configuration))
 sortby = 'sortby_example' # str | The field(s) used to sort the result set (optional)
 offset = 56 # int | The starting offset to read (optional)
 limit = 56 # int | The maximum number of items to return (optional)
@@ -6905,11 +6905,11 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **sortby** | **str**| The field(s) used to sort the result set | [optional] 
- **offset** | **int**| The starting offset to read | [optional] 
- **limit** | **int**| The maximum number of items to return | [optional] 
- **sortdir** | **str**| The sort direction for the result set | [optional] 
- **id** | **str**| The Id of the resource | [optional] 
+ **sortby** | **str**| The field(s) used to sort the result set | [optional]
+ **offset** | **int**| The starting offset to read | [optional]
+ **limit** | **int**| The maximum number of items to return | [optional]
+ **sortdir** | **str**| The sort direction for the result set | [optional]
+ **id** | **str**| The Id of the resource | [optional]
 
 ### Return type
 
@@ -6937,22 +6937,22 @@ List notifications for a user
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import bssh_sdk_2
+from bssh_sdk_2.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_key
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.api_key['x-access-token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['x-access-token'] = 'Bearer'
 # Configure OAuth2 access token for authorization: basespace_auth
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.BasespaceApi(swagger_client.ApiClient(configuration))
-streamtype = 'streamtype_example' # str | The classification of user notifications to receive. Applicable values are 'All', 'Activity', 'Storage', 'DataDeletion', 'Subscription', 'CMS' 
+api_instance = bssh_sdk_2.BasespaceApi(bssh_sdk_2.ApiClient(configuration))
+streamtype = 'streamtype_example' # str | The classification of user notifications to receive. Applicable values are 'All', 'Activity', 'Storage', 'DataDeletion', 'Subscription', 'CMS'
 attentionrequired = true # bool | AttentionRequired
 category = 'category_example' # str | The category within a 'Stream' of user notifications to receive. Currently only 'Activity' Stream supports Categories. Applicable values are 'All', 'Run', 'AppSession', 'Invite' (optional)
 sortby = 'sortby_example' # str | The field(s) used to sort the result set (optional)
@@ -6972,14 +6972,14 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **streamtype** | **str**| The classification of user notifications to receive. Applicable values are &#x27;All&#x27;, &#x27;Activity&#x27;, &#x27;Storage&#x27;, &#x27;DataDeletion&#x27;, &#x27;Subscription&#x27;, &#x27;CMS&#x27;  | 
- **attentionrequired** | **bool**| AttentionRequired | 
- **category** | **str**| The category within a &#x27;Stream&#x27; of user notifications to receive. Currently only &#x27;Activity&#x27; Stream supports Categories. Applicable values are &#x27;All&#x27;, &#x27;Run&#x27;, &#x27;AppSession&#x27;, &#x27;Invite&#x27; | [optional] 
- **sortby** | **str**| The field(s) used to sort the result set | [optional] 
- **offset** | **int**| The starting offset to read | [optional] 
- **limit** | **int**| The maximum number of items to return | [optional] 
- **sortdir** | **str**| The sort direction for the result set | [optional] 
- **id** | **str**| The Id of the resource | [optional] 
+ **streamtype** | **str**| The classification of user notifications to receive. Applicable values are &#x27;All&#x27;, &#x27;Activity&#x27;, &#x27;Storage&#x27;, &#x27;DataDeletion&#x27;, &#x27;Subscription&#x27;, &#x27;CMS&#x27;  |
+ **attentionrequired** | **bool**| AttentionRequired |
+ **category** | **str**| The category within a &#x27;Stream&#x27; of user notifications to receive. Currently only &#x27;Activity&#x27; Stream supports Categories. Applicable values are &#x27;All&#x27;, &#x27;Run&#x27;, &#x27;AppSession&#x27;, &#x27;Invite&#x27; | [optional]
+ **sortby** | **str**| The field(s) used to sort the result set | [optional]
+ **offset** | **int**| The starting offset to read | [optional]
+ **limit** | **int**| The maximum number of items to return | [optional]
+ **sortdir** | **str**| The sort direction for the result set | [optional]
+ **id** | **str**| The Id of the resource | [optional]
 
 ### Return type
 
@@ -7007,21 +7007,21 @@ List properties for a resource
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import bssh_sdk_2
+from bssh_sdk_2.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_key
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.api_key['x-access-token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['x-access-token'] = 'Bearer'
 # Configure OAuth2 access token for authorization: basespace_auth
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.BasespaceApi(swagger_client.ApiClient(configuration))
+api_instance = bssh_sdk_2.BasespaceApi(bssh_sdk_2.ApiClient(configuration))
 id = 'id_example' # str |  (optional)
 propertieslimit = 56 # int | Limit the # of properties returned (optional)
 propertyitemslimit = 56 # int | Limit the # of property items returned per property (optional)
@@ -7043,15 +7043,15 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **id** | **str**|  | [optional] 
- **propertieslimit** | **int**| Limit the # of properties returned | [optional] 
- **propertyitemslimit** | **int**| Limit the # of property items returned per property | [optional] 
- **propertyfilters** | [**list[str]**](str.md)| Filter by property name | [optional] 
- **showhiddenitems** | **str**| Show Hidden projects and Datasets | [optional] 
- **sortby** | **str**| The field(s) used to sort the result set | [optional] 
- **offset** | **int**| The starting offset to read | [optional] 
- **limit** | **int**| The maximum number of items to return | [optional] 
- **sortdir** | **str**| The sort direction for the result set | [optional] 
+ **id** | **str**|  | [optional]
+ **propertieslimit** | **int**| Limit the # of properties returned | [optional]
+ **propertyitemslimit** | **int**| Limit the # of property items returned per property | [optional]
+ **propertyfilters** | [**list[str]**](str.md)| Filter by property name | [optional]
+ **showhiddenitems** | **str**| Show Hidden projects and Datasets | [optional]
+ **sortby** | **str**| The field(s) used to sort the result set | [optional]
+ **offset** | **int**| The starting offset to read | [optional]
+ **limit** | **int**| The maximum number of items to return | [optional]
+ **sortdir** | **str**| The sort direction for the result set | [optional]
 
 ### Return type
 
@@ -7079,21 +7079,21 @@ Get property information
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import bssh_sdk_2
+from bssh_sdk_2.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_key
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.api_key['x-access-token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['x-access-token'] = 'Bearer'
 # Configure OAuth2 access token for authorization: basespace_auth
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.BasespaceApi(swagger_client.ApiClient(configuration))
+api_instance = bssh_sdk_2.BasespaceApi(bssh_sdk_2.ApiClient(configuration))
 name = 'name_example' # str | Property name
 id = 'id_example' # str |  (optional)
 propertyitemslimit = 56 # int | Limit the # of property items returned per property (optional)
@@ -7110,10 +7110,10 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **name** | **str**| Property name | 
- **id** | **str**|  | [optional] 
- **propertyitemslimit** | **int**| Limit the # of property items returned per property | [optional] 
- **showhiddenitems** | **str**| Hidden filter | [optional] 
+ **name** | **str**| Property name |
+ **id** | **str**|  | [optional]
+ **propertyitemslimit** | **int**| Limit the # of property items returned per property | [optional]
+ **showhiddenitems** | **str**| Hidden filter | [optional]
 
 ### Return type
 
@@ -7141,21 +7141,21 @@ Get property item details
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import bssh_sdk_2
+from bssh_sdk_2.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_key
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.api_key['x-access-token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['x-access-token'] = 'Bearer'
 # Configure OAuth2 access token for authorization: basespace_auth
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.BasespaceApi(swagger_client.ApiClient(configuration))
+api_instance = bssh_sdk_2.BasespaceApi(bssh_sdk_2.ApiClient(configuration))
 name = 'name_example' # str | Property name
 id = 'id_example' # str |  (optional)
 showhiddenitems = 'showhiddenitems_example' # str | Hidden filter (optional)
@@ -7175,13 +7175,13 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **name** | **str**| Property name | 
- **id** | **str**|  | [optional] 
- **showhiddenitems** | **str**| Hidden filter | [optional] 
- **sortby** | **str**| The field(s) used to sort the result set | [optional] 
- **offset** | **int**| The starting offset to read | [optional] 
- **limit** | **int**| The maximum number of items to return | [optional] 
- **sortdir** | **str**| The sort direction for the result set | [optional] 
+ **name** | **str**| Property name |
+ **id** | **str**|  | [optional]
+ **showhiddenitems** | **str**| Hidden filter | [optional]
+ **sortby** | **str**| The field(s) used to sort the result set | [optional]
+ **offset** | **int**| The starting offset to read | [optional]
+ **limit** | **int**| The maximum number of items to return | [optional]
+ **sortdir** | **str**| The sort direction for the result set | [optional]
 
 ### Return type
 
@@ -7207,22 +7207,22 @@ Get information about the current user�s subscriptions
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import bssh_sdk_2
+from bssh_sdk_2.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_key
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.api_key['x-access-token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['x-access-token'] = 'Bearer'
 # Configure OAuth2 access token for authorization: basespace_auth
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.BasespaceApi(swagger_client.ApiClient(configuration))
-refreshcache = true # bool | 
+api_instance = bssh_sdk_2.BasespaceApi(bssh_sdk_2.ApiClient(configuration))
+refreshcache = true # bool |
 id = 'id_example' # str | The Id of the resource (optional)
 
 try:
@@ -7237,8 +7237,8 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **refreshcache** | **bool**|  | 
- **id** | **str**| The Id of the resource | [optional] 
+ **refreshcache** | **bool**|  |
+ **id** | **str**| The Id of the resource | [optional]
 
 ### Return type
 
@@ -7266,24 +7266,24 @@ Information about storage and compute usage will be returned for the user’s pe
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import bssh_sdk_2
+from bssh_sdk_2.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_key
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.api_key['x-access-token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['x-access-token'] = 'Bearer'
 # Configure OAuth2 access token for authorization: basespace_auth
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.BasespaceApi(swagger_client.ApiClient(configuration))
-includeloggedinuser = true # bool | 
-periods = 56 # int | 
-refreshcache = true # bool | 
+api_instance = bssh_sdk_2.BasespaceApi(bssh_sdk_2.ApiClient(configuration))
+includeloggedinuser = true # bool |
+periods = 56 # int |
+refreshcache = true # bool |
 sortby = 'sortby_example' # str | The field(s) used to sort the result set (optional)
 offset = 56 # int | The starting offset to read (optional)
 limit = 56 # int | The maximum number of items to return (optional)
@@ -7302,14 +7302,14 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **includeloggedinuser** | **bool**|  | 
- **periods** | **int**|  | 
- **refreshcache** | **bool**|  | 
- **sortby** | **str**| The field(s) used to sort the result set | [optional] 
- **offset** | **int**| The starting offset to read | [optional] 
- **limit** | **int**| The maximum number of items to return | [optional] 
- **sortdir** | **str**| The sort direction for the result set | [optional] 
- **id** | **str**| The Id of the resource | [optional] 
+ **includeloggedinuser** | **bool**|  |
+ **periods** | **int**|  |
+ **refreshcache** | **bool**|  |
+ **sortby** | **str**| The field(s) used to sort the result set | [optional]
+ **offset** | **int**| The starting offset to read | [optional]
+ **limit** | **int**| The maximum number of items to return | [optional]
+ **sortdir** | **str**| The sort direction for the result set | [optional]
+ **id** | **str**| The Id of the resource | [optional]
 
 ### Return type
 
@@ -7335,21 +7335,21 @@ Get information about a user
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import bssh_sdk_2
+from bssh_sdk_2.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_key
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.api_key['x-access-token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['x-access-token'] = 'Bearer'
 # Configure OAuth2 access token for authorization: basespace_auth
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.BasespaceApi(swagger_client.ApiClient(configuration))
+api_instance = bssh_sdk_2.BasespaceApi(bssh_sdk_2.ApiClient(configuration))
 id = 'id_example' # str | The Id of the resource
 options = 'options_example' # str |  (optional)
 include = ['include_example'] # list[str] |  (optional)
@@ -7366,9 +7366,9 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **id** | **str**| The Id of the resource | 
- **options** | **str**|  | [optional] 
- **include** | [**list[str]**](str.md)|  | [optional] 
+ **id** | **str**| The Id of the resource |
+ **options** | **str**|  | [optional]
+ **include** | [**list[str]**](str.md)|  | [optional]
 
 ### Return type
 
@@ -7394,21 +7394,21 @@ Get a list of auto-deletion events for the specified user.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import bssh_sdk_2
+from bssh_sdk_2.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_key
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.api_key['x-access-token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['x-access-token'] = 'Bearer'
 # Configure OAuth2 access token for authorization: basespace_auth
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.BasespaceApi(swagger_client.ApiClient(configuration))
+api_instance = bssh_sdk_2.BasespaceApi(bssh_sdk_2.ApiClient(configuration))
 id = 'id_example' # str | The Id of the resource
 sortby = 'sortby_example' # str | The field(s) used to sort the result set (optional)
 offset = 56 # int | The starting offset to read (optional)
@@ -7427,11 +7427,11 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **id** | **str**| The Id of the resource | 
- **sortby** | **str**| The field(s) used to sort the result set | [optional] 
- **offset** | **int**| The starting offset to read | [optional] 
- **limit** | **int**| The maximum number of items to return | [optional] 
- **sortdir** | **str**| The sort direction for the result set | [optional] 
+ **id** | **str**| The Id of the resource |
+ **sortby** | **str**| The field(s) used to sort the result set | [optional]
+ **offset** | **int**| The starting offset to read | [optional]
+ **limit** | **int**| The maximum number of items to return | [optional]
+ **sortdir** | **str**| The sort direction for the result set | [optional]
 
 ### Return type
 
@@ -7457,21 +7457,21 @@ Get a list of messages that have been sent to a specific user.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import bssh_sdk_2
+from bssh_sdk_2.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_key
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.api_key['x-access-token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['x-access-token'] = 'Bearer'
 # Configure OAuth2 access token for authorization: basespace_auth
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.BasespaceApi(swagger_client.ApiClient(configuration))
+api_instance = bssh_sdk_2.BasespaceApi(bssh_sdk_2.ApiClient(configuration))
 id = 'id_example' # str | The Id of the resource
 sortby = 'sortby_example' # str | The field(s) used to sort the result set (optional)
 offset = 56 # int | The starting offset to read (optional)
@@ -7490,11 +7490,11 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **id** | **str**| The Id of the resource | 
- **sortby** | **str**| The field(s) used to sort the result set | [optional] 
- **offset** | **int**| The starting offset to read | [optional] 
- **limit** | **int**| The maximum number of items to return | [optional] 
- **sortdir** | **str**| The sort direction for the result set | [optional] 
+ **id** | **str**| The Id of the resource |
+ **sortby** | **str**| The field(s) used to sort the result set | [optional]
+ **offset** | **int**| The starting offset to read | [optional]
+ **limit** | **int**| The maximum number of items to return | [optional]
+ **sortdir** | **str**| The sort direction for the result set | [optional]
 
 ### Return type
 
@@ -7522,22 +7522,22 @@ List notifications for a user
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import bssh_sdk_2
+from bssh_sdk_2.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_key
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.api_key['x-access-token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['x-access-token'] = 'Bearer'
 # Configure OAuth2 access token for authorization: basespace_auth
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.BasespaceApi(swagger_client.ApiClient(configuration))
-streamtype = 'streamtype_example' # str | The classification of user notifications to receive. Applicable values are 'All', 'Activity', 'Storage', 'DataDeletion', 'Subscription', 'CMS' 
+api_instance = bssh_sdk_2.BasespaceApi(bssh_sdk_2.ApiClient(configuration))
+streamtype = 'streamtype_example' # str | The classification of user notifications to receive. Applicable values are 'All', 'Activity', 'Storage', 'DataDeletion', 'Subscription', 'CMS'
 attentionrequired = true # bool | AttentionRequired
 id = 'id_example' # str | The Id of the resource
 category = 'category_example' # str | The category within a 'Stream' of user notifications to receive. Currently only 'Activity' Stream supports Categories. Applicable values are 'All', 'Run', 'AppSession', 'Invite' (optional)
@@ -7557,14 +7557,14 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **streamtype** | **str**| The classification of user notifications to receive. Applicable values are &#x27;All&#x27;, &#x27;Activity&#x27;, &#x27;Storage&#x27;, &#x27;DataDeletion&#x27;, &#x27;Subscription&#x27;, &#x27;CMS&#x27;  | 
- **attentionrequired** | **bool**| AttentionRequired | 
- **id** | **str**| The Id of the resource | 
- **category** | **str**| The category within a &#x27;Stream&#x27; of user notifications to receive. Currently only &#x27;Activity&#x27; Stream supports Categories. Applicable values are &#x27;All&#x27;, &#x27;Run&#x27;, &#x27;AppSession&#x27;, &#x27;Invite&#x27; | [optional] 
- **sortby** | **str**| The field(s) used to sort the result set | [optional] 
- **offset** | **int**| The starting offset to read | [optional] 
- **limit** | **int**| The maximum number of items to return | [optional] 
- **sortdir** | **str**| The sort direction for the result set | [optional] 
+ **streamtype** | **str**| The classification of user notifications to receive. Applicable values are &#x27;All&#x27;, &#x27;Activity&#x27;, &#x27;Storage&#x27;, &#x27;DataDeletion&#x27;, &#x27;Subscription&#x27;, &#x27;CMS&#x27;  |
+ **attentionrequired** | **bool**| AttentionRequired |
+ **id** | **str**| The Id of the resource |
+ **category** | **str**| The category within a &#x27;Stream&#x27; of user notifications to receive. Currently only &#x27;Activity&#x27; Stream supports Categories. Applicable values are &#x27;All&#x27;, &#x27;Run&#x27;, &#x27;AppSession&#x27;, &#x27;Invite&#x27; | [optional]
+ **sortby** | **str**| The field(s) used to sort the result set | [optional]
+ **offset** | **int**| The starting offset to read | [optional]
+ **limit** | **int**| The maximum number of items to return | [optional]
+ **sortdir** | **str**| The sort direction for the result set | [optional]
 
 ### Return type
 
@@ -7590,21 +7590,21 @@ Get a list of the user's settings
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import bssh_sdk_2
+from bssh_sdk_2.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_key
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.api_key['x-access-token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['x-access-token'] = 'Bearer'
 # Configure OAuth2 access token for authorization: basespace_auth
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.BasespaceApi(swagger_client.ApiClient(configuration))
+api_instance = bssh_sdk_2.BasespaceApi(bssh_sdk_2.ApiClient(configuration))
 id = 'id_example' # str | The Id of the resource
 sortby = 'sortby_example' # str | The field(s) used to sort the result set (optional)
 offset = 56 # int | The starting offset to read (optional)
@@ -7623,11 +7623,11 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **id** | **str**| The Id of the resource | 
- **sortby** | **str**| The field(s) used to sort the result set | [optional] 
- **offset** | **int**| The starting offset to read | [optional] 
- **limit** | **int**| The maximum number of items to return | [optional] 
- **sortdir** | **str**| The sort direction for the result set | [optional] 
+ **id** | **str**| The Id of the resource |
+ **sortby** | **str**| The field(s) used to sort the result set | [optional]
+ **offset** | **int**| The starting offset to read | [optional]
+ **limit** | **int**| The maximum number of items to return | [optional]
+ **sortdir** | **str**| The sort direction for the result set | [optional]
 
 ### Return type
 
@@ -7653,22 +7653,22 @@ Get information about a user's subscriptions
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import bssh_sdk_2
+from bssh_sdk_2.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_key
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.api_key['x-access-token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['x-access-token'] = 'Bearer'
 # Configure OAuth2 access token for authorization: basespace_auth
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.BasespaceApi(swagger_client.ApiClient(configuration))
-refreshcache = true # bool | 
+api_instance = bssh_sdk_2.BasespaceApi(bssh_sdk_2.ApiClient(configuration))
+refreshcache = true # bool |
 id = 'id_example' # str | The Id of the resource
 
 try:
@@ -7683,8 +7683,8 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **refreshcache** | **bool**|  | 
- **id** | **str**| The Id of the resource | 
+ **refreshcache** | **bool**|  |
+ **id** | **str**| The Id of the resource |
 
 ### Return type
 
@@ -7710,21 +7710,21 @@ Get a list of workgroups the user belongs to
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import bssh_sdk_2
+from bssh_sdk_2.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_key
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.api_key['x-access-token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['x-access-token'] = 'Bearer'
 # Configure OAuth2 access token for authorization: basespace_auth
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.BasespaceApi(swagger_client.ApiClient(configuration))
+api_instance = bssh_sdk_2.BasespaceApi(bssh_sdk_2.ApiClient(configuration))
 includeloggedinuser = true # bool | Includes current user
 activeonly = true # bool | Excludes inactive workgroups
 refreshcache = true # bool | This will force a refresh on the workgroup subscriptions
@@ -7748,16 +7748,16 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **includeloggedinuser** | **bool**| Includes current user | 
- **activeonly** | **bool**| Excludes inactive workgroups | 
- **refreshcache** | **bool**| This will force a refresh on the workgroup subscriptions | 
- **includesubscription** | **bool**| This will include subscription in the response | 
- **id** | **str**| The Id of the resource | 
- **include** | [**list[str]**](str.md)| Sub elements to include in the response: LoggedInUser, IsDefaultRunUploadWorkgroup | [optional] 
- **sortby** | **str**| The field(s) used to sort the result set | [optional] 
- **offset** | **int**| The starting offset to read | [optional] 
- **limit** | **int**| The maximum number of items to return | [optional] 
- **sortdir** | **str**| The sort direction for the result set | [optional] 
+ **includeloggedinuser** | **bool**| Includes current user |
+ **activeonly** | **bool**| Excludes inactive workgroups |
+ **refreshcache** | **bool**| This will force a refresh on the workgroup subscriptions |
+ **includesubscription** | **bool**| This will include subscription in the response |
+ **id** | **str**| The Id of the resource |
+ **include** | [**list[str]**](str.md)| Sub elements to include in the response: LoggedInUser, IsDefaultRunUploadWorkgroup | [optional]
+ **sortby** | **str**| The field(s) used to sort the result set | [optional]
+ **offset** | **int**| The starting offset to read | [optional]
+ **limit** | **int**| The maximum number of items to return | [optional]
+ **sortdir** | **str**| The sort direction for the result set | [optional]
 
 ### Return type
 
@@ -7777,32 +7777,32 @@ Name | Type | Description  | Notes
 # **get_v2_v2migration_status_stepname**
 > V2MigrationStatusReport get_v2_v2migration_status_stepname(stepname, id=id)
 
-Get status report on migration 
+Get status report on migration
 
 ### Example
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import bssh_sdk_2
+from bssh_sdk_2.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_key
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.api_key['x-access-token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['x-access-token'] = 'Bearer'
 # Configure OAuth2 access token for authorization: basespace_auth
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.BasespaceApi(swagger_client.ApiClient(configuration))
+api_instance = bssh_sdk_2.BasespaceApi(bssh_sdk_2.ApiClient(configuration))
 stepname = 'stepname_example' # str | Migration Step Name
 id = 'id_example' # str | The Id of the resource (optional)
 
 try:
-    # Get status report on migration 
+    # Get status report on migration
     api_response = api_instance.get_v2_v2migration_status_stepname(stepname, id=id)
     pprint(api_response)
 except ApiException as e:
@@ -7813,8 +7813,8 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **stepname** | **str**| Migration Step Name | 
- **id** | **str**| The Id of the resource | [optional] 
+ **stepname** | **str**| Migration Step Name |
+ **id** | **str**| The Id of the resource | [optional]
 
 ### Return type
 
@@ -7840,21 +7840,21 @@ Get information about a workgroup
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import bssh_sdk_2
+from bssh_sdk_2.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_key
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.api_key['x-access-token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['x-access-token'] = 'Bearer'
 # Configure OAuth2 access token for authorization: basespace_auth
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.BasespaceApi(swagger_client.ApiClient(configuration))
+api_instance = bssh_sdk_2.BasespaceApi(bssh_sdk_2.ApiClient(configuration))
 id = 'id_example' # str | Workgroup ID
 
 try:
@@ -7869,7 +7869,7 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **id** | **str**| Workgroup ID | 
+ **id** | **str**| Workgroup ID |
 
 ### Return type
 
@@ -7891,29 +7891,29 @@ Name | Type | Description  | Notes
 
 Create or update an analysis workflow
 
-Create an analysis workflow using the settings, app, and version of an existing appsession. 
+Create an analysis workflow using the settings, app, and version of an existing appsession.
 
 ### Example
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import bssh_sdk_2
+from bssh_sdk_2.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_key
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.api_key['x-access-token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['x-access-token'] = 'Bearer'
 # Configure OAuth2 access token for authorization: basespace_auth
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.BasespaceApi(swagger_client.ApiClient(configuration))
+api_instance = bssh_sdk_2.BasespaceApi(bssh_sdk_2.ApiClient(configuration))
 id = 'id_example' # str | Applicaiton Id
-body = swagger_client.V2PostApplicationIdWorkflowsRequest() # V2PostApplicationIdWorkflowsRequest |  (optional)
+body = bssh_sdk_2.V2PostApplicationIdWorkflowsRequest() # V2PostApplicationIdWorkflowsRequest |  (optional)
 
 try:
     # Create or update an analysis workflow
@@ -7927,8 +7927,8 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **id** | **str**| Applicaiton Id | 
- **body** | [**V2PostApplicationIdWorkflowsRequest**](V2PostApplicationIdWorkflowsRequest.md)|  | [optional] 
+ **id** | **str**| Applicaiton Id |
+ **body** | [**V2PostApplicationIdWorkflowsRequest**](V2PostApplicationIdWorkflowsRequest.md)|  | [optional]
 
 ### Return type
 
@@ -7956,23 +7956,23 @@ Complete multipart upload and report uploaded files to a resource (dataset or ap
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import bssh_sdk_2
+from bssh_sdk_2.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_key
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.api_key['x-access-token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['x-access-token'] = 'Bearer'
 # Configure OAuth2 access token for authorization: basespace_auth
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.BasespaceApi(swagger_client.ApiClient(configuration))
+api_instance = bssh_sdk_2.BasespaceApi(bssh_sdk_2.ApiClient(configuration))
 id = 'id_example' # str | The Id of the resource
-body = swagger_client.V2ResourcePresignedUrlCompleteRequestForEveryone() # V2ResourcePresignedUrlCompleteRequestForEveryone |  (optional)
+body = bssh_sdk_2.V2ResourcePresignedUrlCompleteRequestForEveryone() # V2ResourcePresignedUrlCompleteRequestForEveryone |  (optional)
 
 try:
     api_response = api_instance.post_v2_appresults_id_file_upload_info(id, body=body)
@@ -7985,8 +7985,8 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **id** | **str**| The Id of the resource | 
- **body** | [**V2ResourcePresignedUrlCompleteRequestForEveryone**](V2ResourcePresignedUrlCompleteRequestForEveryone.md)|  | [optional] 
+ **id** | **str**| The Id of the resource |
+ **body** | [**V2ResourcePresignedUrlCompleteRequestForEveryone**](V2ResourcePresignedUrlCompleteRequestForEveryone.md)|  | [optional]
 
 ### Return type
 
@@ -8012,22 +8012,22 @@ Create a new interactive AppSession with ExecutionStatus Running
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import bssh_sdk_2
+from bssh_sdk_2.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_key
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.api_key['x-access-token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['x-access-token'] = 'Bearer'
 # Configure OAuth2 access token for authorization: basespace_auth
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.BasespaceApi(swagger_client.ApiClient(configuration))
-body = swagger_client.V2PostAppsessionsRequest() # V2PostAppsessionsRequest |  (optional)
+api_instance = bssh_sdk_2.BasespaceApi(bssh_sdk_2.ApiClient(configuration))
+body = bssh_sdk_2.V2PostAppsessionsRequest() # V2PostAppsessionsRequest |  (optional)
 
 try:
     # Create a new interactive AppSession with ExecutionStatus Running
@@ -8041,7 +8041,7 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**V2PostAppsessionsRequest**](V2PostAppsessionsRequest.md)|  | [optional] 
+ **body** | [**V2PostAppsessionsRequest**](V2PostAppsessionsRequest.md)|  | [optional]
 
 ### Return type
 
@@ -8069,23 +8069,23 @@ The Execution Status cannot be changed since it is an automated status tracking 
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import bssh_sdk_2
+from bssh_sdk_2.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_key
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.api_key['x-access-token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['x-access-token'] = 'Bearer'
 # Configure OAuth2 access token for authorization: basespace_auth
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.BasespaceApi(swagger_client.ApiClient(configuration))
+api_instance = bssh_sdk_2.BasespaceApi(bssh_sdk_2.ApiClient(configuration))
 id = 'id_example' # str | Appsession ID
-body = swagger_client.V2PostAppSessionsIdRequest() # V2PostAppSessionsIdRequest |  (optional)
+body = bssh_sdk_2.V2PostAppSessionsIdRequest() # V2PostAppSessionsIdRequest |  (optional)
 
 try:
     # Update an analysis
@@ -8099,8 +8099,8 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **id** | **str**| Appsession ID | 
- **body** | [**V2PostAppSessionsIdRequest**](V2PostAppSessionsIdRequest.md)|  | [optional] 
+ **id** | **str**| Appsession ID |
+ **body** | [**V2PostAppSessionsIdRequest**](V2PostAppSessionsIdRequest.md)|  | [optional]
 
 ### Return type
 
@@ -8126,23 +8126,23 @@ Add a log file to a specific analysis
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import bssh_sdk_2
+from bssh_sdk_2.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_key
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.api_key['x-access-token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['x-access-token'] = 'Bearer'
 # Configure OAuth2 access token for authorization: basespace_auth
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.BasespaceApi(swagger_client.ApiClient(configuration))
+api_instance = bssh_sdk_2.BasespaceApi(bssh_sdk_2.ApiClient(configuration))
 id = 'id_example' # str | Appsession ID
-body = swagger_client.V2PostAppSessionsIdFilesRequest() # V2PostAppSessionsIdFilesRequest |  (optional)
+body = bssh_sdk_2.V2PostAppSessionsIdFilesRequest() # V2PostAppSessionsIdFilesRequest |  (optional)
 
 try:
     # Add a log file to a specific analysis
@@ -8156,8 +8156,8 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **id** | **str**| Appsession ID | 
- **body** | [**V2PostAppSessionsIdFilesRequest**](V2PostAppSessionsIdFilesRequest.md)|  | [optional] 
+ **id** | **str**| Appsession ID |
+ **body** | [**V2PostAppSessionsIdFilesRequest**](V2PostAppSessionsIdFilesRequest.md)|  | [optional]
 
 ### Return type
 
@@ -8183,23 +8183,23 @@ Add or update properties of an analysis
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import bssh_sdk_2
+from bssh_sdk_2.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_key
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.api_key['x-access-token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['x-access-token'] = 'Bearer'
 # Configure OAuth2 access token for authorization: basespace_auth
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.BasespaceApi(swagger_client.ApiClient(configuration))
+api_instance = bssh_sdk_2.BasespaceApi(bssh_sdk_2.ApiClient(configuration))
 id = 'id_example' # str | Appsession ID
-body = swagger_client.V2PostAppSessionsPropertiesRequest() # V2PostAppSessionsPropertiesRequest |  (optional)
+body = bssh_sdk_2.V2PostAppSessionsPropertiesRequest() # V2PostAppSessionsPropertiesRequest |  (optional)
 
 try:
     # Add or update properties of an analysis
@@ -8213,8 +8213,8 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **id** | **str**| Appsession ID | 
- **body** | [**V2PostAppSessionsPropertiesRequest**](V2PostAppSessionsPropertiesRequest.md)|  | [optional] 
+ **id** | **str**| Appsession ID |
+ **body** | [**V2PostAppSessionsPropertiesRequest**](V2PostAppSessionsPropertiesRequest.md)|  | [optional]
 
 ### Return type
 
@@ -8240,23 +8240,23 @@ Reschedule a workflow
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import bssh_sdk_2
+from bssh_sdk_2.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_key
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.api_key['x-access-token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['x-access-token'] = 'Bearer'
 # Configure OAuth2 access token for authorization: basespace_auth
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.BasespaceApi(swagger_client.ApiClient(configuration))
-id = 'id_example' # str | 
-body = swagger_client.V2PostAppSessionsIdRescheduleRequest() # V2PostAppSessionsIdRescheduleRequest |  (optional)
+api_instance = bssh_sdk_2.BasespaceApi(bssh_sdk_2.ApiClient(configuration))
+id = 'id_example' # str |
+body = bssh_sdk_2.V2PostAppSessionsIdRescheduleRequest() # V2PostAppSessionsIdRescheduleRequest |  (optional)
 
 try:
     # Reschedule a workflow
@@ -8270,8 +8270,8 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **id** | **str**|  | 
- **body** | [**V2PostAppSessionsIdRescheduleRequest**](V2PostAppSessionsIdRescheduleRequest.md)|  | [optional] 
+ **id** | **str**|  |
+ **body** | [**V2PostAppSessionsIdRescheduleRequest**](V2PostAppSessionsIdRescheduleRequest.md)|  | [optional]
 
 ### Return type
 
@@ -8299,23 +8299,23 @@ The analysis must have a status of “Running” or “Pending”.  Stopping a r
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import bssh_sdk_2
+from bssh_sdk_2.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_key
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.api_key['x-access-token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['x-access-token'] = 'Bearer'
 # Configure OAuth2 access token for authorization: basespace_auth
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.BasespaceApi(swagger_client.ApiClient(configuration))
+api_instance = bssh_sdk_2.BasespaceApi(bssh_sdk_2.ApiClient(configuration))
 id = 'id_example' # str | Appsession ID
-body = swagger_client.V2PostAppSessionsIdStopRequest() # V2PostAppSessionsIdStopRequest |  (optional)
+body = bssh_sdk_2.V2PostAppSessionsIdStopRequest() # V2PostAppSessionsIdStopRequest |  (optional)
 
 try:
     # Stop an analysis from running
@@ -8329,8 +8329,8 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **id** | **str**| Appsession ID | 
- **body** | [**V2PostAppSessionsIdStopRequest**](V2PostAppSessionsIdStopRequest.md)|  | [optional] 
+ **id** | **str**| Appsession ID |
+ **body** | [**V2PostAppSessionsIdStopRequest**](V2PostAppSessionsIdStopRequest.md)|  | [optional]
 
 ### Return type
 
@@ -8356,22 +8356,22 @@ Track ICA analyses
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import bssh_sdk_2
+from bssh_sdk_2.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_key
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.api_key['x-access-token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['x-access-token'] = 'Bearer'
 # Configure OAuth2 access token for authorization: basespace_auth
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.BasespaceApi(swagger_client.ApiClient(configuration))
-body = swagger_client.V2PostAppSessionsTrackRequest() # V2PostAppSessionsTrackRequest |  (optional)
+api_instance = bssh_sdk_2.BasespaceApi(bssh_sdk_2.ApiClient(configuration))
+body = bssh_sdk_2.V2PostAppSessionsTrackRequest() # V2PostAppSessionsTrackRequest |  (optional)
 
 try:
     # Track ICA analyses
@@ -8385,7 +8385,7 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**V2PostAppSessionsTrackRequest**](V2PostAppSessionsTrackRequest.md)|  | [optional] 
+ **body** | [**V2PostAppSessionsTrackRequest**](V2PostAppSessionsTrackRequest.md)|  | [optional]
 
 ### Return type
 
@@ -8411,22 +8411,22 @@ Track workflow sessions
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import bssh_sdk_2
+from bssh_sdk_2.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_key
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.api_key['x-access-token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['x-access-token'] = 'Bearer'
 # Configure OAuth2 access token for authorization: basespace_auth
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.BasespaceApi(swagger_client.ApiClient(configuration))
-body = swagger_client.V2PostAppSessionsWorkflowSessionsTrackRequest() # V2PostAppSessionsWorkflowSessionsTrackRequest |  (optional)
+api_instance = bssh_sdk_2.BasespaceApi(bssh_sdk_2.ApiClient(configuration))
+body = bssh_sdk_2.V2PostAppSessionsWorkflowSessionsTrackRequest() # V2PostAppSessionsWorkflowSessionsTrackRequest |  (optional)
 
 try:
     # Track workflow sessions
@@ -8440,7 +8440,7 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**V2PostAppSessionsWorkflowSessionsTrackRequest**](V2PostAppSessionsWorkflowSessionsTrackRequest.md)|  | [optional] 
+ **body** | [**V2PostAppSessionsWorkflowSessionsTrackRequest**](V2PostAppSessionsWorkflowSessionsTrackRequest.md)|  | [optional]
 
 ### Return type
 
@@ -8468,22 +8468,22 @@ Archive one or more Runs or Projects.  The status will update right away, but th
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import bssh_sdk_2
+from bssh_sdk_2.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_key
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.api_key['x-access-token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['x-access-token'] = 'Bearer'
 # Configure OAuth2 access token for authorization: basespace_auth
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.BasespaceApi(swagger_client.ApiClient(configuration))
-body = swagger_client.V2BulkArchiveRequest() # V2BulkArchiveRequest |  (optional)
+api_instance = bssh_sdk_2.BasespaceApi(bssh_sdk_2.ApiClient(configuration))
+body = bssh_sdk_2.V2BulkArchiveRequest() # V2BulkArchiveRequest |  (optional)
 
 try:
     # Bulk archive.
@@ -8497,7 +8497,7 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**V2BulkArchiveRequest**](V2BulkArchiveRequest.md)|  | [optional] 
+ **body** | [**V2BulkArchiveRequest**](V2BulkArchiveRequest.md)|  | [optional]
 
 ### Return type
 
@@ -8525,22 +8525,22 @@ Create a biological sample.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import bssh_sdk_2
+from bssh_sdk_2.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_key
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.api_key['x-access-token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['x-access-token'] = 'Bearer'
 # Configure OAuth2 access token for authorization: basespace_auth
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.BasespaceApi(swagger_client.ApiClient(configuration))
-body = swagger_client.V2CreateBiologicalSampleRequest() # V2CreateBiologicalSampleRequest |  (optional)
+api_instance = bssh_sdk_2.BasespaceApi(bssh_sdk_2.ApiClient(configuration))
+body = bssh_sdk_2.V2CreateBiologicalSampleRequest() # V2CreateBiologicalSampleRequest |  (optional)
 
 try:
     api_response = api_instance.post_v2_biosamples(body=body)
@@ -8553,7 +8553,7 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**V2CreateBiologicalSampleRequest**](V2CreateBiologicalSampleRequest.md)|  | [optional] 
+ **body** | [**V2CreateBiologicalSampleRequest**](V2CreateBiologicalSampleRequest.md)|  | [optional]
 
 ### Return type
 
@@ -8581,22 +8581,22 @@ Setting a new default project of a biosample will redirect newly created dataset
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import bssh_sdk_2
+from bssh_sdk_2.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_key
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.api_key['x-access-token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['x-access-token'] = 'Bearer'
 # Configure OAuth2 access token for authorization: basespace_auth
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.BasespaceApi(swagger_client.ApiClient(configuration))
-body = swagger_client.V2PostBioSamplesBulkUpdateRequest() # V2PostBioSamplesBulkUpdateRequest |  (optional)
+api_instance = bssh_sdk_2.BasespaceApi(bssh_sdk_2.ApiClient(configuration))
+body = bssh_sdk_2.V2PostBioSamplesBulkUpdateRequest() # V2PostBioSamplesBulkUpdateRequest |  (optional)
 
 try:
     # Update the default project of many biosamples
@@ -8610,7 +8610,7 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**V2PostBioSamplesBulkUpdateRequest**](V2PostBioSamplesBulkUpdateRequest.md)|  | [optional] 
+ **body** | [**V2PostBioSamplesBulkUpdateRequest**](V2PostBioSamplesBulkUpdateRequest.md)|  | [optional]
 
 ### Return type
 
@@ -8638,23 +8638,23 @@ Setting a new default project of a biosample will redirect newly created dataset
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import bssh_sdk_2
+from bssh_sdk_2.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_key
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.api_key['x-access-token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['x-access-token'] = 'Bearer'
 # Configure OAuth2 access token for authorization: basespace_auth
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.BasespaceApi(swagger_client.ApiClient(configuration))
+api_instance = bssh_sdk_2.BasespaceApi(bssh_sdk_2.ApiClient(configuration))
 id = 'id_example' # str | Biosample ID
-body = swagger_client.V2UpdateBiologicalSampleRequest() # V2UpdateBiologicalSampleRequest |  (optional)
+body = bssh_sdk_2.V2UpdateBiologicalSampleRequest() # V2UpdateBiologicalSampleRequest |  (optional)
 
 try:
     # Update a Biosample
@@ -8668,8 +8668,8 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **id** | **str**| Biosample ID | 
- **body** | [**V2UpdateBiologicalSampleRequest**](V2UpdateBiologicalSampleRequest.md)|  | [optional] 
+ **id** | **str**| Biosample ID |
+ **body** | [**V2UpdateBiologicalSampleRequest**](V2UpdateBiologicalSampleRequest.md)|  | [optional]
 
 ### Return type
 
@@ -8695,23 +8695,23 @@ Update Biosample aggregation
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import bssh_sdk_2
+from bssh_sdk_2.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_key
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.api_key['x-access-token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['x-access-token'] = 'Bearer'
 # Configure OAuth2 access token for authorization: basespace_auth
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.BasespaceApi(swagger_client.ApiClient(configuration))
+api_instance = bssh_sdk_2.BasespaceApi(bssh_sdk_2.ApiClient(configuration))
 id = 'id_example' # str | The Id of the resource
-body = swagger_client.V2PostBioSamplesIdAggregationRequest() # V2PostBioSamplesIdAggregationRequest |  (optional)
+body = bssh_sdk_2.V2PostBioSamplesIdAggregationRequest() # V2PostBioSamplesIdAggregationRequest |  (optional)
 
 try:
     # Update Biosample aggregation
@@ -8725,8 +8725,8 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **id** | **str**| The Id of the resource | 
- **body** | [**V2PostBioSamplesIdAggregationRequest**](V2PostBioSamplesIdAggregationRequest.md)|  | [optional] 
+ **id** | **str**| The Id of the resource |
+ **body** | [**V2PostBioSamplesIdAggregationRequest**](V2PostBioSamplesIdAggregationRequest.md)|  | [optional]
 
 ### Return type
 
@@ -8752,23 +8752,23 @@ Create a library for a biosample
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import bssh_sdk_2
+from bssh_sdk_2.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_key
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.api_key['x-access-token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['x-access-token'] = 'Bearer'
 # Configure OAuth2 access token for authorization: basespace_auth
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.BasespaceApi(swagger_client.ApiClient(configuration))
+api_instance = bssh_sdk_2.BasespaceApi(bssh_sdk_2.ApiClient(configuration))
 id = 'id_example' # str | The Id of the resource
-body = swagger_client.V2PostBiosampleLibraryRequest() # V2PostBiosampleLibraryRequest |  (optional)
+body = bssh_sdk_2.V2PostBiosampleLibraryRequest() # V2PostBiosampleLibraryRequest |  (optional)
 
 try:
     # Create a library for a biosample
@@ -8782,8 +8782,8 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **id** | **str**| The Id of the resource | 
- **body** | [**V2PostBiosampleLibraryRequest**](V2PostBiosampleLibraryRequest.md)|  | [optional] 
+ **id** | **str**| The Id of the resource |
+ **body** | [**V2PostBiosampleLibraryRequest**](V2PostBiosampleLibraryRequest.md)|  | [optional]
 
 ### Return type
 
@@ -8811,22 +8811,22 @@ Queue one or more resources for data compression.  Compression process is async.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import bssh_sdk_2
+from bssh_sdk_2.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_key
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.api_key['x-access-token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['x-access-token'] = 'Bearer'
 # Configure OAuth2 access token for authorization: basespace_auth
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.BasespaceApi(swagger_client.ApiClient(configuration))
-body = swagger_client.V2BulkDataCompressRequest() # V2BulkDataCompressRequest |  (optional)
+api_instance = bssh_sdk_2.BasespaceApi(bssh_sdk_2.ApiClient(configuration))
+body = bssh_sdk_2.V2BulkDataCompressRequest() # V2BulkDataCompressRequest |  (optional)
 
 try:
     # Bulk Data Compression.
@@ -8840,7 +8840,7 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**V2BulkDataCompressRequest**](V2BulkDataCompressRequest.md)|  | [optional] 
+ **body** | [**V2BulkDataCompressRequest**](V2BulkDataCompressRequest.md)|  | [optional]
 
 ### Return type
 
@@ -8866,22 +8866,22 @@ Create a dataset that doesn't belong in a specific project
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import bssh_sdk_2
+from bssh_sdk_2.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_key
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.api_key['x-access-token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['x-access-token'] = 'Bearer'
 # Configure OAuth2 access token for authorization: basespace_auth
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.BasespaceApi(swagger_client.ApiClient(configuration))
-body = swagger_client.V2PostDatasetsRequest() # V2PostDatasetsRequest |  (optional)
+api_instance = bssh_sdk_2.BasespaceApi(bssh_sdk_2.ApiClient(configuration))
+body = bssh_sdk_2.V2PostDatasetsRequest() # V2PostDatasetsRequest |  (optional)
 
 try:
     # Create a dataset that doesn't belong in a specific project
@@ -8895,7 +8895,7 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**V2PostDatasetsRequest**](V2PostDatasetsRequest.md)|  | [optional] 
+ **body** | [**V2PostDatasetsRequest**](V2PostDatasetsRequest.md)|  | [optional]
 
 ### Return type
 
@@ -8923,23 +8923,23 @@ The QcStatus of a dataset may only be updated when the UploadStatus is set to �
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import bssh_sdk_2
+from bssh_sdk_2.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_key
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.api_key['x-access-token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['x-access-token'] = 'Bearer'
 # Configure OAuth2 access token for authorization: basespace_auth
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.BasespaceApi(swagger_client.ApiClient(configuration))
+api_instance = bssh_sdk_2.BasespaceApi(bssh_sdk_2.ApiClient(configuration))
 id = 'id_example' # str | Dataset ID
-body = swagger_client.V2PostDatasetsIdRequest() # V2PostDatasetsIdRequest |  (optional)
+body = bssh_sdk_2.V2PostDatasetsIdRequest() # V2PostDatasetsIdRequest |  (optional)
 
 try:
     # Update an existing dataset
@@ -8953,8 +8953,8 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **id** | **str**| Dataset ID | 
- **body** | [**V2PostDatasetsIdRequest**](V2PostDatasetsIdRequest.md)|  | [optional] 
+ **id** | **str**| Dataset ID |
+ **body** | [**V2PostDatasetsIdRequest**](V2PostDatasetsIdRequest.md)|  | [optional]
 
 ### Return type
 
@@ -8980,23 +8980,23 @@ Copy a dataset to a project
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import bssh_sdk_2
+from bssh_sdk_2.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_key
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.api_key['x-access-token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['x-access-token'] = 'Bearer'
 # Configure OAuth2 access token for authorization: basespace_auth
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.BasespaceApi(swagger_client.ApiClient(configuration))
+api_instance = bssh_sdk_2.BasespaceApi(bssh_sdk_2.ApiClient(configuration))
 id = 'id_example' # str | The Id of the resource
-body = swagger_client.V2PostDatasetsIdCopyRequest() # V2PostDatasetsIdCopyRequest |  (optional)
+body = bssh_sdk_2.V2PostDatasetsIdCopyRequest() # V2PostDatasetsIdCopyRequest |  (optional)
 
 try:
     # Copy a dataset to a project
@@ -9010,8 +9010,8 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **id** | **str**| The Id of the resource | 
- **body** | [**V2PostDatasetsIdCopyRequest**](V2PostDatasetsIdCopyRequest.md)|  | [optional] 
+ **id** | **str**| The Id of the resource |
+ **body** | [**V2PostDatasetsIdCopyRequest**](V2PostDatasetsIdCopyRequest.md)|  | [optional]
 
 ### Return type
 
@@ -9039,23 +9039,23 @@ Report uploaded files to a dataset
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import bssh_sdk_2
+from bssh_sdk_2.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_key
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.api_key['x-access-token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['x-access-token'] = 'Bearer'
 # Configure OAuth2 access token for authorization: basespace_auth
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.BasespaceApi(swagger_client.ApiClient(configuration))
+api_instance = bssh_sdk_2.BasespaceApi(bssh_sdk_2.ApiClient(configuration))
 id = 'id_example' # str | The Id of the resource
-body = swagger_client.V1pre3PostDatasetIdDirectUploadInfoRequest() # V1pre3PostDatasetIdDirectUploadInfoRequest |  (optional)
+body = bssh_sdk_2.V1pre3PostDatasetIdDirectUploadInfoRequest() # V1pre3PostDatasetIdDirectUploadInfoRequest |  (optional)
 sortdir = 'sortdir_example' # str | The sort direction for the result set (optional)
 
 try:
@@ -9069,9 +9069,9 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **id** | **str**| The Id of the resource | 
- **body** | [**V1pre3PostDatasetIdDirectUploadInfoRequest**](V1pre3PostDatasetIdDirectUploadInfoRequest.md)|  | [optional] 
- **sortdir** | **str**| The sort direction for the result set | [optional] 
+ **id** | **str**| The Id of the resource |
+ **body** | [**V1pre3PostDatasetIdDirectUploadInfoRequest**](V1pre3PostDatasetIdDirectUploadInfoRequest.md)|  | [optional]
+ **sortdir** | **str**| The sort direction for the result set | [optional]
 
 ### Return type
 
@@ -9099,23 +9099,23 @@ Complete multipart upload and report uploaded files to a resource (dataset or ap
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import bssh_sdk_2
+from bssh_sdk_2.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_key
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.api_key['x-access-token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['x-access-token'] = 'Bearer'
 # Configure OAuth2 access token for authorization: basespace_auth
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.BasespaceApi(swagger_client.ApiClient(configuration))
+api_instance = bssh_sdk_2.BasespaceApi(bssh_sdk_2.ApiClient(configuration))
 id = 'id_example' # str | The Id of the resource
-body = swagger_client.V2ResourcePresignedUrlCompleteRequestForEveryone() # V2ResourcePresignedUrlCompleteRequestForEveryone |  (optional)
+body = bssh_sdk_2.V2ResourcePresignedUrlCompleteRequestForEveryone() # V2ResourcePresignedUrlCompleteRequestForEveryone |  (optional)
 
 try:
     api_response = api_instance.post_v2_datasets_id_file_upload_info(id, body=body)
@@ -9128,8 +9128,8 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **id** | **str**| The Id of the resource | 
- **body** | [**V2ResourcePresignedUrlCompleteRequestForEveryone**](V2ResourcePresignedUrlCompleteRequestForEveryone.md)|  | [optional] 
+ **id** | **str**| The Id of the resource |
+ **body** | [**V2ResourcePresignedUrlCompleteRequestForEveryone**](V2ResourcePresignedUrlCompleteRequestForEveryone.md)|  | [optional]
 
 ### Return type
 
@@ -9155,22 +9155,22 @@ Name | Type | Description  | Notes
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import bssh_sdk_2
+from bssh_sdk_2.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_key
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.api_key['x-access-token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['x-access-token'] = 'Bearer'
 # Configure OAuth2 access token for authorization: basespace_auth
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.BasespaceApi(swagger_client.ApiClient(configuration))
-file = 'file_example' # str | 
+api_instance = bssh_sdk_2.BasespaceApi(bssh_sdk_2.ApiClient(configuration))
+file = 'file_example' # str |
 id = 'id_example' # str | The Id of the resource
 
 try:
@@ -9184,8 +9184,8 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **file** | **str**|  | 
- **id** | **str**| The Id of the resource | 
+ **file** | **str**|  |
+ **id** | **str**| The Id of the resource |
 
 ### Return type
 
@@ -9213,22 +9213,22 @@ Get download url for data on ICA
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import bssh_sdk_2
+from bssh_sdk_2.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_key
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.api_key['x-access-token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['x-access-token'] = 'Bearer'
 # Configure OAuth2 access token for authorization: basespace_auth
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.BasespaceApi(swagger_client.ApiClient(configuration))
-body = swagger_client.V2IcaFileCreateDownloadUrlRequest() # V2IcaFileCreateDownloadUrlRequest |  (optional)
+api_instance = bssh_sdk_2.BasespaceApi(bssh_sdk_2.ApiClient(configuration))
+body = bssh_sdk_2.V2IcaFileCreateDownloadUrlRequest() # V2IcaFileCreateDownloadUrlRequest |  (optional)
 
 try:
     api_response = api_instance.post_v2_icadownloads_create_download_url(body=body)
@@ -9241,7 +9241,7 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**V2IcaFileCreateDownloadUrlRequest**](V2IcaFileCreateDownloadUrlRequest.md)|  | [optional] 
+ **body** | [**V2IcaFileCreateDownloadUrlRequest**](V2IcaFileCreateDownloadUrlRequest.md)|  | [optional]
 
 ### Return type
 
@@ -9269,23 +9269,23 @@ Complete file(s) upload to ICA, and respond with meta data
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import bssh_sdk_2
+from bssh_sdk_2.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_key
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.api_key['x-access-token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['x-access-token'] = 'Bearer'
 # Configure OAuth2 access token for authorization: basespace_auth
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.BasespaceApi(swagger_client.ApiClient(configuration))
-foldertype = 'foldertype_example' # str | 
-body = swagger_client.V2IcaCompleteUploadRequest() # V2IcaCompleteUploadRequest |  (optional)
+api_instance = bssh_sdk_2.BasespaceApi(bssh_sdk_2.ApiClient(configuration))
+foldertype = 'foldertype_example' # str |
+body = bssh_sdk_2.V2IcaCompleteUploadRequest() # V2IcaCompleteUploadRequest |  (optional)
 
 try:
     api_response = api_instance.post_v2_icauploads_foldertype_complete_upload(foldertype, body=body)
@@ -9298,8 +9298,8 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **foldertype** | **str**|  | 
- **body** | [**V2IcaCompleteUploadRequest**](V2IcaCompleteUploadRequest.md)|  | [optional] 
+ **foldertype** | **str**|  |
+ **body** | [**V2IcaCompleteUploadRequest**](V2IcaCompleteUploadRequest.md)|  | [optional]
 
 ### Return type
 
@@ -9327,23 +9327,23 @@ Get upload destination on ICA and temporary upload credentials
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import bssh_sdk_2
+from bssh_sdk_2.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_key
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.api_key['x-access-token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['x-access-token'] = 'Bearer'
 # Configure OAuth2 access token for authorization: basespace_auth
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.BasespaceApi(swagger_client.ApiClient(configuration))
-foldertype = 'foldertype_example' # str | 
-body = swagger_client.V2IcaFileUploadRequest() # V2IcaFileUploadRequest |  (optional)
+api_instance = bssh_sdk_2.BasespaceApi(bssh_sdk_2.ApiClient(configuration))
+foldertype = 'foldertype_example' # str |
+body = bssh_sdk_2.V2IcaFileUploadRequest() # V2IcaFileUploadRequest |  (optional)
 
 try:
     api_response = api_instance.post_v2_icauploads_foldertype_direct_upload_info(foldertype, body=body)
@@ -9356,8 +9356,8 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **foldertype** | **str**|  | 
- **body** | [**V2IcaFileUploadRequest**](V2IcaFileUploadRequest.md)|  | [optional] 
+ **foldertype** | **str**|  |
+ **body** | [**V2IcaFileUploadRequest**](V2IcaFileUploadRequest.md)|  | [optional]
 
 ### Return type
 
@@ -9385,22 +9385,22 @@ Create non-run instrument diagnostic data.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import bssh_sdk_2
+from bssh_sdk_2.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_key
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.api_key['x-access-token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['x-access-token'] = 'Bearer'
 # Configure OAuth2 access token for authorization: basespace_auth
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.BasespaceApi(swagger_client.ApiClient(configuration))
-body = swagger_client.V2CreateInstrumentDiagnosticRequest() # V2CreateInstrumentDiagnosticRequest |  (optional)
+api_instance = bssh_sdk_2.BasespaceApi(bssh_sdk_2.ApiClient(configuration))
+body = bssh_sdk_2.V2CreateInstrumentDiagnosticRequest() # V2CreateInstrumentDiagnosticRequest |  (optional)
 
 try:
     api_response = api_instance.post_v2_instrumentdiagnostics(body=body)
@@ -9413,7 +9413,7 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**V2CreateInstrumentDiagnosticRequest**](V2CreateInstrumentDiagnosticRequest.md)|  | [optional] 
+ **body** | [**V2CreateInstrumentDiagnosticRequest**](V2CreateInstrumentDiagnosticRequest.md)|  | [optional]
 
 ### Return type
 
@@ -9441,23 +9441,23 @@ Update non-run instrument diagnostic data.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import bssh_sdk_2
+from bssh_sdk_2.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_key
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.api_key['x-access-token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['x-access-token'] = 'Bearer'
 # Configure OAuth2 access token for authorization: basespace_auth
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.BasespaceApi(swagger_client.ApiClient(configuration))
+api_instance = bssh_sdk_2.BasespaceApi(bssh_sdk_2.ApiClient(configuration))
 id = 'id_example' # str | The Id of the resource
-body = swagger_client.V2UpdateInstrumentDiagnosticRequest() # V2UpdateInstrumentDiagnosticRequest |  (optional)
+body = bssh_sdk_2.V2UpdateInstrumentDiagnosticRequest() # V2UpdateInstrumentDiagnosticRequest |  (optional)
 
 try:
     api_response = api_instance.post_v2_instrumentdiagnostics_id(id, body=body)
@@ -9470,8 +9470,8 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **id** | **str**| The Id of the resource | 
- **body** | [**V2UpdateInstrumentDiagnosticRequest**](V2UpdateInstrumentDiagnosticRequest.md)|  | [optional] 
+ **id** | **str**| The Id of the resource |
+ **body** | [**V2UpdateInstrumentDiagnosticRequest**](V2UpdateInstrumentDiagnosticRequest.md)|  | [optional]
 
 ### Return type
 
@@ -9499,22 +9499,22 @@ Post instrument errors.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import bssh_sdk_2
+from bssh_sdk_2.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_key
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.api_key['x-access-token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['x-access-token'] = 'Bearer'
 # Configure OAuth2 access token for authorization: basespace_auth
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.BasespaceApi(swagger_client.ApiClient(configuration))
-body = swagger_client.V2PostInstrumentErrorsRequest() # V2PostInstrumentErrorsRequest |  (optional)
+api_instance = bssh_sdk_2.BasespaceApi(bssh_sdk_2.ApiClient(configuration))
+body = bssh_sdk_2.V2PostInstrumentErrorsRequest() # V2PostInstrumentErrorsRequest |  (optional)
 
 try:
     api_response = api_instance.post_v2_instruments_errors(body=body)
@@ -9527,7 +9527,7 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**V2PostInstrumentErrorsRequest**](V2PostInstrumentErrorsRequest.md)|  | [optional] 
+ **body** | [**V2PostInstrumentErrorsRequest**](V2PostInstrumentErrorsRequest.md)|  | [optional]
 
 ### Return type
 
@@ -9555,23 +9555,23 @@ The status of a lane may be updated to the following values: QcFailed, QcPassed.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import bssh_sdk_2
+from bssh_sdk_2.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_key
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.api_key['x-access-token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['x-access-token'] = 'Bearer'
 # Configure OAuth2 access token for authorization: basespace_auth
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.BasespaceApi(swagger_client.ApiClient(configuration))
-id = 'id_example' # str | 
-body = swagger_client.V2PostLanesIdRequest() # V2PostLanesIdRequest |  (optional)
+api_instance = bssh_sdk_2.BasespaceApi(bssh_sdk_2.ApiClient(configuration))
+id = 'id_example' # str |
+body = bssh_sdk_2.V2PostLanesIdRequest() # V2PostLanesIdRequest |  (optional)
 
 try:
     # Update a lane
@@ -9585,8 +9585,8 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **id** | **str**|  | 
- **body** | [**V2PostLanesIdRequest**](V2PostLanesIdRequest.md)|  | [optional] 
+ **id** | **str**|  |
+ **body** | [**V2PostLanesIdRequest**](V2PostLanesIdRequest.md)|  | [optional]
 
 ### Return type
 
@@ -9614,23 +9614,23 @@ The requested additional yield is the total yield to be requested for the whole 
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import bssh_sdk_2
+from bssh_sdk_2.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_key
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.api_key['x-access-token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['x-access-token'] = 'Bearer'
 # Configure OAuth2 access token for authorization: basespace_auth
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.BasespaceApi(swagger_client.ApiClient(configuration))
-libraryid = 'libraryid_example' # str | 
-body = swagger_client.V2CreateExistingLibraryLabRequeueRequest() # V2CreateExistingLibraryLabRequeueRequest |  (optional)
+api_instance = bssh_sdk_2.BasespaceApi(bssh_sdk_2.ApiClient(configuration))
+libraryid = 'libraryid_example' # str |
+body = bssh_sdk_2.V2CreateExistingLibraryLabRequeueRequest() # V2CreateExistingLibraryLabRequeueRequest |  (optional)
 
 try:
     # Add a lab requeue request for more yield from a library
@@ -9644,8 +9644,8 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **libraryid** | **str**|  | 
- **body** | [**V2CreateExistingLibraryLabRequeueRequest**](V2CreateExistingLibraryLabRequeueRequest.md)|  | [optional] 
+ **libraryid** | **str**|  |
+ **body** | [**V2CreateExistingLibraryLabRequeueRequest**](V2CreateExistingLibraryLabRequeueRequest.md)|  | [optional]
 
 ### Return type
 
@@ -9673,23 +9673,23 @@ The status of a pool may be updated to the following values: Active, Failed, Con
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import bssh_sdk_2
+from bssh_sdk_2.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_key
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.api_key['x-access-token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['x-access-token'] = 'Bearer'
 # Configure OAuth2 access token for authorization: basespace_auth
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.BasespaceApi(swagger_client.ApiClient(configuration))
+api_instance = bssh_sdk_2.BasespaceApi(bssh_sdk_2.ApiClient(configuration))
 id = 'id_example' # str | The Id of the resource
-body = swagger_client.V2PostLibraryPoolIdRequest() # V2PostLibraryPoolIdRequest |  (optional)
+body = bssh_sdk_2.V2PostLibraryPoolIdRequest() # V2PostLibraryPoolIdRequest |  (optional)
 
 try:
     # Update a pool
@@ -9703,8 +9703,8 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **id** | **str**| The Id of the resource | 
- **body** | [**V2PostLibraryPoolIdRequest**](V2PostLibraryPoolIdRequest.md)|  | [optional] 
+ **id** | **str**| The Id of the resource |
+ **body** | [**V2PostLibraryPoolIdRequest**](V2PostLibraryPoolIdRequest.md)|  | [optional]
 
 ### Return type
 
@@ -9730,23 +9730,23 @@ Add a lab requeue request for more yield from a pool
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import bssh_sdk_2
+from bssh_sdk_2.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_key
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.api_key['x-access-token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['x-access-token'] = 'Bearer'
 # Configure OAuth2 access token for authorization: basespace_auth
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.BasespaceApi(swagger_client.ApiClient(configuration))
-poolid = 'poolid_example' # str | 
-body = swagger_client.V2CreateExistingPoolLabRequeueRequest() # V2CreateExistingPoolLabRequeueRequest |  (optional)
+api_instance = bssh_sdk_2.BasespaceApi(bssh_sdk_2.ApiClient(configuration))
+poolid = 'poolid_example' # str |
+body = bssh_sdk_2.V2CreateExistingPoolLabRequeueRequest() # V2CreateExistingPoolLabRequeueRequest |  (optional)
 
 try:
     # Add a lab requeue request for more yield from a pool
@@ -9760,8 +9760,8 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **poolid** | **str**|  | 
- **body** | [**V2CreateExistingPoolLabRequeueRequest**](V2CreateExistingPoolLabRequeueRequest.md)|  | [optional] 
+ **poolid** | **str**|  |
+ **body** | [**V2CreateExistingPoolLabRequeueRequest**](V2CreateExistingPoolLabRequeueRequest.md)|  | [optional]
 
 ### Return type
 
@@ -9789,22 +9789,22 @@ Get OAuthV1 token using an OAuthV2Token
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import bssh_sdk_2
+from bssh_sdk_2.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_key
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.api_key['x-access-token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['x-access-token'] = 'Bearer'
 # Configure OAuth2 access token for authorization: basespace_auth
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.BasespaceApi(swagger_client.ApiClient(configuration))
-body = swagger_client.V2OAuthV1FromOAuthV2Request() # V2OAuthV1FromOAuthV2Request |  (optional)
+api_instance = bssh_sdk_2.BasespaceApi(bssh_sdk_2.ApiClient(configuration))
+body = bssh_sdk_2.V2OAuthV1FromOAuthV2Request() # V2OAuthV1FromOAuthV2Request |  (optional)
 
 try:
     api_response = api_instance.post_v2_oauthv1_tokenfromoauthv2(body=body)
@@ -9817,7 +9817,7 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**V2OAuthV1FromOAuthV2Request**](V2OAuthV1FromOAuthV2Request.md)|  | [optional] 
+ **body** | [**V2OAuthV1FromOAuthV2Request**](V2OAuthV1FromOAuthV2Request.md)|  | [optional]
 
 ### Return type
 
@@ -9843,22 +9843,22 @@ Name | Type | Description  | Notes
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import bssh_sdk_2
+from bssh_sdk_2.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_key
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.api_key['x-access-token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['x-access-token'] = 'Bearer'
 # Configure OAuth2 access token for authorization: basespace_auth
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.BasespaceApi(swagger_client.ApiClient(configuration))
-body = swagger_client.OAuthV2AccessTokenRequest() # OAuthV2AccessTokenRequest |  (optional)
+api_instance = bssh_sdk_2.BasespaceApi(bssh_sdk_2.ApiClient(configuration))
+body = bssh_sdk_2.OAuthV2AccessTokenRequest() # OAuthV2AccessTokenRequest |  (optional)
 
 try:
     api_response = api_instance.post_v2_oauthv2_token(body=body)
@@ -9871,7 +9871,7 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**OAuthV2AccessTokenRequest**](OAuthV2AccessTokenRequest.md)|  | [optional] 
+ **body** | [**OAuthV2AccessTokenRequest**](OAuthV2AccessTokenRequest.md)|  | [optional]
 
 ### Return type
 
@@ -9899,22 +9899,22 @@ Create token for a trusted Platform service
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import bssh_sdk_2
+from bssh_sdk_2.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_key
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.api_key['x-access-token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['x-access-token'] = 'Bearer'
 # Configure OAuth2 access token for authorization: basespace_auth
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.BasespaceApi(swagger_client.ApiClient(configuration))
-body = swagger_client.V2OAuthV2TokenFromApplicationJwtRequest() # V2OAuthV2TokenFromApplicationJwtRequest |  (optional)
+api_instance = bssh_sdk_2.BasespaceApi(bssh_sdk_2.ApiClient(configuration))
+body = bssh_sdk_2.V2OAuthV2TokenFromApplicationJwtRequest() # V2OAuthV2TokenFromApplicationJwtRequest |  (optional)
 
 try:
     api_response = api_instance.post_v2_oauthv2_tokenfromapplicationjwt(body=body)
@@ -9927,7 +9927,7 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**V2OAuthV2TokenFromApplicationJwtRequest**](V2OAuthV2TokenFromApplicationJwtRequest.md)|  | [optional] 
+ **body** | [**V2OAuthV2TokenFromApplicationJwtRequest**](V2OAuthV2TokenFromApplicationJwtRequest.md)|  | [optional]
 
 ### Return type
 
@@ -9955,23 +9955,23 @@ Create token for a given user id
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import bssh_sdk_2
+from bssh_sdk_2.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_key
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.api_key['x-access-token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['x-access-token'] = 'Bearer'
 # Configure OAuth2 access token for authorization: basespace_auth
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.BasespaceApi(swagger_client.ApiClient(configuration))
-userid = 'userid_example' # str | 
-body = swagger_client.V2OAuthV2TokenRequest() # V2OAuthV2TokenRequest |  (optional)
+api_instance = bssh_sdk_2.BasespaceApi(bssh_sdk_2.ApiClient(configuration))
+userid = 'userid_example' # str |
+body = bssh_sdk_2.V2OAuthV2TokenRequest() # V2OAuthV2TokenRequest |  (optional)
 
 try:
     api_response = api_instance.post_v2_oauthv2tokens_userid(userid, body=body)
@@ -9984,8 +9984,8 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **userid** | **str**|  | 
- **body** | [**V2OAuthV2TokenRequest**](V2OAuthV2TokenRequest.md)|  | [optional] 
+ **userid** | **str**|  |
+ **body** | [**V2OAuthV2TokenRequest**](V2OAuthV2TokenRequest.md)|  | [optional]
 
 ### Return type
 
@@ -10013,23 +10013,23 @@ Request a requeue for a new library, given an existing preprequest.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import bssh_sdk_2
+from bssh_sdk_2.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_key
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.api_key['x-access-token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['x-access-token'] = 'Bearer'
 # Configure OAuth2 access token for authorization: basespace_auth
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.BasespaceApi(swagger_client.ApiClient(configuration))
-preprequestid = 'preprequestid_example' # str | 
-body = swagger_client.V2CreateNewLibraryLabRequeueRequest() # V2CreateNewLibraryLabRequeueRequest |  (optional)
+api_instance = bssh_sdk_2.BasespaceApi(bssh_sdk_2.ApiClient(configuration))
+preprequestid = 'preprequestid_example' # str |
+body = bssh_sdk_2.V2CreateNewLibraryLabRequeueRequest() # V2CreateNewLibraryLabRequeueRequest |  (optional)
 
 try:
     # Add a lab requeue request for more yield from a biosample
@@ -10043,8 +10043,8 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **preprequestid** | **str**|  | 
- **body** | [**V2CreateNewLibraryLabRequeueRequest**](V2CreateNewLibraryLabRequeueRequest.md)|  | [optional] 
+ **preprequestid** | **str**|  |
+ **body** | [**V2CreateNewLibraryLabRequeueRequest**](V2CreateNewLibraryLabRequeueRequest.md)|  | [optional]
 
 ### Return type
 
@@ -10070,23 +10070,23 @@ Create a project by name
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import bssh_sdk_2
+from bssh_sdk_2.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_key
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.api_key['x-access-token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['x-access-token'] = 'Bearer'
 # Configure OAuth2 access token for authorization: basespace_auth
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.BasespaceApi(swagger_client.ApiClient(configuration))
+api_instance = bssh_sdk_2.BasespaceApi(bssh_sdk_2.ApiClient(configuration))
 name = 'name_example' # str | The name of the project.
-body = swagger_client.V2PostProjectsRequest() # V2PostProjectsRequest |  (optional)
+body = bssh_sdk_2.V2PostProjectsRequest() # V2PostProjectsRequest |  (optional)
 description = 'description_example' # str | Optional description of the project. (optional)
 
 try:
@@ -10101,9 +10101,9 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **name** | **str**| The name of the project. | 
- **body** | [**V2PostProjectsRequest**](V2PostProjectsRequest.md)|  | [optional] 
- **description** | **str**| Optional description of the project. | [optional] 
+ **name** | **str**| The name of the project. |
+ **body** | [**V2PostProjectsRequest**](V2PostProjectsRequest.md)|  | [optional]
+ **description** | **str**| Optional description of the project. | [optional]
 
 ### Return type
 
@@ -10129,23 +10129,23 @@ Create a dataset within a specific project
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import bssh_sdk_2
+from bssh_sdk_2.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_key
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.api_key['x-access-token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['x-access-token'] = 'Bearer'
 # Configure OAuth2 access token for authorization: basespace_auth
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.BasespaceApi(swagger_client.ApiClient(configuration))
+api_instance = bssh_sdk_2.BasespaceApi(bssh_sdk_2.ApiClient(configuration))
 id = 'id_example' # str | Project ID
-body = swagger_client.V2PostProjectsIdDatasetsRequest() # V2PostProjectsIdDatasetsRequest |  (optional)
+body = bssh_sdk_2.V2PostProjectsIdDatasetsRequest() # V2PostProjectsIdDatasetsRequest |  (optional)
 
 try:
     # Create a dataset within a specific project
@@ -10159,8 +10159,8 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **id** | **str**| Project ID | 
- **body** | [**V2PostProjectsIdDatasetsRequest**](V2PostProjectsIdDatasetsRequest.md)|  | [optional] 
+ **id** | **str**| Project ID |
+ **body** | [**V2PostProjectsIdDatasetsRequest**](V2PostProjectsIdDatasetsRequest.md)|  | [optional]
 
 ### Return type
 
@@ -10186,22 +10186,22 @@ Name | Type | Description  | Notes
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import bssh_sdk_2
+from bssh_sdk_2.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_key
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.api_key['x-access-token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['x-access-token'] = 'Bearer'
 # Configure OAuth2 access token for authorization: basespace_auth
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.BasespaceApi(swagger_client.ApiClient(configuration))
-body = swagger_client.V2PostPublishAppSessionStatusRequest() # V2PostPublishAppSessionStatusRequest |  (optional)
+api_instance = bssh_sdk_2.BasespaceApi(bssh_sdk_2.ApiClient(configuration))
+body = bssh_sdk_2.V2PostPublishAppSessionStatusRequest() # V2PostPublishAppSessionStatusRequest |  (optional)
 
 try:
     api_response = api_instance.post_v2_publishappsessionstatus(body=body)
@@ -10214,7 +10214,7 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**V2PostPublishAppSessionStatusRequest**](V2PostPublishAppSessionStatusRequest.md)|  | [optional] 
+ **body** | [**V2PostPublishAppSessionStatusRequest**](V2PostPublishAppSessionStatusRequest.md)|  | [optional]
 
 ### Return type
 
@@ -10242,22 +10242,22 @@ Restore one or more Runs or Projects.  The process is async, and may take up to 
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import bssh_sdk_2
+from bssh_sdk_2.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_key
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.api_key['x-access-token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['x-access-token'] = 'Bearer'
 # Configure OAuth2 access token for authorization: basespace_auth
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.BasespaceApi(swagger_client.ApiClient(configuration))
-body = swagger_client.V2BulkRestoreRequest() # V2BulkRestoreRequest |  (optional)
+api_instance = bssh_sdk_2.BasespaceApi(bssh_sdk_2.ApiClient(configuration))
+body = bssh_sdk_2.V2BulkRestoreRequest() # V2BulkRestoreRequest |  (optional)
 
 try:
     # Bulk restore.
@@ -10271,7 +10271,7 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**V2BulkRestoreRequest**](V2BulkRestoreRequest.md)|  | [optional] 
+ **body** | [**V2BulkRestoreRequest**](V2BulkRestoreRequest.md)|  | [optional]
 
 ### Return type
 
@@ -10297,24 +10297,24 @@ Create a new run
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import bssh_sdk_2
+from bssh_sdk_2.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_key
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.api_key['x-access-token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['x-access-token'] = 'Bearer'
 # Configure OAuth2 access token for authorization: basespace_auth
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.BasespaceApi(swagger_client.ApiClient(configuration))
+api_instance = bssh_sdk_2.BasespaceApi(bssh_sdk_2.ApiClient(configuration))
 experimentname = 'experimentname_example' # str | The name of the experiment.
 instrumenttype = 'instrumenttype_example' # str | The InstrumentType identifies from which the run is generated. This is REQUIRED for runs uploaded manually. Runs uploaded from an instrument must specify the ClientKey. AllowedValues: 'HiSeq1000', 'HiSeq1500', 'HiSeq2000', 'HiSeq2500', 'HiSeq3000', 'HiSeq4000', 'HiSeqX', 'NovaSeq5000', 'NovaSeq6000', 'MiniSeq', 'MiSeq', 'MiSeqDx', 'NextSeq', 'NextSeqDx', 'iSeq100'
-body = swagger_client.V2PostRunsRequest() # V2PostRunsRequest |  (optional)
+body = bssh_sdk_2.V2PostRunsRequest() # V2PostRunsRequest |  (optional)
 samplesheetname = 'samplesheetname_example' # str | The name of the sample sheet. (optional)
 
 try:
@@ -10329,10 +10329,10 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **experimentname** | **str**| The name of the experiment. | 
- **instrumenttype** | **str**| The InstrumentType identifies from which the run is generated. This is REQUIRED for runs uploaded manually. Runs uploaded from an instrument must specify the ClientKey. AllowedValues: &#x27;HiSeq1000&#x27;, &#x27;HiSeq1500&#x27;, &#x27;HiSeq2000&#x27;, &#x27;HiSeq2500&#x27;, &#x27;HiSeq3000&#x27;, &#x27;HiSeq4000&#x27;, &#x27;HiSeqX&#x27;, &#x27;NovaSeq5000&#x27;, &#x27;NovaSeq6000&#x27;, &#x27;MiniSeq&#x27;, &#x27;MiSeq&#x27;, &#x27;MiSeqDx&#x27;, &#x27;NextSeq&#x27;, &#x27;NextSeqDx&#x27;, &#x27;iSeq100&#x27; | 
- **body** | [**V2PostRunsRequest**](V2PostRunsRequest.md)|  | [optional] 
- **samplesheetname** | **str**| The name of the sample sheet. | [optional] 
+ **experimentname** | **str**| The name of the experiment. |
+ **instrumenttype** | **str**| The InstrumentType identifies from which the run is generated. This is REQUIRED for runs uploaded manually. Runs uploaded from an instrument must specify the ClientKey. AllowedValues: &#x27;HiSeq1000&#x27;, &#x27;HiSeq1500&#x27;, &#x27;HiSeq2000&#x27;, &#x27;HiSeq2500&#x27;, &#x27;HiSeq3000&#x27;, &#x27;HiSeq4000&#x27;, &#x27;HiSeqX&#x27;, &#x27;NovaSeq5000&#x27;, &#x27;NovaSeq6000&#x27;, &#x27;MiniSeq&#x27;, &#x27;MiSeq&#x27;, &#x27;MiSeqDx&#x27;, &#x27;NextSeq&#x27;, &#x27;NextSeqDx&#x27;, &#x27;iSeq100&#x27; |
+ **body** | [**V2PostRunsRequest**](V2PostRunsRequest.md)|  | [optional]
+ **samplesheetname** | **str**| The name of the sample sheet. | [optional]
 
 ### Return type
 
@@ -10358,23 +10358,23 @@ Update an existing run
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import bssh_sdk_2
+from bssh_sdk_2.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_key
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.api_key['x-access-token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['x-access-token'] = 'Bearer'
 # Configure OAuth2 access token for authorization: basespace_auth
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.BasespaceApi(swagger_client.ApiClient(configuration))
+api_instance = bssh_sdk_2.BasespaceApi(bssh_sdk_2.ApiClient(configuration))
 id = 'id_example' # str | The Id of the resource
-body = swagger_client.V2PostRunIdRequest() # V2PostRunIdRequest |  (optional)
+body = bssh_sdk_2.V2PostRunIdRequest() # V2PostRunIdRequest |  (optional)
 uploadstatus = 'uploadstatus_example' # str | Specifies the updated state of a run. AllowedValues: 'Uploading', 'Completed', 'Failed'. (optional)
 instrumentrunstatus = 'instrumentrunstatus_example' # str | Specifies the updated state of a run. AllowedValues: 'Running', 'Stopped', 'InstrumentCompleted', 'Failed', 'Rehybing'. (optional)
 runparametersxml = 'runparametersxml_example' # str | Update the run data based on the contents of run parameters. (optional)
@@ -10395,15 +10395,15 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **id** | **str**| The Id of the resource | 
- **body** | [**V2PostRunIdRequest**](V2PostRunIdRequest.md)|  | [optional] 
- **uploadstatus** | **str**| Specifies the updated state of a run. AllowedValues: &#x27;Uploading&#x27;, &#x27;Completed&#x27;, &#x27;Failed&#x27;. | [optional] 
- **instrumentrunstatus** | **str**| Specifies the updated state of a run. AllowedValues: &#x27;Running&#x27;, &#x27;Stopped&#x27;, &#x27;InstrumentCompleted&#x27;, &#x27;Failed&#x27;, &#x27;Rehybing&#x27;. | [optional] 
- **runparametersxml** | **str**| Update the run data based on the contents of run parameters. | [optional] 
- **instrumentrunid** | **str**| Specifies the InstrumentRunId. | [optional] 
- **instrumentrunnumber** | **int**| Specifies the InstrumentRunNumber. | [optional] 
- **flowcellbarcode** | **str**| Specifies the FlowcellBarcode. | [optional] 
- **prepkitname** | **str**| Specifies the PrepkitName. | [optional] 
+ **id** | **str**| The Id of the resource |
+ **body** | [**V2PostRunIdRequest**](V2PostRunIdRequest.md)|  | [optional]
+ **uploadstatus** | **str**| Specifies the updated state of a run. AllowedValues: &#x27;Uploading&#x27;, &#x27;Completed&#x27;, &#x27;Failed&#x27;. | [optional]
+ **instrumentrunstatus** | **str**| Specifies the updated state of a run. AllowedValues: &#x27;Running&#x27;, &#x27;Stopped&#x27;, &#x27;InstrumentCompleted&#x27;, &#x27;Failed&#x27;, &#x27;Rehybing&#x27;. | [optional]
+ **runparametersxml** | **str**| Update the run data based on the contents of run parameters. | [optional]
+ **instrumentrunid** | **str**| Specifies the InstrumentRunId. | [optional]
+ **instrumentrunnumber** | **int**| Specifies the InstrumentRunNumber. | [optional]
+ **flowcellbarcode** | **str**| Specifies the FlowcellBarcode. | [optional]
+ **prepkitname** | **str**| Specifies the PrepkitName. | [optional]
 
 ### Return type
 
@@ -10431,23 +10431,23 @@ Complete multipart upload and report uploaded files to a resource (sample or run
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import bssh_sdk_2
+from bssh_sdk_2.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_key
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.api_key['x-access-token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['x-access-token'] = 'Bearer'
 # Configure OAuth2 access token for authorization: basespace_auth
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.BasespaceApi(swagger_client.ApiClient(configuration))
+api_instance = bssh_sdk_2.BasespaceApi(bssh_sdk_2.ApiClient(configuration))
 id = 'id_example' # str | The Id of the resource
-body = swagger_client.V2ResourcePresignedUrlCompleteRequest() # V2ResourcePresignedUrlCompleteRequest |  (optional)
+body = bssh_sdk_2.V2ResourcePresignedUrlCompleteRequest() # V2ResourcePresignedUrlCompleteRequest |  (optional)
 
 try:
     api_response = api_instance.post_v2_runs_id_file_upload_info(id, body=body)
@@ -10460,8 +10460,8 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **id** | **str**| The Id of the resource | 
- **body** | [**V2ResourcePresignedUrlCompleteRequest**](V2ResourcePresignedUrlCompleteRequest.md)|  | [optional] 
+ **id** | **str**| The Id of the resource |
+ **body** | [**V2ResourcePresignedUrlCompleteRequest**](V2ResourcePresignedUrlCompleteRequest.md)|  | [optional]
 
 ### Return type
 
@@ -10487,22 +10487,22 @@ Name | Type | Description  | Notes
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import bssh_sdk_2
+from bssh_sdk_2.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_key
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.api_key['x-access-token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['x-access-token'] = 'Bearer'
 # Configure OAuth2 access token for authorization: basespace_auth
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.BasespaceApi(swagger_client.ApiClient(configuration))
-file = 'file_example' # str | 
+api_instance = bssh_sdk_2.BasespaceApi(bssh_sdk_2.ApiClient(configuration))
+file = 'file_example' # str |
 id = 'id_example' # str | The Id of the resource
 
 try:
@@ -10516,8 +10516,8 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **file** | **str**|  | 
- **id** | **str**| The Id of the resource | 
+ **file** | **str**|  |
+ **id** | **str**| The Id of the resource |
 
 ### Return type
 
@@ -10543,22 +10543,22 @@ Create a new run using GSS
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import bssh_sdk_2
+from bssh_sdk_2.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_key
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.api_key['x-access-token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['x-access-token'] = 'Bearer'
 # Configure OAuth2 access token for authorization: basespace_auth
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.BasespaceApi(swagger_client.ApiClient(configuration))
-body = swagger_client.V2PostRunsStartRequest() # V2PostRunsStartRequest |  (optional)
+api_instance = bssh_sdk_2.BasespaceApi(bssh_sdk_2.ApiClient(configuration))
+body = bssh_sdk_2.V2PostRunsStartRequest() # V2PostRunsStartRequest |  (optional)
 
 try:
     # Create a new run using GSS
@@ -10572,7 +10572,7 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**V2PostRunsStartRequest**](V2PostRunsStartRequest.md)|  | [optional] 
+ **body** | [**V2PostRunsStartRequest**](V2PostRunsStartRequest.md)|  | [optional]
 
 ### Return type
 
@@ -10600,23 +10600,23 @@ Complete multipart upload and report uploaded files to a resource (sample or run
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import bssh_sdk_2
+from bssh_sdk_2.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_key
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.api_key['x-access-token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['x-access-token'] = 'Bearer'
 # Configure OAuth2 access token for authorization: basespace_auth
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.BasespaceApi(swagger_client.ApiClient(configuration))
+api_instance = bssh_sdk_2.BasespaceApi(bssh_sdk_2.ApiClient(configuration))
 id = 'id_example' # str | The Id of the resource
-body = swagger_client.V2ResourcePresignedUrlCompleteRequest() # V2ResourcePresignedUrlCompleteRequest |  (optional)
+body = bssh_sdk_2.V2ResourcePresignedUrlCompleteRequest() # V2ResourcePresignedUrlCompleteRequest |  (optional)
 
 try:
     api_response = api_instance.post_v2_samples_id_file_upload_info(id, body=body)
@@ -10629,8 +10629,8 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **id** | **str**| The Id of the resource | 
- **body** | [**V2ResourcePresignedUrlCompleteRequest**](V2ResourcePresignedUrlCompleteRequest.md)|  | [optional] 
+ **id** | **str**| The Id of the resource |
+ **body** | [**V2ResourcePresignedUrlCompleteRequest**](V2ResourcePresignedUrlCompleteRequest.md)|  | [optional]
 
 ### Return type
 
@@ -10658,22 +10658,22 @@ Creates a Platform JWT for an instrument.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import bssh_sdk_2
+from bssh_sdk_2.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_key
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.api_key['x-access-token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['x-access-token'] = 'Bearer'
 # Configure OAuth2 access token for authorization: basespace_auth
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.BasespaceApi(swagger_client.ApiClient(configuration))
-body = swagger_client.V2CreateInstrumentJwtRequest() # V2CreateInstrumentJwtRequest |  (optional)
+api_instance = bssh_sdk_2.BasespaceApi(bssh_sdk_2.ApiClient(configuration))
+body = bssh_sdk_2.V2CreateInstrumentJwtRequest() # V2CreateInstrumentJwtRequest |  (optional)
 
 try:
     # Creates a Platform JWT token for an instrument
@@ -10687,7 +10687,7 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**V2CreateInstrumentJwtRequest**](V2CreateInstrumentJwtRequest.md)|  | [optional] 
+ **body** | [**V2CreateInstrumentJwtRequest**](V2CreateInstrumentJwtRequest.md)|  | [optional]
 
 ### Return type
 
@@ -10715,23 +10715,23 @@ The ID used in this endpoint is the ID given to the item when it is put in the t
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import bssh_sdk_2
+from bssh_sdk_2.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_key
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.api_key['x-access-token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['x-access-token'] = 'Bearer'
 # Configure OAuth2 access token for authorization: basespace_auth
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.BasespaceApi(swagger_client.ApiClient(configuration))
+api_instance = bssh_sdk_2.BasespaceApi(bssh_sdk_2.ApiClient(configuration))
 id = 'id_example' # str | The Id of the resource
-body = swagger_client.V1pre3PostTrashItemRestoreFromTrashRequest() # V1pre3PostTrashItemRestoreFromTrashRequest |  (optional)
+body = bssh_sdk_2.V1pre3PostTrashItemRestoreFromTrashRequest() # V1pre3PostTrashItemRestoreFromTrashRequest |  (optional)
 
 try:
     # Restore an item from the trash back to its active state
@@ -10745,8 +10745,8 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **id** | **str**| The Id of the resource | 
- **body** | [**V1pre3PostTrashItemRestoreFromTrashRequest**](V1pre3PostTrashItemRestoreFromTrashRequest.md)|  | [optional] 
+ **id** | **str**| The Id of the resource |
+ **body** | [**V1pre3PostTrashItemRestoreFromTrashRequest**](V1pre3PostTrashItemRestoreFromTrashRequest.md)|  | [optional]
 
 ### Return type
 
@@ -10774,22 +10774,22 @@ Unzip one or more Runs. The status will update right away, but the unzip process
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import bssh_sdk_2
+from bssh_sdk_2.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_key
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.api_key['x-access-token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['x-access-token'] = 'Bearer'
 # Configure OAuth2 access token for authorization: basespace_auth
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.BasespaceApi(swagger_client.ApiClient(configuration))
-body = swagger_client.V2BulkUnzipRequest() # V2BulkUnzipRequest |  (optional)
+api_instance = bssh_sdk_2.BasespaceApi(bssh_sdk_2.ApiClient(configuration))
+body = bssh_sdk_2.V2BulkUnzipRequest() # V2BulkUnzipRequest |  (optional)
 
 try:
     # Bulk Unzip.
@@ -10803,7 +10803,7 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**V2BulkUnzipRequest**](V2BulkUnzipRequest.md)|  | [optional] 
+ **body** | [**V2BulkUnzipRequest**](V2BulkUnzipRequest.md)|  | [optional]
 
 ### Return type
 
@@ -10831,22 +10831,22 @@ Intitiates a User account transfer. API only kicks off the process which itself 
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import bssh_sdk_2
+from bssh_sdk_2.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_key
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.api_key['x-access-token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['x-access-token'] = 'Bearer'
 # Configure OAuth2 access token for authorization: basespace_auth
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.BasespaceApi(swagger_client.ApiClient(configuration))
-body = swagger_client.V2UserAccountTransferRequest() # V2UserAccountTransferRequest |  (optional)
+api_instance = bssh_sdk_2.BasespaceApi(bssh_sdk_2.ApiClient(configuration))
+body = bssh_sdk_2.V2UserAccountTransferRequest() # V2UserAccountTransferRequest |  (optional)
 
 try:
     # User account transfer. Requires Administrator role
@@ -10860,7 +10860,7 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**V2UserAccountTransferRequest**](V2UserAccountTransferRequest.md)|  | [optional] 
+ **body** | [**V2UserAccountTransferRequest**](V2UserAccountTransferRequest.md)|  | [optional]
 
 ### Return type
 
@@ -10888,22 +10888,22 @@ Sign an agreement.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import bssh_sdk_2
+from bssh_sdk_2.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_key
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.api_key['x-access-token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['x-access-token'] = 'Bearer'
 # Configure OAuth2 access token for authorization: basespace_auth
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.BasespaceApi(swagger_client.ApiClient(configuration))
-body = swagger_client.V2SignAgreementRequest() # V2SignAgreementRequest |  (optional)
+api_instance = bssh_sdk_2.BasespaceApi(bssh_sdk_2.ApiClient(configuration))
+body = bssh_sdk_2.V2SignAgreementRequest() # V2SignAgreementRequest |  (optional)
 
 try:
     api_response = api_instance.post_v2_useragreements(body=body)
@@ -10916,7 +10916,7 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**V2SignAgreementRequest**](V2SignAgreementRequest.md)|  | [optional] 
+ **body** | [**V2SignAgreementRequest**](V2SignAgreementRequest.md)|  | [optional]
 
 ### Return type
 
@@ -10944,22 +10944,22 @@ Change current user context.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import bssh_sdk_2
+from bssh_sdk_2.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_key
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.api_key['x-access-token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['x-access-token'] = 'Bearer'
 # Configure OAuth2 access token for authorization: basespace_auth
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.BasespaceApi(swagger_client.ApiClient(configuration))
-body = swagger_client.V2PostUsersCurrentRequest() # V2PostUsersCurrentRequest |  (optional)
+api_instance = bssh_sdk_2.BasespaceApi(bssh_sdk_2.ApiClient(configuration))
+body = bssh_sdk_2.V2PostUsersCurrentRequest() # V2PostUsersCurrentRequest |  (optional)
 
 try:
     api_response = api_instance.post_v2_users_current(body=body)
@@ -10972,7 +10972,7 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**V2PostUsersCurrentRequest**](V2PostUsersCurrentRequest.md)|  | [optional] 
+ **body** | [**V2PostUsersCurrentRequest**](V2PostUsersCurrentRequest.md)|  | [optional]
 
 ### Return type
 
@@ -10998,22 +10998,22 @@ Upload a file to the user's volume in GDS
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import bssh_sdk_2
+from bssh_sdk_2.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_key
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.api_key['x-access-token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['x-access-token'] = 'Bearer'
 # Configure OAuth2 access token for authorization: basespace_auth
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.BasespaceApi(swagger_client.ApiClient(configuration))
-body = swagger_client.V2GdsFileUploadRequest() # V2GdsFileUploadRequest |  (optional)
+api_instance = bssh_sdk_2.BasespaceApi(bssh_sdk_2.ApiClient(configuration))
+body = bssh_sdk_2.V2GdsFileUploadRequest() # V2GdsFileUploadRequest |  (optional)
 
 try:
     # Upload a file to the user's volume in GDS
@@ -11027,7 +11027,7 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**V2GdsFileUploadRequest**](V2GdsFileUploadRequest.md)|  | [optional] 
+ **body** | [**V2GdsFileUploadRequest**](V2GdsFileUploadRequest.md)|  | [optional]
 
 ### Return type
 
@@ -11047,7 +11047,7 @@ Name | Type | Description  | Notes
 # **post_v2_users_id_settings**
 > V2UserSettingsResponse post_v2_users_id_settings(id, body=body)
 
-Update the user's settings 
+Update the user's settings
 
 A user may have settings such as how they receive notifications and expiration time on lab requeues. This currently only works with a session cookie.
 
@@ -11055,26 +11055,26 @@ A user may have settings such as how they receive notifications and expiration t
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import bssh_sdk_2
+from bssh_sdk_2.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_key
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.api_key['x-access-token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['x-access-token'] = 'Bearer'
 # Configure OAuth2 access token for authorization: basespace_auth
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.BasespaceApi(swagger_client.ApiClient(configuration))
+api_instance = bssh_sdk_2.BasespaceApi(bssh_sdk_2.ApiClient(configuration))
 id = 'id_example' # str | The Id of the resource
-body = swagger_client.V2PostUserSettingsRequest() # V2PostUserSettingsRequest |  (optional)
+body = bssh_sdk_2.V2PostUserSettingsRequest() # V2PostUserSettingsRequest |  (optional)
 
 try:
-    # Update the user's settings 
+    # Update the user's settings
     api_response = api_instance.post_v2_users_id_settings(id, body=body)
     pprint(api_response)
 except ApiException as e:
@@ -11085,8 +11085,8 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **id** | **str**| The Id of the resource | 
- **body** | [**V2PostUserSettingsRequest**](V2PostUserSettingsRequest.md)|  | [optional] 
+ **id** | **str**| The Id of the resource |
+ **body** | [**V2PostUserSettingsRequest**](V2PostUserSettingsRequest.md)|  | [optional]
 
 ### Return type
 
@@ -11112,23 +11112,23 @@ Change Analysis Configuration Template Feature Enabled for calling user
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import bssh_sdk_2
+from bssh_sdk_2.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_key
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.api_key['x-access-token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['x-access-token'] = 'Bearer'
 # Configure OAuth2 access token for authorization: basespace_auth
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.BasespaceApi(swagger_client.ApiClient(configuration))
+api_instance = bssh_sdk_2.BasespaceApi(bssh_sdk_2.ApiClient(configuration))
 id = 'id_example' # str | The Id of the resource
-body = swagger_client.V2PostUsersIdAnalysisConfigTemplateRequest() # V2PostUsersIdAnalysisConfigTemplateRequest |  (optional)
+body = bssh_sdk_2.V2PostUsersIdAnalysisConfigTemplateRequest() # V2PostUsersIdAnalysisConfigTemplateRequest |  (optional)
 
 try:
     # Change Analysis Configuration Template Feature Enabled for calling user
@@ -11142,8 +11142,8 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **id** | **str**| The Id of the resource | 
- **body** | [**V2PostUsersIdAnalysisConfigTemplateRequest**](V2PostUsersIdAnalysisConfigTemplateRequest.md)|  | [optional] 
+ **id** | **str**| The Id of the resource |
+ **body** | [**V2PostUsersIdAnalysisConfigTemplateRequest**](V2PostUsersIdAnalysisConfigTemplateRequest.md)|  | [optional]
 
 ### Return type
 
@@ -11169,23 +11169,23 @@ Change V2 BioSample Registry Enabled for calling user
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import bssh_sdk_2
+from bssh_sdk_2.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_key
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.api_key['x-access-token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['x-access-token'] = 'Bearer'
 # Configure OAuth2 access token for authorization: basespace_auth
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.BasespaceApi(swagger_client.ApiClient(configuration))
+api_instance = bssh_sdk_2.BasespaceApi(bssh_sdk_2.ApiClient(configuration))
 id = 'id_example' # str | The Id of the resource
-body = swagger_client.V2PostUsersIdV2BioSampleRegistryRequest() # V2PostUsersIdV2BioSampleRegistryRequest |  (optional)
+body = bssh_sdk_2.V2PostUsersIdV2BioSampleRegistryRequest() # V2PostUsersIdV2BioSampleRegistryRequest |  (optional)
 
 try:
     # Change V2 BioSample Registry Enabled for calling user
@@ -11199,8 +11199,8 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **id** | **str**| The Id of the resource | 
- **body** | [**V2PostUsersIdV2BioSampleRegistryRequest**](V2PostUsersIdV2BioSampleRegistryRequest.md)|  | [optional] 
+ **id** | **str**| The Id of the resource |
+ **body** | [**V2PostUsersIdV2BioSampleRegistryRequest**](V2PostUsersIdV2BioSampleRegistryRequest.md)|  | [optional]
 
 ### Return type
 
@@ -11228,22 +11228,22 @@ Validate a OAuthV1 signed url for GroundControl
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import bssh_sdk_2
+from bssh_sdk_2.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_key
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.api_key['x-access-token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['x-access-token'] = 'Bearer'
 # Configure OAuth2 access token for authorization: basespace_auth
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.BasespaceApi(swagger_client.ApiClient(configuration))
-body = swagger_client.V2PostSignedUrlValidationRequest() # V2PostSignedUrlValidationRequest |  (optional)
+api_instance = bssh_sdk_2.BasespaceApi(bssh_sdk_2.ApiClient(configuration))
+body = bssh_sdk_2.V2PostSignedUrlValidationRequest() # V2PostSignedUrlValidationRequest |  (optional)
 
 try:
     api_response = api_instance.post_v2_validatesignedurl(body=body)
@@ -11256,7 +11256,7 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**V2PostSignedUrlValidationRequest**](V2PostSignedUrlValidationRequest.md)|  | [optional] 
+ **body** | [**V2PostSignedUrlValidationRequest**](V2PostSignedUrlValidationRequest.md)|  | [optional]
 
 ### Return type
 
@@ -11278,29 +11278,29 @@ Name | Type | Description  | Notes
 
 Add or update the QC thresholds applied to an analysis workflow
 
-List the QC thresholds to be updated. You must include the name of the metric to be thresholded, the type of logical operator, the dataset type unique ID to apply the threshold to, and the threshold values. 
+List the QC thresholds to be updated. You must include the name of the metric to be thresholded, the type of logical operator, the dataset type unique ID to apply the threshold to, and the threshold values.
 
 ### Example
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import bssh_sdk_2
+from bssh_sdk_2.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_key
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.api_key['x-access-token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['x-access-token'] = 'Bearer'
 # Configure OAuth2 access token for authorization: basespace_auth
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.BasespaceApi(swagger_client.ApiClient(configuration))
+api_instance = bssh_sdk_2.BasespaceApi(bssh_sdk_2.ApiClient(configuration))
 id = 'id_example' # str | The Id of the resource
-qcthresholds = [swagger_client.V2QcThreshold()] # list[V2QcThreshold] |  (optional)
+qcthresholds = [bssh_sdk_2.V2QcThreshold()] # list[V2QcThreshold] |  (optional)
 
 try:
     # Add or update the QC thresholds applied to an analysis workflow
@@ -11314,8 +11314,8 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **id** | **str**| The Id of the resource | 
- **qcthresholds** | [**list[V2QcThreshold]**](V2QcThreshold.md)|  | [optional] 
+ **id** | **str**| The Id of the resource |
+ **qcthresholds** | [**list[V2QcThreshold]**](V2QcThreshold.md)|  | [optional]
 
 ### Return type
 
@@ -11337,30 +11337,30 @@ Name | Type | Description  | Notes
 
 Add or update the workflow dependencies of an analysis workflow
 
-Add the required triggers for the analysis workflow to launch. Workflows can depend on a certain amount of biosample actual yield to show up or they can depend on another app completing. 
+Add the required triggers for the analysis workflow to launch. Workflows can depend on a certain amount of biosample actual yield to show up or they can depend on another app completing.
 
 ### Example
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import bssh_sdk_2
+from bssh_sdk_2.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_key
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.api_key['x-access-token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['x-access-token'] = 'Bearer'
 # Configure OAuth2 access token for authorization: basespace_auth
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.BasespaceApi(swagger_client.ApiClient(configuration))
+api_instance = bssh_sdk_2.BasespaceApi(bssh_sdk_2.ApiClient(configuration))
 id = 'id_example' # str | The Id of the resource
 version = 'version_example' # str |  (optional)
-dependencies = [swagger_client.V2AnalysisWorkflowDependency()] # list[V2AnalysisWorkflowDependency] |  (optional)
+dependencies = [bssh_sdk_2.V2AnalysisWorkflowDependency()] # list[V2AnalysisWorkflowDependency] |  (optional)
 
 try:
     # Add or update the workflow dependencies of an analysis workflow
@@ -11374,9 +11374,9 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **id** | **str**| The Id of the resource | 
- **version** | **str**|  | [optional] 
- **dependencies** | [**list[V2AnalysisWorkflowDependency]**](V2AnalysisWorkflowDependency.md)|  | [optional] 
+ **id** | **str**| The Id of the resource |
+ **version** | **str**|  | [optional]
+ **dependencies** | [**list[V2AnalysisWorkflowDependency]**](V2AnalysisWorkflowDependency.md)|  | [optional]
 
 ### Return type
 
@@ -11404,22 +11404,22 @@ List the QC thresholds to be updated.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import bssh_sdk_2
+from bssh_sdk_2.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_key
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.api_key['x-access-token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['x-access-token'] = 'Bearer'
 # Configure OAuth2 access token for authorization: basespace_auth
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.BasespaceApi(swagger_client.ApiClient(configuration))
-qcthresholds = [swagger_client.V2QcThreshold()] # list[V2QcThreshold] |  (optional)
+api_instance = bssh_sdk_2.BasespaceApi(bssh_sdk_2.ApiClient(configuration))
+qcthresholds = [bssh_sdk_2.V2QcThreshold()] # list[V2QcThreshold] |  (optional)
 id = 'id_example' # str | The Id of the resource (optional)
 
 try:
@@ -11434,8 +11434,8 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **qcthresholds** | [**list[V2QcThreshold]**](V2QcThreshold.md)|  | [optional] 
- **id** | **str**| The Id of the resource | [optional] 
+ **qcthresholds** | [**list[V2QcThreshold]**](V2QcThreshold.md)|  | [optional]
+ **id** | **str**| The Id of the resource | [optional]
 
 ### Return type
 
@@ -11463,21 +11463,21 @@ Dismiss a user notification. Only DataDeletion, Storage or Subscription notifica
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import bssh_sdk_2
+from bssh_sdk_2.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_key
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.api_key['x-access-token'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['x-access-token'] = 'Bearer'
 # Configure OAuth2 access token for authorization: basespace_auth
-configuration = swagger_client.Configuration()
+configuration = bssh_sdk_2.Configuration()
 configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
 # create an instance of the API class
-api_instance = swagger_client.BasespaceApi(swagger_client.ApiClient(configuration))
+api_instance = bssh_sdk_2.BasespaceApi(bssh_sdk_2.ApiClient(configuration))
 stream = 'stream_example' # str | The stream type of the notification to be dismissed.Only DataDeletion, Storage or Subscription notifications can dismissed.  
 type = 'type_example' # str | The Type of the notification with in a stream.Only notifications with 'IsDismissable' flag set are dismissable
 id = 'id_example' # str | The Id of the resource (optional)
@@ -11493,9 +11493,9 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **stream** | **str**| The stream type of the notification to be dismissed.Only DataDeletion, Storage or Subscription notifications can dismissed.   | 
- **type** | **str**| The Type of the notification with in a stream.Only notifications with &#x27;IsDismissable&#x27; flag set are dismissable | 
- **id** | **str**| The Id of the resource | [optional] 
+ **stream** | **str**| The stream type of the notification to be dismissed.Only DataDeletion, Storage or Subscription notifications can dismissed.   |
+ **type** | **str**| The Type of the notification with in a stream.Only notifications with &#x27;IsDismissable&#x27; flag set are dismissable |
+ **id** | **str**| The Id of the resource | [optional]
 
 ### Return type
 
@@ -11511,4 +11511,3 @@ void (empty response body)
  - **Accept**: application/json
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
-
