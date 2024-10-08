@@ -55,8 +55,8 @@ COPY bssh_sdk_2 ./bssh_sdk_2
 COPY README.md ./
 ARG PEP440_VERSION=0.0.1.dev0+local
 
-RUN set -exu; \
-    make build;
+#RUN set -exu; \
+#    make build;
 
 ####################################################
 FROM package-builder as tester
