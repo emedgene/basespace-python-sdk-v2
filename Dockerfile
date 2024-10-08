@@ -74,6 +74,5 @@ RUN make init
 
 COPY .coveragerc .ruff.toml ./
 COPY config ./config
-COPY tests ./tests
 
 RUN make check
