@@ -56,7 +56,7 @@ COPY README.md ./
 ARG PEP440_VERSION=0.0.1.dev0+local
 
 RUN set -exu; \
-    make build; \
+    make build;
 
 ####################################################
 FROM package-builder as tester
