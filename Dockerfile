@@ -73,6 +73,5 @@ RUN if [ "$ELASTICSEARCH_SDK_VERSION" ]; then poetry add "elasticsearch=^$ELASTI
 RUN make init
 
 COPY .coveragerc .ruff.toml ./
-COPY config ./config
 
 RUN make check
