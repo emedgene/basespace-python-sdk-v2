@@ -57,7 +57,6 @@ ARG PEP440_VERSION=0.0.1.dev0+local
 
 RUN set -exu; \
     make build; \
-    mv ./dist /dist
 
 ####################################################
 FROM package-builder as tester
