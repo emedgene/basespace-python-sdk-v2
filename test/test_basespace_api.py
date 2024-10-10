@@ -14,9 +14,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
-from swagger_client.api.basespace_api import BasespaceApi  # noqa: E501
-from swagger_client.rest import ApiException
+import bssh_sdk_2
+from bssh_sdk_2.api.basespace_api import BasespaceApi  # noqa: E501
+from bssh_sdk_2.rest import ApiException
 
 
 class TestBasespaceApi(unittest.TestCase):
