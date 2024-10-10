@@ -1,9 +1,13 @@
 [tool.poetry]
-name = "basespace-python-sdk-v2"
+name = "bssh_sdk_2"
 version = "0.1.0"
 description = ""
 authors = ["Emedgene <emedgene@illumina.com>"]
 readme = "README.md"
+
+packages = [
+    { include = "bssh_sdk_2" },
+]
 
 [tool.poetry.dependencies]
 python = "~3.10"
