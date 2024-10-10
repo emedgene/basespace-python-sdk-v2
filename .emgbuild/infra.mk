@@ -16,7 +16,7 @@ EMGBUILD_ECR_REGISTRY?=124607710305.dkr.ecr.us-east-1.amazonaws.com
 # only for GHA
 EMGBUILD_BUILD_RUNNER?=1
 EMGBUILD_BUILD_PACKAGE?=0
-EMGBUILD_DISABLE_COVERAGE?=1
+EMGBUILD_DISABLE_COVERAGE?=0
 
 unexport MAKEFLAGS += --no-builtin-rules --no-builtin-variables
 
