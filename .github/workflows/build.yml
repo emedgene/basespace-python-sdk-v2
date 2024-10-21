@@ -28,9 +28,3 @@ jobs:
       - name: Build src pip package
         id: build-src-pip
         run: make build-pip-src-package
-      - name: Publish pip src package
-        uses: pypa/gh-action-pypi-publish@master
-        with:
-          user: ${{ secrets.JFROG_USER }}
-          password: ${{ secrets.JFROG_PASSWORD }}
-          repository_url: https://emg.jfrog.io/artifactory/api/pypi/pypi
